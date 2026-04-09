@@ -73,14 +73,14 @@
       }
 
       .download-link {
-        margin-top: 18px;
+        margin-top: 22px;
       }
 
       .download-link a {
         display: inline-flex;
         align-items: center;
         gap: 10px;
-        padding: 12px 18px;
+        padding: 13px 18px;
         border-radius: 16px;
         background: linear-gradient(135deg, #ffffff, #f4f8f5);
         color: var(--brand-dark);
@@ -90,9 +90,37 @@
         transition: transform 0.18s ease, box-shadow 0.18s ease;
       }
 
+      .download-link a:focus-visible {
+        outline: 3px solid rgba(244, 200, 78, 0.55);
+        outline-offset: 3px;
+        transform: translateY(-1px);
+      }
+
       .download-link a:hover {
         transform: translateY(-1px);
         box-shadow: 0 16px 32px rgba(9, 31, 17, 0.24);
+      }
+
+      .download-icon {
+        width: 18px;
+        height: 18px;
+        border-radius: 6px;
+        background: rgba(29, 122, 67, 0.12);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
+
+      .download-icon::before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 8px solid var(--brand);
+        margin-left: 2px;
       }
 
       .card {
@@ -173,6 +201,15 @@
           font-size: 32px;
         }
 
+        .download-link {
+          margin-top: 26px;
+        }
+
+        .download-link a {
+          width: 100%;
+          justify-content: center;
+        }
+
         .grid {
           grid-template-columns: 1fr;
         }
@@ -189,7 +226,7 @@
           protects information when you use the ClearLedger mobile application.
         </p>
         <p class="download-link">
-          <a href="https://play.google.com/store/apps/details?id=com.pslabs.clearledger" target="_blank" rel="noopener noreferrer">Download the app on Google Play</a>
+          <a href="https://play.google.com/store/apps/details?id=com.pslabs.clearledger" target="_blank" rel="noopener noreferrer"><span class="download-icon" aria-hidden="true"></span><span>Download the app on Google Play</span></a>
         </p>
         <div class="meta">Effective date: April 4, 2026</div>
       </section>
