@@ -1,0 +1,12 @@
+{
+  "icd10": {
+    "version": "2026.04",
+    "updated_date": "2026-04-01",
+    "download_url": "https://pslabs-creativedev.github.io/links/2026-ICD-10-CM-PCS.txt"
+  },
+  "hcpcs": {
+    "version": "2024.Q1",
+    "updated_date": "2024-01-01",
+    "download_url": "https://pslabs-creativedev.github.io/links/HCPC2020-TRANS-ALPHA.xlsx"
+  }
+}
