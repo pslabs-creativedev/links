@@ -110,6 +110,30 @@
       margin-bottom: 0;
     }
 
+    .download-link {
+      margin-top: 18px;
+      margin-bottom: 0;
+    }
+
+    .download-link a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--maroon), var(--terracotta));
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 10px 24px rgba(122, 62, 43, 0.2);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .download-link a:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 14px 28px rgba(122, 62, 43, 0.24);
+    }
+
     .contact {
       color: var(--palm);
       font-weight: 700;
@@ -149,6 +173,9 @@
       <p>
         Thirukkural ("we", "our", or "us") respects your privacy. This Privacy Policy explains
         how our app collects, uses, and protects information when you use the Thirukkural mobile application.
+      </p>
+      <p class="download-link">
+        <a href="https://play.google.com/store/apps/details?id=com.sp.thirukkural" target="_blank" rel="noopener noreferrer">Download the app on Google Play</a>
       </p>
     </div>
 
@@ -247,7 +274,9 @@
       <p>
         If you have any questions or feedback about this Privacy Policy, you can contact us at:
       </p>
-      <p class="contact">creativedevx@gmail.com</p>
+      <p class="contact">
+        <a href="mailto:creativedevx@gmail.com">creativedevx@gmail.com</a>
+      </p>
     </section>
   </div>
 </body>
