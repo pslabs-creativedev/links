@@ -1,0 +1,112 @@
+{
+  "source_files": [
+    "medical_coding_code/icd10.pdf",
+    "topics_final.json"
+  ],
+  "format": "mobile_lessons",
+  "lesson_count": 6,
+  "lessons": [
+    {
+      "id": "lesson_1",
+      "title": "ICD Basics",
+      "summary": [
+        "ICD-10 is a statistical system used to classify diseases and related health problems.",
+        "Its main job is to turn written diagnoses into standard codes for recording, reporting, and analysis."
+      ],
+      "key_points": [
+        "ICD-10 is a statistical system used to classify diseases and related health problems.",
+        "Its main job is to turn written diagnoses into standard codes for recording, reporting, and analysis.",
+        "It is used for mortality and morbidity data, public health tracking, and health information comparison across places...",
+        "It can code diseases, injuries, symptoms, abnormal findings, complaints, and some service-contact situations."
+      ],
+      "example": "A written diagnosis like cholera can be converted into an ICD code.",
+      "common_trap": "Thinking ICD is only for confirmed diseases.",
+      "quick_tip": "Remember the big idea: ICD standardizes health information."
+    },
+    {
+      "id": "lesson_2",
+      "title": "Code Structure",
+      "summary": [
+        "ICD-10 uses an alphanumeric format.",
+        "The first character is a letter, and the next characters are numbers."
+      ],
+      "key_points": [
+        "ICD-10 uses an alphanumeric format.",
+        "The first character is a letter, and the next characters are numbers.",
+        "The basic category is a 3-character code, and many categories expand to a 4-character subcategory after a decimal point.",
+        "ICD-10 is organized in a hierarchy: chapter, block, category, and subcategory."
+      ],
+      "example": "A00 is a 3-character category.",
+      "common_trap": "Mixing up a chapter with a block.",
+      "quick_tip": "For exams, memorize the ladder: chapter -> block -> 3-character category -> 4-character subcategory."
+    },
+    {
+      "id": "lesson_3",
+      "title": "How To Assign A Code",
+      "summary": [
+        "Correct coding requires both the Alphabetical Index and the Tabular List.",
+        "Start by identifying the type of statement being coded, such as disease, injury, symptom, or external cause."
+      ],
+      "key_points": [
+        "Correct coding requires both the Alphabetical Index and the Tabular List.",
+        "Start by identifying the type of statement being coded, such as disease, injury, symptom, or external cause.",
+        "Look up the lead term in the Alphabetical Index first.",
+        "Read any modifiers, notes, and cross-references such as 'see' and 'see also'."
+      ],
+      "example": "For fracture of neck of femur, first find the lead term in the Index, then confirm the final code in the...",
+      "common_trap": "Choosing a code from the Alphabetical Index and stopping there.",
+      "quick_tip": "Use this order in exams: Index first, Tabular List second, notes last."
+    },
+    {
+      "id": "lesson_4",
+      "title": "Coding Rules & Special Logic",
+      "summary": [
+        "Some conditions need more than one code because ICD captures both the cause and the clinical problem.",
+        "In the dagger-asterisk system, the dagger code identifies the underlying disease and the asterisk code identifies the..."
+      ],
+      "key_points": [
+        "Some conditions need more than one code because ICD captures both the cause and the clinical problem.",
+        "In the dagger-asterisk system, the dagger code identifies the underlying disease and the asterisk code identifies the...",
+        "The dagger code is the primary code and the asterisk code must never be used alone.",
+        "ICD also allows optional additional coding in some situations, such as external causes, infecting organisms, and..."
+      ],
+      "example": "Measles pneumonia may require both a dagger code for measles with pneumonia and an asterisk code for the...",
+      "common_trap": "Using an asterisk code by itself.",
+      "quick_tip": "Think 'cause plus manifestation' for dagger-asterisk questions."
+    },
+    {
+      "id": "lesson_5",
+      "title": "Guidelines for Morbidity Coding",
+      "summary": [
+        "For morbidity, the main condition is the condition mainly responsible for the episode of care.",
+        "If more than one condition qualifies, choose the one that used the greatest resources."
+      ],
+      "key_points": [
+        "For morbidity, the main condition is the condition mainly responsible for the episode of care.",
+        "If more than one condition qualifies, choose the one that used the greatest resources.",
+        "Other conditions should also be recorded if they affected management during the same episode.",
+        "If no definite diagnosis is established, code the best available symptom, abnormal finding, or problem."
+      ],
+      "example": "If a patient is treated mainly for acute cholecystitis, that is the main condition.",
+      "common_trap": "Choosing the first diagnosis listed instead of the condition chiefly responsible for care.",
+      "quick_tip": "For morbidity questions, ask: what was mainly treated or investigated?"
+    },
+    {
+      "id": "lesson_6",
+      "title": "Important Exam Concepts",
+      "summary": [
+        "ICD is a statistical classification, so categories must be mutually exclusive and broad enough to cover all reportable...",
+        "Because no classification can list every detail separately, ICD uses residual categories such as 'other' and..."
+      ],
+      "key_points": [
+        "ICD is a statistical classification, so categories must be mutually exclusive and broad enough to cover all reportable...",
+        "Because no classification can list every detail separately, ICD uses residual categories such as 'other' and...",
+        "Volume 1 contains the Tabular List and the main classification.",
+        "Volume 2 gives instructions and coding guidance."
+      ],
+      "example": "If a code title says bones and joints, it may include bones, joints, or both because 'and' means 'and/or'.",
+      "common_trap": "Confusing NOS with NEC.",
+      "quick_tip": "Memorize the three volumes: Volume 1 = Tabular List, Volume 2 = guidance, Volume 3 = Index."
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "source_files": [
+    "medical_coding_code/icd10.pdf",
+    "topics_final.json"
+  ],
+  "difficulty": "easy",
+  "case_count": 13,
+  "notes": [
+    "Derived from the reviewed cases_full.json bank.",
+    "Cases were validated against ICD-10 instruction-manual logic and deduplicated.",
+    "Each case retains explanations, wrong-answer rationales, common mistakes, and weak-area tags."
+  ],
+  "cases": [
+    {
+      "id": "CASE001",
+      "difficulty": "easy",
+      "case_type": "single_condition_code",
+      "scenario": "Emergency department note: A 42-year-old patient is admitted with right upper quadrant pain. Ultrasound is pending. Final discharge diagnosis remains 'suspected acute cholecystitis' and the patient is treated as such.",
+      "options": [
+        {
+          "label": "A",
+          "text": "K81.0 acute cholecystitis"
+        },
+        {
+          "label": "B",
+          "text": "Z03.8 observation for other suspected diseases and conditions"
+        },
+        {
+          "label": "C",
+          "text": "R10.1 pain localized to upper abdomen"
+        },
+        {
+          "label": "D",
+          "text": "K81.1 chronic cholecystitis"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "When the diagnosis is still documented as suspected at the end of care and it was not ruled out, ICD morbidity guidance says to code it as established. The correct code is K81.0, not a symptom code or an observation code.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Suspected diagnosis not ruled out",
+        "Acute cholecystitis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "Observation codes are used when a suspected diagnosis is ruled out. Here the discharge diagnosis remained suspected and was treated as acute cholecystitis."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Pain localized to the upper abdomen is still only a symptom code. Here the suspected diagnosis remained at discharge and was not ruled out, so it is coded as established."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Chronic cholecystitis is close, but the documented condition is acute, not chronic."
+        }
+      ],
+      "common_mistake": "Choosing an observation or symptom code even though the suspected diagnosis was not ruled out.",
+      "weak_areas": [
+        "suspected_not_ruled_out",
+        "symptom_vs_diagnosis",
+        "acute_vs_chronic"
+      ]
+    },
+    {
+      "id": "CASE002",
+      "difficulty": "easy",
+      "case_type": "ruled_out_case",
+      "scenario": "Gynecology ward note: A patient is admitted for evaluation of a suspected malignant neoplasm of the cervix. Biopsy and workup are negative. Final diagnosis states 'suspected malignant neoplasm of cervix ruled out'.",
+      "options": [
+        {
+          "label": "A",
+          "text": "C53.0 malignant neoplasm of endocervix"
+        },
+        {
+          "label": "B",
+          "text": "Z03.1 observation for suspected malignant neoplasm"
+        },
+        {
+          "label": "C",
+          "text": "Z03.8 observation for other suspected diseases and conditions"
+        },
+        {
+          "label": "D",
+          "text": "R87 abnormal findings in specimens from female genital organs"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "A suspected diagnosis that is ruled out after observation or investigation is coded to Z03.-. The ICD example specifically uses Z03.1 for observation for suspected malignant neoplasm.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Ruled-out diagnosis",
+        "Z03 observation coding"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A malignant neoplasm code would be used only if the malignancy were established, not ruled out."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Z03.8 is a nonspecific observation code. ICD guidance points to the more specific observation for suspected malignant neoplasm."
+        },
+        {
+          "option": "D",
+          "why_wrong": "An abnormal finding code does not capture the actual reason for admission, which was evaluation of a suspected malignancy that was ruled out."
+        }
+      ],
+      "common_mistake": "Coding the suspected cancer as confirmed instead of switching to the correct ruled-out observation code.",
+      "weak_areas": [
+        "ruled_out_diagnosis",
+        "observation_codes",
+        "specificity"
+      ]
+    },
+    {
+      "id": "CASE003",
+      "difficulty": "easy",
+      "case_type": "ruled_out_case",
+      "scenario": "Cardiology observation unit: A 59-year-old with chest pain is admitted to rule out myocardial infarction. Serial enzymes and ECGs are negative. Discharge summary says 'ruled out myocardial infarction'.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I21.9 acute myocardial infarction"
+        },
+        {
+          "label": "B",
+          "text": "R07.4 chest pain, unspecified"
+        },
+        {
+          "label": "C",
+          "text": "Z03.4 observation for suspected myocardial infarction"
+        },
+        {
+          "label": "D",
+          "text": "Z03.8 observation for other suspected diseases and conditions"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Because myocardial infarction was investigated and ruled out, the correct code is the observation code Z03.4 rather than a confirmed MI code or a symptom code.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Ruled-out diagnosis",
+        "Observation for suspected MI"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Acute myocardial infarction would be wrong because the workup ruled MI out."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Chest pain is a tempting symptom code, but ICD provides a specific observation code once suspected myocardial infarction is ruled out."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This observation code is less specific than the dedicated option for ruled-out myocardial infarction."
+        }
+      ],
+      "common_mistake": "Stopping at the symptom code instead of using the specific ruled-out observation code.",
+      "weak_areas": [
+        "ruled_out_diagnosis",
+        "observation_codes",
+        "symptom_vs_reason_for_encounter"
+      ]
+    },
+    {
+      "id": "CASE004",
+      "difficulty": "easy",
+      "case_type": "symptom_code",
+      "scenario": "Emergency visit: A patient is admitted overnight for severe nosebleed. No cause is identified, no additional procedures or investigations change the diagnosis, and discharge diagnosis is 'severe epistaxis'.",
+      "options": [
+        {
+          "label": "A",
+          "text": "J34.2 deviated nasal septum"
+        },
+        {
+          "label": "B",
+          "text": "R04.0 epistaxis"
+        },
+        {
+          "label": "C",
+          "text": "R58 hemorrhage, not elsewhere classified"
+        },
+        {
+          "label": "D",
+          "text": "R04.9 hemorrhage from respiratory passages, unspecified"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "If no definite diagnosis is established, the best available symptom or problem is coded. The ICD example accepts R04.0 for severe epistaxis in this setting.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Symptom coding when no diagnosis",
+        "Epistaxis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A deviated septum might cause nosebleed, but it was not diagnosed in this case."
+        },
+        {
+          "option": "C",
+          "why_wrong": "R58 is too broad. The discharge diagnosis specifically identifies epistaxis, so the direct epistaxis code is preferred."
+        },
+        {
+          "option": "D",
+          "why_wrong": "R04.9 is broader and less specific than the direct epistaxis code."
+        }
+      ],
+      "common_mistake": "Trying to infer an unconfirmed cause instead of coding the documented symptom/problem.",
+      "weak_areas": [
+        "symptom_coding",
+        "specificity",
+        "unconfirmed_cause"
+      ]
+    },
+    {
+      "id": "CASE025",
+      "difficulty": "easy",
+      "case_type": "coding_logic",
+      "scenario": "Health information department training drill: A junior coder asks which reference should be consulted first when assigning an ICD code for a discharge diagnosis. Which answer is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Go straight to the Tabular List only"
+        },
+        {
+          "label": "B",
+          "text": "Start with the Alphabetical Index, then verify in the Tabular List"
+        },
+        {
+          "label": "C",
+          "text": "Use the external cause chapter first for all cases"
+        },
+        {
+          "label": "D",
+          "text": "Choose the most familiar code from memory"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ICD coding starts in the Alphabetical Index and is confirmed in the Tabular List. Using only one source is a common error.",
+      "concept_mapping": [
+        "How To Assign A Code",
+        "Alphabetical Index first",
+        "Tabular List verification"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The Tabular List is essential, but ICD coding usually starts in the Alphabetical Index."
+        },
+        {
+          "option": "C",
+          "why_wrong": "External-cause chapters are consulted only when relevant, not as the universal first step."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Memory-based coding skips the verification steps that ICD requires."
+        }
+      ],
+      "common_mistake": "Going straight to a familiar code without following the Index-then-Tabular workflow.",
+      "weak_areas": [
+        "index_then_tabular",
+        "coding_workflow",
+        "verification"
+      ]
+    },
+    {
+      "id": "CASE026",
+      "difficulty": "easy",
+      "case_type": "coding_logic",
+      "scenario": "A coding auditor reviews a case and says, 'I found the term in the Index, so I do not need to check the Tabular List.' What is the best response?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Correct, the Index alone is enough"
+        },
+        {
+          "label": "B",
+          "text": "Correct, unless it is an injury"
+        },
+        {
+          "label": "C",
+          "text": "Incorrect, the Tabular List must still be checked for notes and final detail"
+        },
+        {
+          "label": "D",
+          "text": "Incorrect only for Z codes"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The Index helps locate a possible code, but the Tabular List is needed to confirm detail, inclusion notes, exclusions, and subcategory rules.",
+      "concept_mapping": [
+        "How To Assign A Code",
+        "Tabular List verification",
+        "Inclusion and exclusion notes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This is the exact error the question is testing."
+        },
+        {
+          "option": "B",
+          "why_wrong": "The need to verify in the Tabular List applies far beyond injury coding."
+        },
+        {
+          "option": "D",
+          "why_wrong": "The verification rule is not limited to Z codes."
+        }
+      ],
+      "common_mistake": "Treating the Alphabetical Index as a final answer source instead of a starting point.",
+      "weak_areas": [
+        "tabular_verification",
+        "coding_workflow",
+        "inclusion_exclusion_notes"
+      ]
+    },
+    {
+      "id": "CASE027",
+      "difficulty": "easy",
+      "case_type": "coding_logic",
+      "scenario": "In an inpatient coding exam, which statement about asterisk codes is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "An asterisk code may be used alone if the manifestation is the reason for care"
+        },
+        {
+          "label": "B",
+          "text": "An asterisk code must never be used alone"
+        },
+        {
+          "label": "C",
+          "text": "Asterisk codes replace dagger codes"
+        },
+        {
+          "label": "D",
+          "text": "Asterisk codes are only used in Chapter XX"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ICD is explicit: an asterisk code must never be used alone. The dagger code remains the primary code.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Dagger-asterisk",
+        "Asterisk code rule"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Even if the manifestation is clinically important, the asterisk code cannot stand alone."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Asterisk codes do not replace dagger codes; they supplement them."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Asterisk codes are used in specific dagger-asterisk categories, not limited to Chapter XX."
+        }
+      ],
+      "common_mistake": "Letting the manifestation code replace the underlying-disease code.",
+      "weak_areas": [
+        "dagger_asterisk",
+        "asterisk_not_alone",
+        "underlying_vs_manifestation"
+      ]
+    },
+    {
+      "id": "CASE028",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "Hospital coding orientation: What is the mandatory core ICD-10 reporting level for international reporting?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The chapter title"
+        },
+        {
+          "label": "B",
+          "text": "The block title"
+        },
+        {
+          "label": "C",
+          "text": "The 3-character code"
+        },
+        {
+          "label": "D",
+          "text": "The 5th-character subdivision"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "The core ICD-10 classification for international reporting is the 3-character code level.",
+      "concept_mapping": [
+        "ICD Basics",
+        "Code Structure",
+        "3-character core"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Chapter titles are organizational headings, not coding/reporting levels."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Block titles group categories but are not the mandatory core reporting level."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Fifth-character detail may exist in some adaptations, but it is not the core international reporting level."
+        }
+      ],
+      "common_mistake": "Confusing structural headings with the required reporting level.",
+      "weak_areas": [
+        "code_structure",
+        "core_reporting_level",
+        "hierarchy"
+      ]
+    },
+    {
+      "id": "CASE029",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "A coding educator asks: how many chapters are in ICD-10 according to the instruction manual?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "26"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "ICD-10 is divided into 21 chapters.",
+      "concept_mapping": [
+        "Code Structure",
+        "21 chapters"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "ICD-10 has more than 10 chapters."
+        },
+        {
+          "option": "B",
+          "why_wrong": "18 is too low; ICD-10 includes 21 chapters."
+        },
+        {
+          "option": "D",
+          "why_wrong": "26 might feel plausible because of alphabetic coding, but it is not the chapter count."
+        }
+      ],
+      "common_mistake": "Guessing based on the alphabet or older simplified summaries instead of the actual ICD structure.",
+      "weak_areas": [
+        "code_structure",
+        "chapter_count"
+      ]
+    },
+    {
+      "id": "CASE030",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "A resident asks what the unused letter U means in ordinary ICD-10 coding. Which answer is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is the standard letter for injuries"
+        },
+        {
+          "label": "B",
+          "text": "It is reserved for special or provisional use"
+        },
+        {
+          "label": "C",
+          "text": "It replaces X as a placeholder"
+        },
+        {
+          "label": "D",
+          "text": "It means unspecified diagnosis"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The instruction manual states that U codes are reserved for provisional assignment of new diseases and for research purposes, not ordinary routine coding.",
+      "concept_mapping": [
+        "Code Structure",
+        "Unused U codes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Injuries are not defined by the letter U."
+        },
+        {
+          "option": "C",
+          "why_wrong": "X can act as a placeholder in some contexts, but U is reserved for special or provisional use."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Unspecified diagnoses are handled by NOS/unspecified categories, not by the letter U."
+        }
+      ],
+      "common_mistake": "Mixing up reserved code space with placeholder or unspecified coding concepts.",
+      "weak_areas": [
+        "unused_U_codes",
+        "code_structure",
+        "reserved_codes"
+      ]
+    },
+    {
+      "id": "CASE031",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "A coder sees the code pattern G04.- in the Index. What does the point-dash mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The category is invalid"
+        },
+        {
+          "label": "B",
+          "text": "No 4th character exists"
+        },
+        {
+          "label": "C",
+          "text": "A 4th character exists and must be found in the Tabular List"
+        },
+        {
+          "label": "D",
+          "text": "The case needs only an external cause code"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "A point-dash means the category has further subdivision. The final 4th character must be selected from the Tabular List.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Point-dash",
+        "Tabular List verification"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The category is not invalid; it simply is not yet complete at the shown level."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Point-dash means the opposite: a fourth character does exist."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This notation is about subcategory structure, not about external-cause coding."
+        }
+      ],
+      "common_mistake": "Reading the dash as missing or invalid instead of as a cue to look up the next character.",
+      "weak_areas": [
+        "point_dash",
+        "tabular_verification",
+        "subcategory_selection"
+      ]
+    },
+    {
+      "id": "CASE032",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "Medical records committee quiz: What does NOS mean in ICD coding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Not otherwise sequenced"
+        },
+        {
+          "label": "B",
+          "text": "Not otherwise specified"
+        },
+        {
+          "label": "C",
+          "text": "Not only symptom"
+        },
+        {
+          "label": "D",
+          "text": "Not observed since"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "NOS means not otherwise specified and usually reflects unspecified or unqualified documentation.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "NOS"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This expansion is invented and not an ICD term."
+        },
+        {
+          "option": "C",
+          "why_wrong": "NOS is not limited to symptom coding."
+        },
+        {
+          "option": "D",
+          "why_wrong": "NOS has nothing to do with observation timing."
+        }
+      ],
+      "common_mistake": "Confusing NOS with other abbreviations instead of remembering it means not otherwise specified.",
+      "weak_areas": [
+        "NOS",
+        "terminology"
+      ]
+    },
+    {
+      "id": "CASE033",
+      "difficulty": "easy",
+      "case_type": "concept_question",
+      "scenario": "Medical records committee quiz: What does NEC mean in ICD coding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Not elsewhere classified"
+        },
+        {
+          "label": "B",
+          "text": "No external cause"
+        },
+        {
+          "label": "C",
+          "text": "New emergency category"
+        },
+        {
+          "label": "D",
+          "text": "Not entered correctly"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "NEC means not elsewhere classified. It signals that a specific condition has no separate code elsewhere in that section.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "NEC"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "This is unrelated to external-cause coding."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This is not an ICD meaning for NEC."
+        },
+        {
+          "option": "D",
+          "why_wrong": "NEC does not mean the record was entered incorrectly."
+        }
+      ],
+      "common_mistake": "Mixing up NEC with administrative or external-cause terms.",
+      "weak_areas": [
+        "NEC",
+        "terminology"
+      ]
+    }
+  ]
+}

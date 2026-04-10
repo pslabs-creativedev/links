@@ -1,0 +1,1533 @@
+{
+  "source_files": [
+    "medical_coding_code/icd10.pdf",
+    "topics_final.json"
+  ],
+  "difficulty": "medium",
+  "case_count": 30,
+  "notes": [
+    "Derived from the reviewed cases_full.json bank.",
+    "Cases were validated against ICD-10 instruction-manual logic and deduplicated.",
+    "Each case retains explanations, wrong-answer rationales, common mistakes, and weak-area tags."
+  ],
+  "cases": [
+    {
+      "id": "CASE005",
+      "difficulty": "medium",
+      "case_type": "dual_coding",
+      "scenario": "Pediatrics admission: A child with measles develops pneumonia during the same episode. Final diagnosis is 'measles pneumonia'. What is the best coding approach?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use J17.1* alone"
+        },
+        {
+          "label": "B",
+          "text": "Use B05.2 (dagger) plus J17.1*"
+        },
+        {
+          "label": "C",
+          "text": "Use only B05.2 because the underlying disease is primary"
+        },
+        {
+          "label": "D",
+          "text": "Use B05.2 plus a symptom code for cough"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "This is a dagger-asterisk situation. The underlying disease code B05.2 is primary, and the manifestation code J17.1* may be added. The asterisk code must not be used alone.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Dagger-asterisk",
+        "Measles pneumonia"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "An asterisk code must never be used alone, even when the manifestation is clinically important."
+        },
+        {
+          "option": "C",
+          "why_wrong": "B05.2 is primary, but this answer is incomplete because the manifestation code may also be assigned in the dagger-asterisk system."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Adding a cough symptom code misses the actual manifestation logic. The paired manifestation code is pneumonia in viral diseases classified elsewhere, not a simple symptom code."
+        }
+      ],
+      "common_mistake": "Using only the manifestation code or forgetting that dagger-asterisk cases can require both parts.",
+      "weak_areas": [
+        "dagger_asterisk",
+        "underlying_vs_manifestation",
+        "incomplete_dual_coding"
+      ]
+    },
+    {
+      "id": "CASE006",
+      "difficulty": "medium",
+      "case_type": "dual_coding",
+      "scenario": "Infectious disease service: Final diagnosis is 'tuberculous pericarditis'. Which coding option follows ICD logic?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I32.0* alone"
+        },
+        {
+          "label": "B",
+          "text": "A18.8 (dagger) plus I32.0*"
+        },
+        {
+          "label": "C",
+          "text": "A18.8 only because the underlying disease is the primary code"
+        },
+        {
+          "label": "D",
+          "text": "I30.9 acute pericarditis, unspecified"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Tuberculous pericarditis is coded with the underlying tuberculosis code A18.8 (dagger) and the manifestation code I32.0*. ICD allows both because they describe different aspects of one condition.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Dagger-asterisk",
+        "Tuberculous pericarditis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The asterisk manifestation code cannot stand alone."
+        },
+        {
+          "option": "C",
+          "why_wrong": "The underlying tuberculosis code is primary, but this answer is incomplete because the manifestation code is also appropriate in a dagger-asterisk case."
+        },
+        {
+          "option": "D",
+          "why_wrong": "An unspecified pericarditis code ignores the documented tuberculous cause and loses the dual-classification logic."
+        }
+      ],
+      "common_mistake": "Dropping the manifestation code or replacing a documented specific cause with an unspecified organ-system code.",
+      "weak_areas": [
+        "dagger_asterisk",
+        "specificity",
+        "underlying_vs_manifestation"
+      ]
+    },
+    {
+      "id": "CASE007",
+      "difficulty": "medium",
+      "case_type": "dual_coding",
+      "scenario": "Rheumatology clinic: The final diagnosis is 'Lyme disease arthritis'. Which answer is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "M01.2* alone"
+        },
+        {
+          "label": "B",
+          "text": "A69.2 (dagger) plus M01.2*"
+        },
+        {
+          "label": "C",
+          "text": "A69.2 only because Lyme disease is the underlying diagnosis"
+        },
+        {
+          "label": "D",
+          "text": "M13.9 arthritis, unspecified"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Lyme disease arthritis is another dagger-asterisk example. Use A69.2 for the underlying disease and M01.2* for the manifestation when dual coding is applied.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Dagger-asterisk",
+        "Lyme disease arthritis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The arthritis manifestation code cannot be used by itself in a dagger-asterisk case."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This keeps the underlying disease but omits the linked manifestation, making the coding incomplete for a dual-classification question."
+        },
+        {
+          "option": "D",
+          "why_wrong": "An unspecified arthritis code ignores the documented Lyme linkage."
+        }
+      ],
+      "common_mistake": "Treating a dagger-asterisk case like a single-code question.",
+      "weak_areas": [
+        "dagger_asterisk",
+        "infectious_arthritis_linkage",
+        "incomplete_dual_coding"
+      ]
+    },
+    {
+      "id": "CASE008",
+      "difficulty": "medium",
+      "case_type": "combination_code",
+      "scenario": "Nephrology admission: Provider documents renal failure and hypertensive renal disease. Which is the best main-condition code?",
+      "options": [
+        {
+          "label": "A",
+          "text": "N19 unspecified renal failure"
+        },
+        {
+          "label": "B",
+          "text": "I12.9 hypertensive renal disease without renal failure"
+        },
+        {
+          "label": "C",
+          "text": "I12.0 hypertensive renal disease with renal failure"
+        },
+        {
+          "label": "D",
+          "text": "I10 essential hypertension"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "ICD prefers a combination code when one exists for linked conditions. The textbook example combines hypertensive renal disease with renal failure into I12.0.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Combination code",
+        "Main condition selection"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This captures only renal failure and misses the documented hypertensive renal linkage."
+        },
+        {
+          "option": "B",
+          "why_wrong": "This is close, but it is the wrong variant because the record clearly includes renal failure."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Essential hypertension alone is too broad and ignores the renal disease and renal failure already documented."
+        }
+      ],
+      "common_mistake": "Failing to choose the available combination code that captures both the kidney disease and the renal failure.",
+      "weak_areas": [
+        "combination_code",
+        "hypertensive_renal_disease",
+        "main_condition_selection"
+      ]
+    },
+    {
+      "id": "CASE009",
+      "difficulty": "medium",
+      "case_type": "combination_code",
+      "scenario": "Ophthalmology clinic: Final diagnosis is 'glaucoma secondary to eye inflammation'. Which code is most appropriate as main condition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "H40.4 glaucoma secondary to eye inflammation"
+        },
+        {
+          "label": "B",
+          "text": "Code glaucoma and eye inflammation separately instead of using a combination code"
+        },
+        {
+          "label": "C",
+          "text": "H40.9 glaucoma, unspecified"
+        },
+        {
+          "label": "D",
+          "text": "H57.9 disorder of eye and adnexa, unspecified"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "This is a combination category. ICD guidance says to use the single code that represents the linked diagnosis, here H40.4.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Combination code",
+        "Secondary glaucoma"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "ICD provides a specific combination code here, so separate unrelated coding is not the best answer."
+        },
+        {
+          "option": "C",
+          "why_wrong": "An unspecified glaucoma code ignores the documented inflammatory cause."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This is too broad and loses the glaucoma diagnosis entirely."
+        }
+      ],
+      "common_mistake": "Choosing an unspecified eye code instead of the available combination code.",
+      "weak_areas": [
+        "combination_code",
+        "secondary_glaucoma",
+        "specificity"
+      ]
+    },
+    {
+      "id": "CASE010",
+      "difficulty": "medium",
+      "case_type": "combination_code",
+      "scenario": "General surgery case: Main condition is documented as intestinal obstruction. Other condition is left inguinal hernia. The surgeon repaired the hernia. What is the preferred code?",
+      "options": [
+        {
+          "label": "A",
+          "text": "K56.6 other and unspecified intestinal obstruction"
+        },
+        {
+          "label": "B",
+          "text": "K40.3 unilateral or unspecified inguinal hernia, with obstruction, without gangrene"
+        },
+        {
+          "label": "C",
+          "text": "K40.9 unilateral or unspecified inguinal hernia without obstruction or gangrene"
+        },
+        {
+          "label": "D",
+          "text": "K46.0 unspecified abdominal hernia with obstruction, without gangrene"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The obstruction is linked to the hernia, so ICD uses the combination code K40.3 rather than coding obstruction and hernia as unrelated separate problems.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Combination code",
+        "Multi-condition case"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This codes the obstruction alone and misses the documented hernia linkage."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This is close but wrong because it loses the obstruction component."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This keeps obstruction but downgrades the diagnosis to an unspecified abdominal hernia instead of the documented inguinal hernia."
+        }
+      ],
+      "common_mistake": "Coding the obstruction and hernia as separate vague problems instead of using the linked hernia-with-obstruction code.",
+      "weak_areas": [
+        "combination_code",
+        "hernia_with_obstruction",
+        "multi_condition_linkage"
+      ]
+    },
+    {
+      "id": "CASE013",
+      "difficulty": "medium",
+      "case_type": "external_cause",
+      "scenario": "Orthopedic admission: Main condition is fracture of neck of femur after the patient tripped on uneven pavement outside a market. There are also bruises on the elbow. Which coding approach is best for the main condition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use W01.4 as the only code"
+        },
+        {
+          "label": "B",
+          "text": "Use S72.0 as main condition and add W01.4 if needed"
+        },
+        {
+          "label": "C",
+          "text": "Use S50.1 contusion of forearm as main condition because bruising is also documented"
+        },
+        {
+          "label": "D",
+          "text": "Use K40.3 because obstruction codes often take priority"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "For injuries, the nature of the injury is the preferred main-condition code. The external cause code is additional when needed. So S72.0 is primary, and W01.4 is optional additional coding.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "External cause coding",
+        "Nature of injury first"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "External cause codes do not replace the nature-of-injury code as the main condition."
+        },
+        {
+          "option": "C",
+          "why_wrong": "The bruise is less significant than the fracture and does not become the main condition here."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This is an unrelated combination-code distractor and does not match the trauma scenario."
+        }
+      ],
+      "common_mistake": "Choosing the external cause or a minor associated injury instead of the actual major injury.",
+      "weak_areas": [
+        "external_cause_coding",
+        "nature_of_injury_first",
+        "main_condition_selection"
+      ]
+    },
+    {
+      "id": "CASE014",
+      "difficulty": "medium",
+      "case_type": "external_cause",
+      "scenario": "Geriatric admission: A patient falls in her garden during cold weather and is treated for severe hypothermia. Senility is also documented. Which coding option is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "X31.0 only"
+        },
+        {
+          "label": "B",
+          "text": "T68 as main condition with X31.0 optional additional"
+        },
+        {
+          "label": "C",
+          "text": "X31.0 exposure to excessive natural cold at home"
+        },
+        {
+          "label": "D",
+          "text": "T68 with no external cause even though the circumstance is documented"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main condition is the hypothermia itself, coded to T68. The external cause, exposure to excessive natural cold at home, can be added as X31.0.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "External cause coding",
+        "Hypothermia case"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "An external cause code does not replace the main-condition code for the treated condition itself."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This captures only the circumstance and omits the hypothermia diagnosis."
+        },
+        {
+          "option": "D",
+          "why_wrong": "T68 is the correct main condition, but this option is incomplete because the documented external cause can also be added."
+        }
+      ],
+      "common_mistake": "Stopping at the external cause or forgetting that the treated condition itself must still be coded.",
+      "weak_areas": [
+        "external_cause_coding",
+        "nature_of_condition_first",
+        "incomplete_additional_coding"
+      ]
+    },
+    {
+      "id": "CASE015",
+      "difficulty": "medium",
+      "case_type": "external_cause",
+      "scenario": "Day-care observation: A patient develops diplopia after taking an antihistamine exactly as prescribed. Documentation says 'diplopia due to allergic reaction to antihistamine taken as prescribed'.",
+      "options": [
+        {
+          "label": "A",
+          "text": "Y43.0 only"
+        },
+        {
+          "label": "B",
+          "text": "H53.2 as main condition with Y43.0 optional additional"
+        },
+        {
+          "label": "C",
+          "text": "Y43.0 only because the prescribed drug caused the event"
+        },
+        {
+          "label": "D",
+          "text": "T78.4 allergy, unspecified, without coding the actual symptom treated"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "ICD guidance says the clinical condition is coded first. Here the main condition is diplopia, H53.2. The drug adverse-effect external cause code Y43.0 may be added.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "External cause coding",
+        "Adverse effect"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The drug adverse-effect code is additional, not the main code for the treated condition."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This repeats the common error of coding only the cause and not the actual condition managed during care."
+        },
+        {
+          "option": "D",
+          "why_wrong": "An unspecified allergy code does not capture the documented diplopia as the current clinical problem."
+        }
+      ],
+      "common_mistake": "Coding only the drug cause and skipping the actual condition treated during the encounter.",
+      "weak_areas": [
+        "external_cause_coding",
+        "adverse_effects",
+        "condition_vs_cause"
+      ]
+    },
+    {
+      "id": "CASE016",
+      "difficulty": "medium",
+      "case_type": "external_cause",
+      "scenario": "Sports medicine admission: A marathon trainee is hospitalized with haemoglobinuria caused by overexertion during training on an outdoor track. What is the best coding answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "X50.3 only"
+        },
+        {
+          "label": "B",
+          "text": "D59.6 as main condition with X50.3 optional additional"
+        },
+        {
+          "label": "C",
+          "text": "X50.3 only because overexertion caused the event"
+        },
+        {
+          "label": "D",
+          "text": "R82.3 hemoglobinuria without coding the external-cause mechanism"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The ICD example codes the condition first to D59.6 and then adds X50.3 for the overexertion external cause if needed.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "External cause coding",
+        "Overexertion"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The overexertion code is an additional external-cause code, not the primary condition code."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This repeats the same error by using only the external cause."
+        },
+        {
+          "option": "D",
+          "why_wrong": "A symptom-style hemoglobinuria answer is less appropriate than the condition code given in the ICD example."
+        }
+      ],
+      "common_mistake": "Using only the external cause or dropping the more specific condition code from the example.",
+      "weak_areas": [
+        "external_cause_coding",
+        "condition_vs_cause",
+        "specificity"
+      ]
+    },
+    {
+      "id": "CASE019",
+      "difficulty": "medium",
+      "case_type": "sequela_case",
+      "scenario": "Rehabilitation note: Final diagnosis says only 'late effects of poliomyelitis'. No current residual condition is specified in more detail. What is the best code?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A80 acute poliomyelitis"
+        },
+        {
+          "label": "B",
+          "text": "B91 sequelae of poliomyelitis"
+        },
+        {
+          "label": "C",
+          "text": "R53 malaise and fatigue"
+        },
+        {
+          "label": "D",
+          "text": "Z86 personal history of poliomyelitis"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "When no more specific residual condition is identified and the record states late effects of poliomyelitis, ICD uses B91.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Sequelae",
+        "Late effects of poliomyelitis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Acute poliomyelitis would apply to active disease, not late effects."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A generic symptom code does not match the explicit late-effects diagnosis."
+        },
+        {
+          "option": "D",
+          "why_wrong": "History codes do not replace a current sequela diagnosis when late effects are actually being treated."
+        }
+      ],
+      "common_mistake": "Confusing past history with a current sequela diagnosis.",
+      "weak_areas": [
+        "sequelae",
+        "late_effects",
+        "history_vs_current_condition"
+      ]
+    },
+    {
+      "id": "CASE020",
+      "difficulty": "medium",
+      "case_type": "acute_vs_chronic",
+      "scenario": "Surgical ward discharge: Main condition is written as 'acute and chronic cholecystitis'. No special combined category is documented. Which code should be preferred?",
+      "options": [
+        {
+          "label": "A",
+          "text": "K81.1 chronic cholecystitis"
+        },
+        {
+          "label": "B",
+          "text": "K81.0 acute cholecystitis"
+        },
+        {
+          "label": "C",
+          "text": "K81.2 acute cholecystitis with gangrene"
+        },
+        {
+          "label": "D",
+          "text": "K81.1 chronic cholecystitis with acute exacerbation"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "If ICD provides separate acute and chronic categories but no combined one, the acute condition is preferred for the main-condition code. Here that is K81.0.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Acute vs chronic",
+        "Cholecystitis"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Chronic cholecystitis is close, but ICD guidance prefers the acute condition when both acute and chronic are documented without a combined category."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This option changes the clinical facts by adding gangrene, which was not documented."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This sounds close, but it invents a combined wording that is not the documented basis for the preferred code choice."
+        }
+      ],
+      "common_mistake": "Automatically choosing the chronic condition or inventing a combined label instead of applying the acute-over-chronic rule.",
+      "weak_areas": [
+        "acute_vs_chronic",
+        "main_condition_selection",
+        "invented_linkage"
+      ]
+    },
+    {
+      "id": "CASE021",
+      "difficulty": "medium",
+      "case_type": "acute_vs_chronic",
+      "scenario": "Pulmonology admission: Main condition is documented as 'acute exacerbation of chronic obstructive bronchitis'. Which answer is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "J44.1 chronic obstructive pulmonary disease with acute exacerbation"
+        },
+        {
+          "label": "B",
+          "text": "J44.0 chronic obstructive pulmonary disease with acute lower respiratory infection"
+        },
+        {
+          "label": "C",
+          "text": "J42 unspecified chronic bronchitis"
+        },
+        {
+          "label": "D",
+          "text": "J20 acute bronchitis, unspecified"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "ICD provides a combination code for chronic obstructive pulmonary disease with acute exacerbation, so J44.1 is preferred over separate acute and chronic codes.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Combination code",
+        "Acute exacerbation"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "This is close but wrong because the case documents acute exacerbation, not acute lower respiratory infection."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This loses the acute exacerbation detail and misses the available combination logic."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This keeps only the acute piece and drops the chronic obstructive disease context."
+        }
+      ],
+      "common_mistake": "Missing the available combination code and splitting the acute and chronic pieces apart.",
+      "weak_areas": [
+        "combination_code",
+        "acute_exacerbation",
+        "copd_logic"
+      ]
+    },
+    {
+      "id": "CASE022",
+      "difficulty": "medium",
+      "case_type": "postprocedural",
+      "scenario": "Medicine follow-up: A patient developed hypothyroidism after thyroidectomy performed one year ago. Current visit is for management of this postsurgical condition. Which code is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "E03.9 hypothyroidism, unspecified"
+        },
+        {
+          "label": "B",
+          "text": "E89.0 postsurgical hypothyroidism"
+        },
+        {
+          "label": "C",
+          "text": "Use a post-surgical status code instead of an active complication code"
+        },
+        {
+          "label": "D",
+          "text": "E03.8 other specified hypothyroidism"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "When the diagnosis is postsurgical hypothyroidism, ICD uses the specific postprocedural condition code E89.0 rather than a generic hypothyroidism code.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Postprocedural condition",
+        "Postsurgical hypothyroidism"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A generic hypothyroidism code misses the postsurgical cause documented in the chart."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A history or status code does not replace the current postsurgical hypothyroidism diagnosis."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This is closer than an unspecified code, but it still loses the specific postsurgical relationship."
+        }
+      ],
+      "common_mistake": "Using a generic endocrine code or history code instead of the specific postprocedural diagnosis.",
+      "weak_areas": [
+        "postprocedural_conditions",
+        "specificity",
+        "postsurgical_complication"
+      ]
+    },
+    {
+      "id": "CASE023",
+      "difficulty": "medium",
+      "case_type": "postprocedural",
+      "scenario": "Dental surgery note: Final diagnosis is 'excessive haemorrhage after tooth extraction'. Pain is also documented. Which code should be the main condition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "K08.8 other specified disorders of teeth"
+        },
+        {
+          "label": "B",
+          "text": "T81.0 haemorrhage resulting from a procedure"
+        },
+        {
+          "label": "C",
+          "text": "Use a digestive-system postprocedural disorder code instead of the general procedure-complication code"
+        },
+        {
+          "label": "D",
+          "text": "R58 hemorrhage, not elsewhere classified"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main condition is the postprocedural hemorrhage, coded to T81.0. Pain is secondary and does not replace the main complication code.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Postprocedural complication",
+        "Main condition selection"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A tooth-disorder code does not capture the active procedure-related bleeding complication."
+        },
+        {
+          "option": "C",
+          "why_wrong": "That choice points to the wrong body-system pathway. The ICD example for this dental case uses the general procedure-complication code T81.0."
+        },
+        {
+          "option": "D",
+          "why_wrong": "A generic hemorrhage code is less specific than the direct procedure-related complication code."
+        }
+      ],
+      "common_mistake": "Falling back to a generic bleeding code instead of the documented postprocedural complication code.",
+      "weak_areas": [
+        "postprocedural_conditions",
+        "specificity",
+        "dental_complication"
+      ]
+    },
+    {
+      "id": "CASE034",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "A coding supervisor says, 'The word and in an ICD title should always be read literally.' Which response is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "True for all chapters"
+        },
+        {
+          "label": "B",
+          "text": "False; in ICD, and usually means and/or"
+        },
+        {
+          "label": "C",
+          "text": "True only for injury codes"
+        },
+        {
+          "label": "D",
+          "text": "False; and means excludes"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "In ICD titles, 'and' is interpreted as 'and/or'. This is a favorite exam trap.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "And means and/or",
+        "Trick question"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "ICD explicitly says the word and usually means and/or."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This rule is not limited to injury codes."
+        },
+        {
+          "option": "D",
+          "why_wrong": "And does not signal exclusion; it broadens the title meaning."
+        }
+      ],
+      "common_mistake": "Reading ICD titles too literally and missing the built-in and/or convention.",
+      "weak_areas": [
+        "and_or_rule",
+        "title_conventions",
+        "trick_question"
+      ]
+    },
+    {
+      "id": "CASE035",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "A chart reviewer asks what inclusion terms do under a rubric. Which answer is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They form an exhaustive subclassification list"
+        },
+        {
+          "label": "B",
+          "text": "They are examples or synonyms that help define the rubric"
+        },
+        {
+          "label": "C",
+          "text": "They are conditions that must be coded elsewhere"
+        },
+        {
+          "label": "D",
+          "text": "They replace the need for the Index"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Inclusion terms are examples of conditions classified to the rubric. They guide content but are not exhaustive.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Inclusion terms"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Inclusion terms help define the rubric, but they are not exhaustive."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Conditions that must be coded elsewhere are described in exclusion notes, not inclusion terms."
+        },
+        {
+          "option": "D",
+          "why_wrong": "The Index is still needed because inclusion terms do not replace the coding search process."
+        }
+      ],
+      "common_mistake": "Treating inclusion terms as a complete list instead of examples that guide rubric meaning.",
+      "weak_areas": [
+        "inclusion_terms",
+        "rubric_content",
+        "trick_question"
+      ]
+    },
+    {
+      "id": "CASE036",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "A chart reviewer asks what exclusion terms do under a rubric. Which answer is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They show optional secondary codes"
+        },
+        {
+          "label": "B",
+          "text": "They show conditions that should not be coded there"
+        },
+        {
+          "label": "C",
+          "text": "They show common synonyms"
+        },
+        {
+          "label": "D",
+          "text": "They show laterality"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Exclusion terms identify diagnoses that may sound similar but belong elsewhere in the classification.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Exclusion terms"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Optional secondary codes are not what exclusion notes are for."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Synonyms are not the purpose of exclusion notes."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Laterality is not what this convention is about."
+        }
+      ],
+      "common_mistake": "Ignoring exclusion notes or confusing them with descriptive examples.",
+      "weak_areas": [
+        "exclusion_terms",
+        "rubric_boundaries"
+      ]
+    },
+    {
+      "id": "CASE037",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "In a hospital coder competency test, which volume contains the Alphabetical Index?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Volume 1"
+        },
+        {
+          "label": "B",
+          "text": "Volume 2"
+        },
+        {
+          "label": "C",
+          "text": "Volume 3"
+        },
+        {
+          "label": "D",
+          "text": "All volumes equally"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Volume 3 is the Alphabetical Index. Volume 1 is the Tabular List and main classification, while Volume 2 provides guidance.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "ICD volumes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Volume 1 holds the Tabular List and main classification, not the Index."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Volume 2 is guidance, not the Alphabetical Index."
+        },
+        {
+          "option": "D",
+          "why_wrong": "The roles are distinct; the Index specifically belongs to Volume 3."
+        }
+      ],
+      "common_mistake": "Forgetting the roles of the three ICD volumes.",
+      "weak_areas": [
+        "icd_volumes",
+        "alphabetical_index"
+      ]
+    },
+    {
+      "id": "CASE038",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "In a hospital coder competency test, which volume contains the instruction manual and guidance to users?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Volume 1"
+        },
+        {
+          "label": "B",
+          "text": "Volume 2"
+        },
+        {
+          "label": "C",
+          "text": "Volume 3"
+        },
+        {
+          "label": "D",
+          "text": "None of them"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Volume 2 contains guidance to users and the instruction manual material.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "ICD volumes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Volume 1 is the classification itself, not the main instruction manual."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Volume 3 is the Alphabetical Index."
+        },
+        {
+          "option": "D",
+          "why_wrong": "ICD does provide a dedicated guidance volume."
+        }
+      ],
+      "common_mistake": "Mixing up Volume 1, Volume 2, and Volume 3 roles.",
+      "weak_areas": [
+        "icd_volumes",
+        "guidance_volume"
+      ]
+    },
+    {
+      "id": "CASE039",
+      "difficulty": "medium",
+      "case_type": "coding_logic",
+      "scenario": "In a discharge abstract, there is a confirmed diagnosis and a related symptom. The confirmed diagnosis was treated, but the symptom appears first in the note. Which should usually be coded as main condition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The symptom, because it appears first"
+        },
+        {
+          "label": "B",
+          "text": "The confirmed diagnosis that explains the symptom"
+        },
+        {
+          "label": "C",
+          "text": "Both must replace the main condition"
+        },
+        {
+          "label": "D",
+          "text": "The external cause code"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "If a clear diagnosed condition explains the symptom and treatment was directed to it, the diagnosis is preferred over the presenting symptom.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Symptom vs diagnosis",
+        "Main condition selection"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The symptom may appear first, but it should not outrank a confirmed diagnosis that explains it and was treated."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Both diagnoses do not replace the need to choose the main condition logically."
+        },
+        {
+          "option": "D",
+          "why_wrong": "An external cause code is irrelevant unless the case actually involves one."
+        }
+      ],
+      "common_mistake": "Choosing the first-listed symptom rather than the treated diagnosis it represents.",
+      "weak_areas": [
+        "symptom_vs_diagnosis",
+        "main_condition_selection",
+        "coding_logic"
+      ]
+    },
+    {
+      "id": "CASE045",
+      "difficulty": "medium",
+      "case_type": "multi_condition",
+      "scenario": "Trauma admission: The chart documents multiple fractures of the same episode, and no single fracture is clearly stated to consume more resources than the others. What is the best general ICD approach?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Always choose the first fracture mentioned"
+        },
+        {
+          "label": "B",
+          "text": "Use a multiple-fractures category if available and appropriate"
+        },
+        {
+          "label": "C",
+          "text": "Ignore all but the least severe fracture"
+        },
+        {
+          "label": "D",
+          "text": "Use only the external cause code"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "If no one injury predominates, ICD allows the use of a 'multiple ...' category where appropriate for the main condition.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Multiple conditions",
+        "Multiple injuries"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The first listed fracture is not automatically the correct main condition when none predominates."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Dropping major injuries just because several are present is not valid ICD logic."
+        },
+        {
+          "option": "D",
+          "why_wrong": "External cause coding does not replace the injury diagnosis."
+        }
+      ],
+      "common_mistake": "Forcing a single listed injury to win when ICD allows a multiple-injuries approach.",
+      "weak_areas": [
+        "multiple_conditions",
+        "multiple_injuries",
+        "main_condition_selection"
+      ]
+    },
+    {
+      "id": "CASE046",
+      "difficulty": "medium",
+      "case_type": "multi_condition",
+      "scenario": "HIV clinic admission: Several infections related to HIV disease are documented, and no single infection clearly predominates in resource use. Which main-condition strategy is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Code only the first infection listed"
+        },
+        {
+          "label": "B",
+          "text": "Use an HIV disease resulting in multiple infections concept when applicable"
+        },
+        {
+          "label": "C",
+          "text": "Use only a symptom code"
+        },
+        {
+          "label": "D",
+          "text": "Use a Z code for follow-up"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The morbidity guidance allows a 'multiple' description when no single condition predominates, including HIV disease with multiple infections.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Multiple conditions",
+        "HIV multiple infections"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The first listed infection does not automatically become the main condition if none predominates."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A symptom code would understate the documented HIV disease context."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This is not a routine follow-up encounter; active related conditions are being managed."
+        }
+      ],
+      "common_mistake": "Choosing a single infection mechanically instead of using the documented multiple-condition logic.",
+      "weak_areas": [
+        "multiple_conditions",
+        "HIV_multiple_infections",
+        "main_condition_selection"
+      ]
+    },
+    {
+      "id": "CASE047",
+      "difficulty": "medium",
+      "case_type": "non_illness_encounter",
+      "scenario": "Outpatient preventive visit: A healthy adult presents only for immunization. There is no active illness. Which chapter type is most relevant?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chapter XVIII symptom codes"
+        },
+        {
+          "label": "B",
+          "text": "Chapter XIX injury codes"
+        },
+        {
+          "label": "C",
+          "text": "Chapter XXI Z codes"
+        },
+        {
+          "label": "D",
+          "text": "Chapter XX external causes"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Encounters for services such as immunization are coded from Chapter XXI, which covers factors influencing health status and contact with health services.",
+      "concept_mapping": [
+        "ICD Basics",
+        "Guidelines For Morbidity Coding",
+        "Chapter XXI Z codes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Chapter XVIII is for symptoms and abnormal findings, which are not the reason for this encounter."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Injury codes are irrelevant because there is no injury."
+        },
+        {
+          "option": "D",
+          "why_wrong": "External-cause chapters describe causes of injuries or events, not preventive encounters."
+        }
+      ],
+      "common_mistake": "Looking for a disease or symptom code when the visit is really a service-contact encounter.",
+      "weak_areas": [
+        "chapter_XXI",
+        "preventive_encounter",
+        "non_illness_visit"
+      ]
+    },
+    {
+      "id": "CASE048",
+      "difficulty": "medium",
+      "case_type": "non_illness_encounter",
+      "scenario": "A patient comes for surveillance because of a family history of disease but has no current illness. What general coding concept should the coder think of first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use a current disease code anyway"
+        },
+        {
+          "label": "B",
+          "text": "Use a symptom code because no disease is present"
+        },
+        {
+          "label": "C",
+          "text": "Use a Chapter XXI contact-with-health-services code"
+        },
+        {
+          "label": "D",
+          "text": "Use a trauma code"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "When the reason for care is surveillance or risk follow-up without current illness, Chapter XXI is the relevant ICD concept.",
+      "concept_mapping": [
+        "ICD Basics",
+        "Guidelines For Morbidity Coding",
+        "Z-code encounters"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "You should not invent a current disease when the patient does not have one."
+        },
+        {
+          "option": "B",
+          "why_wrong": "A symptom code is also wrong because no symptom is documented."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Trauma coding has no role in this surveillance encounter."
+        }
+      ],
+      "common_mistake": "Forcing a disease or symptom code onto a surveillance encounter with no active illness.",
+      "weak_areas": [
+        "chapter_XXI",
+        "surveillance_encounter",
+        "non_illness_visit"
+      ]
+    },
+    {
+      "id": "CASE049",
+      "difficulty": "medium",
+      "case_type": "trick_question",
+      "scenario": "A junior coder says, 'If two diagnoses appear anywhere in the record, and one could possibly cause the other, I should always link them into a combination code.' Which response is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Correct, linkage is always assumed"
+        },
+        {
+          "label": "B",
+          "text": "Incorrect, linkage should not be assumed unless the record supports it"
+        },
+        {
+          "label": "C",
+          "text": "Correct only in cardiology"
+        },
+        {
+          "label": "D",
+          "text": "Correct only if the patient was inpatient"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "This is a common mistake. ICD allows combination coding when the record supports the link or the classification specifically instructs it. You should not force a relationship that is not documented.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Do not assume linkage",
+        "Trick question"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "ICD linkage is not automatic just because two diagnoses coexist."
+        },
+        {
+          "option": "C",
+          "why_wrong": "The rule is not specialty-limited to cardiology."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Inpatient status does not create linkage by itself."
+        }
+      ],
+      "common_mistake": "Assuming clinical linkage without actual documentation or classification support.",
+      "weak_areas": [
+        "do_not_assume_linkage",
+        "combination_code_logic",
+        "trick_question"
+      ]
+    },
+    {
+      "id": "CASE050",
+      "difficulty": "medium",
+      "case_type": "trick_question",
+      "scenario": "A coder sees a symptom and a more definitive diagnosis on the same discharge summary. Which common exam trap should be avoided?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Choosing the symptom just because it sounds more acute"
+        },
+        {
+          "label": "B",
+          "text": "Choosing the confirmed diagnosis without review"
+        },
+        {
+          "label": "C",
+          "text": "Checking the Tabular List"
+        },
+        {
+          "label": "D",
+          "text": "Reading exclusion notes"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "A classic exam trap is to choose the symptom even though a confirmed diagnosis explains it and was the focus of care. Usually the diagnosis should win.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Symptom vs diagnosis",
+        "Trick question"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "Choosing the confirmed diagnosis is usually correct, not the trap to avoid."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Checking the Tabular List is good practice, not a mistake."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Reading exclusion notes is also good practice."
+        }
+      ],
+      "common_mistake": "Being drawn to the symptom because it sounds urgent or appears first.",
+      "weak_areas": [
+        "symptom_vs_diagnosis",
+        "trick_question",
+        "main_condition_logic"
+      ]
+    },
+    {
+      "id": "CASE055",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "Hospital classroom question: Which chapter usually contains symptoms, signs, and abnormal findings not elsewhere classified?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chapter XVIII"
+        },
+        {
+          "label": "B",
+          "text": "Chapter XX"
+        },
+        {
+          "label": "C",
+          "text": "Chapter XXI"
+        },
+        {
+          "label": "D",
+          "text": "Chapter II"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Chapter XVIII is the chapter for symptoms, signs, and abnormal clinical and laboratory findings not elsewhere classified.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Chapter XVIII"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        }
+      ],
+      "common_mistake": "Choosing a close-looking answer without checking which ICD rule actually controls the case.",
+      "weak_areas": [
+        "concept_question"
+      ]
+    },
+    {
+      "id": "CASE056",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "Hospital classroom question: Which chapter contains external causes of morbidity and mortality?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chapter XVIII"
+        },
+        {
+          "label": "B",
+          "text": "Chapter XIX"
+        },
+        {
+          "label": "C",
+          "text": "Chapter XX"
+        },
+        {
+          "label": "D",
+          "text": "Chapter XXI"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Chapter XX contains external causes of morbidity and mortality.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Chapter XX"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Chapter XVIII is for symptoms and signs."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Chapter XIX is the nature of injury and poisoning, not the external-cause chapter itself."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Chapter XXI is for health-status/contact factors."
+        }
+      ],
+      "common_mistake": "Confusing the injury chapter with the external-cause chapter.",
+      "weak_areas": [
+        "chapter_XX",
+        "external_causes",
+        "chapter_identification"
+      ]
+    },
+    {
+      "id": "CASE057",
+      "difficulty": "medium",
+      "case_type": "concept_question",
+      "scenario": "Hospital classroom question: Which chapter contains factors influencing health status and contact with health services?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Chapter XVII"
+        },
+        {
+          "label": "B",
+          "text": "Chapter XVIII"
+        },
+        {
+          "label": "C",
+          "text": "Chapter XX"
+        },
+        {
+          "label": "D",
+          "text": "Chapter XXI"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "Chapter XXI is the chapter for factors influencing health status and contact with health services.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Chapter XXI"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Chapter XVII is unrelated here."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Chapter XVIII is symptoms and findings, not health-status/contact factors."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Chapter XX is external causes, not routine Z-code encounters."
+        }
+      ],
+      "common_mistake": "Confusing Chapter XXI with symptom or external-cause chapters.",
+      "weak_areas": [
+        "chapter_XXI",
+        "Z_codes",
+        "chapter_identification"
+      ]
+    }
+  ]
+}

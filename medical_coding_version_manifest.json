@@ -8,5 +8,15 @@
     "version": "2024.Q1",
     "updated_date": "2024-01-01",
     "download_url": "https://pslabs-creativedev.github.io/links/medical_coding_code/HCPC2020-TRANS-ALPHA.xlsx"
+  },
+  "topics_final": {
+    "version": "2026.04.10",
+    "updated_date": "2026-04-01",
+    "download_url": "https://pslabs-creativedev.github.io/links/medical_coding_code/learning/topics_final.json"
+  },
+  "cases_full": {
+    "version": "2026.04.10",
+    "updated_date": "2026-04-01",
+    "download_url": "https://pslabs-creativedev.github.io/links/medical_coding_code/learning/cases_full.json"
   }
 }

@@ -1,0 +1,829 @@
+{
+  "source_files": [
+    "medical_coding_code/icd10.pdf",
+    "topics_final.json"
+  ],
+  "difficulty": "hard",
+  "case_count": 16,
+  "notes": [
+    "Derived from the reviewed cases_full.json bank.",
+    "Cases were validated against ICD-10 instruction-manual logic and deduplicated.",
+    "Each case retains explanations, wrong-answer rationales, common mistakes, and weak-area tags."
+  ],
+  "cases": [
+    {
+      "id": "CASE011",
+      "difficulty": "hard",
+      "case_type": "specialty_linkage",
+      "scenario": "Ophthalmology inpatient stay: Main condition is 'cataract'. Also documented under the main condition line is 'insulin-dependent diabetes'. Hypertension is listed separately as another condition. Which coding choice is best?",
+      "options": [
+        {
+          "label": "A",
+          "text": "E10.3 (dagger) plus H28.0*"
+        },
+        {
+          "label": "B",
+          "text": "E11.9 only"
+        },
+        {
+          "label": "C",
+          "text": "H26.9 only"
+        },
+        {
+          "label": "D",
+          "text": "I10 plus H28.0*"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "Because cataract and insulin-dependent diabetes are linked under the main condition in an ophthalmology case, ICD uses the diabetes-with-ophthalmic-complication code plus the diabetic cataract manifestation code. The hypertension does not change that pairing.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Dagger-asterisk",
+        "Combination logic",
+        "Specialty context"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "E11.9 ignores both the insulin-dependent status and the documented eye complication linkage."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A cataract-only code loses the underlying diabetes logic that ICD wants captured in this linked ophthalmology case."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Hypertension is present but is not the linked main condition driving the ophthalmic coding choice."
+        }
+      ],
+      "common_mistake": "Ignoring the documented linkage between diabetes and cataract in the main-condition statement.",
+      "weak_areas": [
+        "diabetes_complication_logic",
+        "dagger_asterisk",
+        "specialty_context"
+      ]
+    },
+    {
+      "id": "CASE012",
+      "difficulty": "hard",
+      "case_type": "trick_multicondition",
+      "scenario": "General medicine ward: Main condition is documented as non-insulin-dependent diabetes mellitus. Other conditions are hypertension, rheumatoid arthritis, and cataract. No diabetic eye complication is linked in the main-condition statement. Which main-condition code is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "E10.3 (dagger) plus H28.0*"
+        },
+        {
+          "label": "B",
+          "text": "E11.9 non-insulin-dependent diabetes without complications"
+        },
+        {
+          "label": "C",
+          "text": "H28.0* only"
+        },
+        {
+          "label": "D",
+          "text": "I10 essential hypertension"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "This is a classic trick question. The cataract must not be linked to diabetes just because both are on the record. Since they are not linked under the main condition, the correct main-condition code is E11.9.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Trick question",
+        "Do not assume linkage",
+        "Main condition selection"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This option misses the ICD rule that controls the case."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A cataract-only code loses the underlying diabetes logic that ICD wants captured in this linked ophthalmology case."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Hypertension is present but is not the linked main condition driving the ophthalmic coding choice."
+        }
+      ],
+      "common_mistake": "Ignoring the documented linkage between diabetes and cataract in the main-condition statement.",
+      "weak_areas": [
+        "diabetes_complication_logic",
+        "dagger_asterisk",
+        "specialty_context"
+      ]
+    },
+    {
+      "id": "CASE017",
+      "difficulty": "hard",
+      "case_type": "sequela_case",
+      "scenario": "Speech therapy consult: Current problem is dysphasia due to an old cerebral infarction. The infarct is no longer active. Which is the preferred main-condition coding choice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I63.9 cerebral infarction"
+        },
+        {
+          "label": "B",
+          "text": "I69.3 sequelae of cerebral infarction as the only code"
+        },
+        {
+          "label": "C",
+          "text": "R47.0 as main condition, with I69.3 optional additional"
+        },
+        {
+          "label": "D",
+          "text": "I63.9 cerebral infarction as if the stroke were current"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "For sequelae, ICD prefers coding the present residual condition first. Dysphasia is the current problem, so R47.0 is primary and I69.3 may be added to show sequela of cerebral infarction.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Sequelae",
+        "Current residual condition first"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This codes the old infarction as if it were active, but the current problem being treated is dysphasia."
+        },
+        {
+          "option": "B",
+          "why_wrong": "The sequela code alone is incomplete when the residual condition is clearly documented and should be coded first."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This again treats the infarction as active and ignores the stated late-effect context."
+        }
+      ],
+      "common_mistake": "Using the old cause as the main code instead of coding the present residual deficit first.",
+      "weak_areas": [
+        "sequelae",
+        "current_residual_condition_first",
+        "late_effects"
+      ]
+    },
+    {
+      "id": "CASE018",
+      "difficulty": "hard",
+      "case_type": "sequela_case",
+      "scenario": "Orthopedic clinic: Patient has osteoarthritis of the hip due to an old hip fracture from a motor vehicle accident 10 years earlier. Which answer best follows ICD guidance?",
+      "options": [
+        {
+          "label": "A",
+          "text": "T93.1 sequelae of fracture of femur only"
+        },
+        {
+          "label": "B",
+          "text": "Use M16.5 as main condition, with T93.1 and Y85.0 optional additional"
+        },
+        {
+          "label": "C",
+          "text": "Y85.0 sequelae of motor vehicle accident only"
+        },
+        {
+          "label": "D",
+          "text": "M16.0 bilateral primary coxarthrosis"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The current treated problem is post-traumatic coxarthrosis, coded to M16.5. Sequela codes for the old fracture and old transport accident may be added, but they are not the preferred main condition here.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Sequelae",
+        "Residual condition first",
+        "Old injury"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This keeps only the old fracture sequel and misses the current treated hip osteoarthritis."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This captures only the old accident circumstance, not the current residual musculoskeletal diagnosis."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Primary coxarthrosis is close but wrong because the record specifically says the arthritis is post-traumatic."
+        }
+      ],
+      "common_mistake": "Selecting a sequela or accident-history code as the main diagnosis instead of the current residual condition.",
+      "weak_areas": [
+        "sequelae",
+        "post_traumatic_vs_primary",
+        "current_residual_condition_first"
+      ]
+    },
+    {
+      "id": "CASE024",
+      "difficulty": "hard",
+      "case_type": "postprocedural",
+      "scenario": "Psychiatry consultation: A patient develops postoperative psychosis after plastic surgery. Which coding approach best matches the ICD example?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Y83.8 only"
+        },
+        {
+          "label": "B",
+          "text": "F09 psychosis, unspecified organic or symptomatic, without showing procedure relationship"
+        },
+        {
+          "label": "C",
+          "text": "F09 as main condition with Y83.8 optional additional"
+        },
+        {
+          "label": "D",
+          "text": "Y83.8 with no mental disorder code"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "ICD codes the psychosis itself as the main condition and may add Y83.8 to show the relationship to the surgical procedure.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "Postprocedural complication",
+        "Additional external cause coding"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The procedure code alone does not describe the actual mental disorder being treated."
+        },
+        {
+          "option": "B",
+          "why_wrong": "F09 captures the psychosis, but this option is incomplete because the procedure relationship may also be coded."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This again codes only the cause/context and misses the active psychosis diagnosis."
+        }
+      ],
+      "common_mistake": "Coding only the procedure relationship or only the psychosis when the question asks for the fuller ICD logic.",
+      "weak_areas": [
+        "postprocedural_conditions",
+        "additional_cause_coding",
+        "condition_vs_cause"
+      ]
+    },
+    {
+      "id": "CASE040",
+      "difficulty": "hard",
+      "case_type": "main_condition_logic",
+      "scenario": "Gynecology service case: The chart lists acute sinusitis as the main condition. Other conditions include carcinoma of endocervix and hypertension. The patient stayed three weeks and underwent total hysterectomy. Which condition should be reselected as the main condition?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Acute sinusitis"
+        },
+        {
+          "label": "B",
+          "text": "Hypertension"
+        },
+        {
+          "label": "C",
+          "text": "Carcinoma of endocervix"
+        },
+        {
+          "label": "D",
+          "text": "Select no main condition because multiple diagnoses exist"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "This matches Rule MB1. A minor incidental condition was recorded as main, but the significant treated condition was carcinoma of endocervix.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "MB1",
+        "Reselection of main condition"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Acute sinusitis is minor and incidental compared with the treated gynecologic cancer case."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Hypertension is also not the reason for the hysterectomy or prolonged stay."
+        },
+        {
+          "option": "D",
+          "why_wrong": "ICD still requires a main condition; the correct step is reselection, not abandonment."
+        }
+      ],
+      "common_mistake": "Keeping the originally listed minor condition instead of reselecting the actually treated major disease.",
+      "weak_areas": [
+        "MB1",
+        "main_condition_reselection",
+        "minor_vs_significant_condition"
+      ]
+    },
+    {
+      "id": "CASE041",
+      "difficulty": "hard",
+      "case_type": "main_condition_logic",
+      "scenario": "Surgery service case: The provider writes two unrelated diagnoses in the main-condition field, and the rest of the chart clearly shows care was mainly for strangulated femoral hernia. Which reselection rule is being applied if the coder picks the treated diagnosis?",
+      "options": [
+        {
+          "label": "A",
+          "text": "MB1"
+        },
+        {
+          "label": "B",
+          "text": "MB2"
+        },
+        {
+          "label": "C",
+          "text": "MB3"
+        },
+        {
+          "label": "D",
+          "text": "MB5"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Rule MB2 applies when several conditions are recorded as main condition and other details identify which one was actually the focus of care.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "MB2",
+        "Several conditions in main-condition field"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        },
+        {
+          "option": "D",
+          "why_wrong": "This distractor sounds plausible, but it does not match the controlling ICD rule or the documented final diagnosis as closely as the correct answer."
+        }
+      ],
+      "common_mistake": "Choosing a close-looking answer without checking which ICD rule actually controls the case.",
+      "weak_areas": [
+        "main_condition_logic"
+      ]
+    },
+    {
+      "id": "CASE042",
+      "difficulty": "hard",
+      "case_type": "main_condition_logic",
+      "scenario": "An inpatient record lists 'jaundice' as the main condition, but elsewhere the record documents treated obstructive carcinoma as the diagnosed cause. Which logic is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keep jaundice because symptoms always outrank diagnoses"
+        },
+        {
+          "label": "B",
+          "text": "Reselect the diagnosed treated condition under MB3"
+        },
+        {
+          "label": "C",
+          "text": "Use a Z code because the symptom was first"
+        },
+        {
+          "label": "D",
+          "text": "Use an asterisk code alone"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Rule MB3 says if a presenting symptom is recorded as main condition but a diagnosed treated condition is documented elsewhere, reselect the diagnosis.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "MB3",
+        "Presenting symptom vs diagnosed condition"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Symptoms do not outrank a diagnosed treated condition that explains them."
+        },
+        {
+          "option": "C",
+          "why_wrong": "A Z code is not appropriate just because a symptom appeared first."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Asterisk coding is unrelated to this symptom-versus-diagnosis problem."
+        }
+      ],
+      "common_mistake": "Leaving the presenting symptom as main condition after a more definitive treated diagnosis is documented.",
+      "weak_areas": [
+        "MB3",
+        "symptom_vs_diagnosis",
+        "main_condition_reselection"
+      ]
+    },
+    {
+      "id": "CASE043",
+      "difficulty": "hard",
+      "case_type": "main_condition_logic",
+      "scenario": "A discharge summary lists 'fracture of femur' as main condition, but elsewhere states 'fracture of neck of femur' and the orthopedic repair clearly focused on the neck fracture. Which principle applies?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Use the vague code because it was in the main-condition field"
+        },
+        {
+          "label": "B",
+          "text": "Reselect the more specific condition under MB4"
+        },
+        {
+          "label": "C",
+          "text": "Use an external cause code only"
+        },
+        {
+          "label": "D",
+          "text": "Use a symptom code"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Rule MB4 addresses specificity. When a more precise diagnosis is documented elsewhere, the coder should reselect the more specific condition.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "MB4",
+        "Specificity"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A vague diagnosis should not be kept when the record gives a more specific treated diagnosis."
+        },
+        {
+          "option": "C",
+          "why_wrong": "External cause coding does not solve a specificity problem in the diagnosis itself."
+        },
+        {
+          "option": "D",
+          "why_wrong": "A symptom code would move even farther away from the documented fracture diagnosis."
+        }
+      ],
+      "common_mistake": "Ignoring a more specific diagnosis elsewhere in the chart.",
+      "weak_areas": [
+        "MB4",
+        "specificity",
+        "main_condition_reselection"
+      ]
+    },
+    {
+      "id": "CASE044",
+      "difficulty": "hard",
+      "case_type": "main_condition_logic",
+      "scenario": "Emergency admission: Main condition is 'headache, possible migraine or meningitis'. Which main-condition choice best follows ICD guidance when diagnostic options remain unresolved?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Select migraine"
+        },
+        {
+          "label": "B",
+          "text": "Select meningitis"
+        },
+        {
+          "label": "C",
+          "text": "Select headache"
+        },
+        {
+          "label": "D",
+          "text": "Select both diagnoses equally"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "Rule MB5 says when a symptom is recorded as main condition and may be due to one condition or another, select the symptom as the main condition.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "MB5",
+        "Alternative main diagnoses"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Migraine is only one diagnostic option and was not confirmed."
+        },
+        {
+          "option": "B",
+          "why_wrong": "Meningitis is also only an option, not an established diagnosis."
+        },
+        {
+          "option": "D",
+          "why_wrong": "ICD still requires choosing the symptom here, not coding both possibilities equally."
+        }
+      ],
+      "common_mistake": "Turning unresolved diagnostic options into confirmed diagnoses.",
+      "weak_areas": [
+        "MB5",
+        "alternative_diagnoses",
+        "symptom_selection"
+      ]
+    },
+    {
+      "id": "CASE051",
+      "difficulty": "hard",
+      "case_type": "coding_logic",
+      "scenario": "An inpatient is admitted with a suspected condition. By discharge, the diagnosis remains documented as 'possible' and was never ruled out. What is the ICD morbidity rule?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Always use a symptom code"
+        },
+        {
+          "label": "B",
+          "text": "Code it as established"
+        },
+        {
+          "label": "C",
+          "text": "Use Z03 because every possible diagnosis is observation only"
+        },
+        {
+          "label": "D",
+          "text": "Leave the case uncoded"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "If a suspected diagnosis remains documented as suspected or questionable at the end of care and is not ruled out, ICD instructs the coder to code it as established.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Suspected diagnosis not ruled out"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "A symptom code is not automatically preferred once the suspected diagnosis remains the discharge diagnosis."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Z03 applies when the suspected diagnosis is ruled out, not when it remains suspected and not excluded."
+        },
+        {
+          "option": "D",
+          "why_wrong": "The case should still be coded using ICD morbidity guidance."
+        }
+      ],
+      "common_mistake": "Using a ruled-out observation code even though the diagnosis was never ruled out.",
+      "weak_areas": [
+        "suspected_not_ruled_out",
+        "observation_vs_established",
+        "coding_logic"
+      ]
+    },
+    {
+      "id": "CASE052",
+      "difficulty": "hard",
+      "case_type": "coding_logic",
+      "scenario": "Which answer best describes why the coder should still read inclusion and exclusion notes after finding a likely code?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are optional editorial text"
+        },
+        {
+          "label": "B",
+          "text": "They can change whether the selected code is actually correct"
+        },
+        {
+          "label": "C",
+          "text": "They matter only for mental disorders"
+        },
+        {
+          "label": "D",
+          "text": "They matter only for mortality coding"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Inclusion and exclusion notes define code content and boundaries. They can confirm a code or show that the condition belongs elsewhere.",
+      "concept_mapping": [
+        "How To Assign A Code",
+        "Inclusion and exclusion notes"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "These notes are not decorative; they help define whether the chosen code is appropriate."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Their use is not limited to mental disorders."
+        },
+        {
+          "option": "D",
+          "why_wrong": "They matter in morbidity coding too, not just mortality."
+        }
+      ],
+      "common_mistake": "Treating code notes as optional reading instead of part of the coding decision.",
+      "weak_areas": [
+        "inclusion_exclusion_notes",
+        "coding_logic",
+        "verification"
+      ]
+    },
+    {
+      "id": "CASE053",
+      "difficulty": "hard",
+      "case_type": "concept_question",
+      "scenario": "A morbidity abstract asks for the main condition. Which definition is most accurate?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The first diagnosis listed by the physician"
+        },
+        {
+          "label": "B",
+          "text": "The condition diagnosed at the end of care primarily responsible for treatment or investigation"
+        },
+        {
+          "label": "C",
+          "text": "The most chronic diagnosis on the chart"
+        },
+        {
+          "label": "D",
+          "text": "The condition with the highest reimbursement value"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "The main condition is the condition diagnosed at the end of the episode that was primarily responsible for the patient's need for treatment or investigation.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Main condition definition"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "The first diagnosis listed is not necessarily the main condition."
+        },
+        {
+          "option": "C",
+          "why_wrong": "Chronicity alone does not define the main condition."
+        },
+        {
+          "option": "D",
+          "why_wrong": "ICD main-condition selection is not based on reimbursement logic."
+        }
+      ],
+      "common_mistake": "Confusing chart order or billing value with ICD morbidity rules.",
+      "weak_areas": [
+        "main_condition_definition",
+        "morbidity_rules",
+        "selection_logic"
+      ]
+    },
+    {
+      "id": "CASE054",
+      "difficulty": "hard",
+      "case_type": "concept_question",
+      "scenario": "When more than one condition could qualify as the main condition, which one should usually be selected for single-condition morbidity analysis?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The one held most responsible for the greatest use of resources"
+        },
+        {
+          "label": "B",
+          "text": "The rarest condition"
+        },
+        {
+          "label": "C",
+          "text": "The condition listed last"
+        },
+        {
+          "label": "D",
+          "text": "The external cause"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "ICD guidance says that when more than one condition qualifies, select the one most responsible for the greatest use of resources.",
+      "concept_mapping": [
+        "Guidelines For Morbidity Coding",
+        "Resource use",
+        "Main condition selection"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "B",
+          "why_wrong": "Rarity does not determine the main condition."
+        },
+        {
+          "option": "C",
+          "why_wrong": "The last diagnosis listed has no automatic priority."
+        },
+        {
+          "option": "D",
+          "why_wrong": "External cause codes do not outrank diagnosed conditions in this rule."
+        }
+      ],
+      "common_mistake": "Using chart order or perceived importance instead of the resource-use rule.",
+      "weak_areas": [
+        "resource_use_rule",
+        "main_condition_selection",
+        "morbidity_rules"
+      ]
+    },
+    {
+      "id": "CASE058",
+      "difficulty": "hard",
+      "case_type": "trick_question",
+      "scenario": "A coder argues that because inclusion terms are listed under a code, anything not listed there cannot be coded to that rubric. What is the best response?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Correct, the list is exhaustive"
+        },
+        {
+          "label": "B",
+          "text": "Incorrect, inclusion terms are examples and not exhaustive"
+        },
+        {
+          "label": "C",
+          "text": "Correct only for neoplasms"
+        },
+        {
+          "label": "D",
+          "text": "Correct only in Volume 3"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "Inclusion terms guide the content of a rubric but are not a complete subclassification or exhaustive list.",
+      "concept_mapping": [
+        "Important Exam Concepts",
+        "Inclusion terms",
+        "Trick question"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Inclusion terms are not exhaustive lists."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This misunderstanding is not limited to neoplasms."
+        },
+        {
+          "option": "D",
+          "why_wrong": "The problem is about rubric meaning, not about which volume you are using."
+        }
+      ],
+      "common_mistake": "Treating examples as if they were the entire legal content of a code.",
+      "weak_areas": [
+        "inclusion_terms",
+        "trick_question",
+        "rubric_content"
+      ]
+    },
+    {
+      "id": "CASE059",
+      "difficulty": "hard",
+      "case_type": "trick_question",
+      "scenario": "A coder says, 'If the external cause is known, I can skip coding the injury itself because the cause explains everything.' What is the best answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Correct in trauma cases"
+        },
+        {
+          "label": "B",
+          "text": "Incorrect; the nature of the injury is coded first"
+        },
+        {
+          "label": "C",
+          "text": "Correct only for falls"
+        },
+        {
+          "label": "D",
+          "text": "Correct only if there are multiple injuries"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "For injuries and adverse effects, the nature of the condition is coded as the main condition. External cause coding is additional.",
+      "concept_mapping": [
+        "Coding Rules And Special Logic",
+        "External cause coding",
+        "Trick question"
+      ],
+      "why_others_are_wrong": [
+        {
+          "option": "A",
+          "why_wrong": "Even in trauma, the injury itself still needs coding."
+        },
+        {
+          "option": "C",
+          "why_wrong": "This is not a fall-specific issue."
+        },
+        {
+          "option": "D",
+          "why_wrong": "Multiple injuries do not cancel the need to code the injury diagnoses."
+        }
+      ],
+      "common_mistake": "Letting the event/cause replace the actual diagnosis being treated.",
+      "weak_areas": [
+        "external_cause_coding",
+        "nature_of_injury_first",
+        "trick_question"
+      ]
+    }
+  ]
+}

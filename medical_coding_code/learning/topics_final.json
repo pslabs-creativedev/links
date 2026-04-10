@@ -1,0 +1,1345 @@
+{
+  "source": "medical_coding_code/icd10.pdf",
+  "format": "complete_learning_dataset",
+  "lesson_count": 120,
+  "lessons": [
+    {
+      "id": "lesson_001",
+      "title": "1. Introduction",
+      "bullets": [
+        "This volume of the Tenth Revision of the International Statistical Classification of Diseases and Related Health Problems (ICD-10) contains guidelines for recording and coding, together with much new material on...",
+        "This material is presented as a separate volume for ease of handling when reference needs to be made at the same time to the classification (Volume 1) and the instructions for its use.",
+        "Detailed instructions on the use of th e Alphabetical Index are contained in the introduction to Volume 3.",
+        "This manual provides a basic description of the ICD, t ogether with practical instructions for mortality and morbidity coders, and guidelines for the presentati on and interpretation of da ta.",
+        "It is not intended to provide detailed training in the use of the ICD."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_002",
+      "title": "2. Description of the International Statistical Classification of Diseases and Related Health Problems",
+      "bullets": [
+        "This part of the manual explains what ICD is, what it is used for, and how its classification family is organized.",
+        "It introduces the purpose, structure, volumes, chapters, blocks, categories, and coding levels of ICD-10.",
+        "It also explains the relationship between ICD and related classifications, nomenclatures, tabulation lists, and WHO activities."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_003",
+      "title": "2.1 Purpose and applicability",
+      "bullets": [
+        "A classification of diseases can be defined as a syst em of categories to which morbid entities are assigned according to established criteria.",
+        "The purpo se of the ICD is to permit the systematic recording analysis, interpretation and comparison of mortality and morbidity data collected in different countries or areas and at different times.",
+        "The ICD is used to translate diagnoses of diseases and other health problems from words into an alphanumeric code, which permits easy storage, retrieval and analysis of the data.",
+        "In practice, the ICD has become the internationa l standard diagnostic classification for all general epidemiological and many health management pur poses.",
+        "These include the analysis of the general health situation of population groups and the mon itoring of the incidence and prevalence of diseases and other health problems in relation to other vari ables, such as the..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_004",
+      "title": "2.2 The concept of a \u201cfamily\u201d of disease and health-related classifications",
+      "bullets": [
+        "Although the ICD is suitable for many different appli cations, it does not always allow the inclusion of sufficient detail for some specialties, and some times information on different attributes of the classified...",
+        "It has also been suggested that the ICD should include classifications of additional information related to health status or health care.",
+        "It was felt that the main ICD (the three- and four-character classification), covered by the three volumes of ICD-10, could not incorporate all this additional information and remain accessible and relevant to its...",
+        "The \u201ccore\u201d classification of ICD-10 is the three-character code, which is the mandatory level of coding for international reporting to the WHO mortality da tabase and for general international comparisons.",
+        "The four-character subcategories, while not mandato ry for reporting at the international level, are recommended for many purposes and form an integral part of the ICD, as do the special tabulation lists."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_005",
+      "title": "2.2.1 Diagnosis-related classifications",
+      "bullets": [
+        "Special tabulation lists The special tabulation lists are derived directly from the core classification, for use in data presentation and to facilitate analysis of health status and tr ends at the internationa l,...",
+        "The special tabulation lists recommended fo r international comparisons and publications are included in Volume 1.",
+        "There are five such lists, f our for mortality and one for morbidity (for further details, see sections 5.4.",
+        "Specialty-based adaptations Specialty-based adaptations usually bring together in a single, compact volume the sections or categories of the ICD that are relevant to a particul ar specialty.",
+        "The four-character subcategories of the ICD are retained, but more detail is often given by means of fifth-character or sometimes sixth- character subdivisions, and there is an alphabetical index of relevant terms."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_006",
+      "title": "2.2.2 Non-diagnostic classifications",
+      "bullets": [
+        "Procedures in medicine The International Classification of Procedures in Medicine (ICPM) was published in two volumes by WHO in 1978 (6).",
+        "It includes procedures for medical diagnosis, prevention, therapy, radiology, drugs, and surgical and laboratory procedures.",
+        "The classification has been adopted by some countries, while others have used it as a basis for developing their own national classifications of surgical operations.",
+        "The Heads of WHO Collaborating Centres for Cl assification of Diseases recognized that the process of consultation that had to be fo llowed before finalization and publica tion was inappropriate in such a wide and...",
+        "They therefore recommended that there should be no revision of the ICPM in conjunction with the Tenth Revision of the ICD."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_007",
+      "title": "2.2.3 Information support to primary health care",
+      "bullets": [
+        "One of the challenges of the Global Strategy for Health for All by the Year 2000 is to provide information support to primary health care (PHC).",
+        "In countries without complete information or with only poor-quality data, a variety of approaches need to be adopted to supplement or replace the conventional use of the ICD.",
+        "Since the late 1970\u2019s, various countries have experime nted with the collection of information by lay personnel.",
+        "Lay reporting has subsequently been extended to a broader concept called \u201cnon- conventional methods\u201d.",
+        "These methods, covering a vari ety of approaches, have evolved in different countries as a means of obtaining information on health status where conventional methods (censuses, surveys, vital or institutional morbidity..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_008",
+      "title": "2.2.4 International Nomenclature of Diseases",
+      "bullets": [
+        "In 1970, the Council for International Organiza tions of Medical Sciences (CIOMS) began the preparation of an International Nomenclature of Diseases (IND), with the assistance of its member organizations, and five...",
+        "It was soon realized, however, that the compilation of such a nomenclature, were it to be truly international, would need much wider consultation than was possible through the members of CIOMS alone.",
+        "In 1975, the IND became a joint project of CIOMS and WHO, guided by a Technical Steering Committee of representatives from both organizations.",
+        "The principal objective of the IND is to provide , for each morbid entity, a single recommended name.",
+        "The main criteria for selection of this name are th at it should be specific (applicable to one and only one disease), unambiguous, as self-descriptive as possible, as simple as possible, and (whenever feasible) based..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_009",
+      "title": "2.2.5 The role of WHO",
+      "bullets": [
+        "Most of the classifications described above are the product of very close collaboration between nongovernmental organizations, other agencies, and divisions and units of WHO, with the unit responsible for the ICD and...",
+        "WHO promotes the development of adaptations that extend both the usefulness of the ICD and the ICF and the comparability of health statistics.",
+        "The role of WHO in the development of new classifications, adaptations, and glossaries is to provide cooperativ e leadership and to act as a clearing-house, giving technical advice, guidance and support when needed.",
+        "An yone interested in preparing an adaptation of ICD-10 or the ICF should consult with WHO as soon as a clear statement of the objectives of the adaptation has been developed.",
+        "Unnecessary duplica tion will thus be avoi ded by a coordinated approach to the development of the various components of the family."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_010",
+      "title": "2.3 General principles of disease classification",
+      "bullets": [
+        "As William Farr stated in 1856 (9): Classification is a method of generalization.",
+        "Severa l classifications may, therefore, be used with advantage; and the physician, the pathologist, or the jurist, each from his own point of view, may legitimately classify the diseases and the causes of death in the...",
+        "A statistical classification of diseases must be confined to a limited number of mutually exclusive categories able to encompass the whole range of morb id conditions.",
+        "The categories have to be chosen to facilitate the statistical study of disease phenomena.",
+        "A specific disease entity that is of particular public health importance or that occurs frequently should have its own category."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_011",
+      "title": "2.4 The basic structure and principles of classification of the ICD",
+      "bullets": [
+        "The ICD is a variable-axis classification.",
+        "The struct ure has developed out of that proposed by William Farr in the early days of international discussions on classification structure.",
+        "His scheme was that, for all practical, epidemiological purposes, statistical data on diseases should be grouped in the following way: \u2022 epidemic diseases \u2022 constitutional or general diseases \u2022 local diseases arranged...",
+        "This pattern can be identified in the chapters of ICD-10.",
+        "It has stood the test of time and, though in some ways arbitrary, is still regarded as a more useful structure for general epidemiological purposes than any of the alternatives tested."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_012",
+      "title": "2.4.1 Volumes",
+      "bullets": [
+        "ICD-10 comprises three volumes: Volume 1 contains the main classifications; Volume 2 provides guidance to users of the ICD; and Volume 3 is the Alphabetical Index to the classification.",
+        "Most of Volume 1 is taken up with the main classi fication, composed of the list of three-character categories and the tabular list of inclusions and f our-character subcategories.",
+        "The \u201ccore\u201d classification - the list of three-character categories (Volume 1) - is the mandatory level for reporting to the WHO mortality database and for general international comp arisons.",
+        "This core classification also lists chapter and block titles.",
+        "The tabular list, giving the full detail of the four-character level, is divided into 21 chapters."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_013",
+      "title": "2.4.2 Chapters",
+      "bullets": [
+        "The classification is divided into 21 chapters.",
+        "The firs t character of the ICD code is a letter, and each letter is associated with a particular chapter, except for the letter D, which is used in both Chapter II, Neoplasms, and Chapter III, Diseases of the blood...",
+        "Four chapters (Chapters I, II, XIX, and XX) use more than one letter in the first position of their codes.",
+        "Each chapter contains sufficient th ree-character categories to cover its content; not all available codes are used, allowing space for future revision and expansion.",
+        "Chapters I to XVII relate to diseases and other mo rbid conditions, and Chapter XIX to injuries, poisoning and certain other consequences of extern al causes."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_014",
+      "title": "2.4.3 Blocks of categories",
+      "bullets": [
+        "The chapters are subdivided into homogeneous \u201cblock s\u201d of three-character categories.",
+        "In Chapter I, the block titles reflect two axes of classification - mode of transmission and broad group of infecting organisms.",
+        "In Chapter II, the first axis is the beha viour of the neoplasm; within behaviour, the axis is mainly by site, although a few three-character categories are provided for important morphological types (eg leukaemias,...",
+        "The range of categories is given in parentheses after each block title."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_015",
+      "title": "2.4.4 Three-character categories",
+      "bullets": [
+        "Within each block, some of the three-character categories are for single conditions, selected because of their frequency, severity or susceptibility to public hea lth intervention, while others are for groups of...",
+        "There is usually provision for \u201cother\u201d conditions to be classified, allowing many different but rarer cond itions, as well as \u201cunspecified\u201d conditions, to be included.",
+        "some of the three-character categories are for single conditions"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_016",
+      "title": "2.4.5 Four-character subcategories",
+      "bullets": [
+        "Although not mandatory for reporting at the internationa l level, most of the three-character categories are subdivided by means of a fourth, numeric character after a decimal point, allowing up to ten subcategories.",
+        "Where a three-character category is not subdivided, it is recommended that the letter \u201cX\u201d be used to fill the fourth position so that the codes are of a standard length for data-processing.",
+        "The four-character subcategories are used in wh atever way is most appropriate, identifying, for example, different sites or varieties if the three- character category is for a single disease, or individual diseases if...",
+        "The fourth character .8 is generally used for \u201cother\u201d conditions belonging to the three-character category, and .9 is mostly used to convey th e same meaning as the three-character category title, without adding any...",
+        "When the same fourth-character subdivisions apply to a range of three-character categories, they are listed once only, at the start of the range."
+      ],
+      "example": "For example, categories O03-O06, for different types of abortion, have common fourth characters relating to associated complications (see Volume 1)."
+    },
+    {
+      "id": "lesson_017",
+      "title": "2.4.6 Supplementary subdivisions for use at the fifth or subsequent character level",
+      "bullets": [
+        "The fifth and subsequent character levels are usually subclassifications along a different axis from the fourth character.",
+        "They are found in: Chapter XIII - subdivisions by anatomical site Chapter XIX - subdivisions to indicate open and closed fractures as well as intracranial, intrathoracic and intra-abdominal injuries with and without...",
+        "Chapter XIII - subdivisions by anatomical site Chapter XIX - subdivisions to indicate open and closed fractures as well as intracranial, intrathoracic and intra-abdominal injuries with and without open wound Chapter XX..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_018",
+      "title": "2.4.7 The unused \u201cU\u201d codes",
+      "bullets": [
+        "Codes U00-U49 are to be used for the provisiona l assignment of new diseases of uncertain etiology.",
+        "Codes U50-U99 may be used in research, eg when testing an alternative subclassification for a special project.",
+        "Codes U00-U49 are to be used for the provisiona l assignment of new diseases of uncertain etiology. Codes U50-U99 may be used in research"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_019",
+      "title": "3. How to use the ICD",
+      "bullets": [
+        "This section contains practical information which all users need to know in order to exploit the classification to its full advantage.",
+        "Knowledge a nd understanding of the purpose and structure of the ICD are vital for statisticians and analysts of health information as well as for coders.",
+        "Accurate and consistent use of the ICD depends on the correct application of all three volumes."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_020",
+      "title": "3.1.1 Introduction",
+      "bullets": [
+        "Volume 1 of the ICD contains the classification itsel f.",
+        "It indicates the categories into which diagnoses are to be allocated, facilitating their sorting and coun ting for statistical purposes.",
+        "It also provides those using statistics with a definition of the content of the categories, subcategories and tabulation list items they may find included in statistical tables.",
+        "Although it is theoretically possible for a coder to arri ve at the correct code by the use of Volume 1 alone, this would be time-consuming and could lead to errors in assignment.",
+        "An Alphabetical Index as a guide to the classification is contained in Volume 3."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_021",
+      "title": "3.1.2 Use of the tabular list of inclusions and four-character subcategories",
+      "bullets": [
+        "Inclusion terms Within the three- and four-character rubrics 1, there are usually listed a number of other diagnostic terms.",
+        "These are known as \u201cinclusion terms\u201d and are given, in addition to the title, as examples of the diagnostic statements to be classified to that rubr ic.",
+        "They may refer to different conditions or be synonyms.",
+        "They are not a subclassification of the rubric.",
+        "Inclusion terms are listed primarily as a guide to the content of the rubrics."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_022",
+      "title": "3.1.3 Two codes for certain conditions",
+      "bullets": [
+        "The \u201cdagger and asterisk\u201d system ICD-9 introduced a system, continued in ICD-10, whereby there are two codes for diagnostic statements containing information about both an underlying generalized disease and a...",
+        "The primary code is for the underlying disease and is marked with a dagger (\u2020); an optional additional code for the manifestation is marked with an asterisk (*).",
+        "This convention was provided because coding to underlying disease alone was often unsatis factory for compiling statistics relating to particular specialties, where there was a desire to see the condition classified to...",
+        "While the dagger and asterisk system provides a lternative classifications for the presentation of statistics, it is a principle of the ICD that the dagger code is the primary code and must always be used.",
+        "Provision should be made for the asterisk code to be used in addition if the alternative method of presentation may also be required."
+      ],
+      "example": "For example, categories G20 and G21 are for forms of Parkinsonism that are not manifestations of other diseases assigned elsewhere, while category G22 * is for \u201cParkinsonism in diseases classified elsewhere\u201d."
+    },
+    {
+      "id": "lesson_023",
+      "title": "3.1.4 Conventions used in the tabular list",
+      "bullets": [
+        "In listing inclusion and exclusion terms in the tabul ar list, the ICD employs some special conventions relating to the use of parentheses, square bracket s, colons, braces, the abbreviation \u201cNOS\u201d, the phrase \u201cnot...",
+        "These need to be clearly understood both by coders and by anyone wishing to interpret statistics based on the ICD.",
+        "Parentheses ( ) Parentheses are used in Volume 1 in four important situations.",
+        "(a) Parentheses are used to enclose supplementa ry words, which may follow a diagnostic term without affecting the code number to which the words outside the parentheses would be assigned.",
+        "For example, in I10 the inclusion term, \u201cHypertension (arterial) (benign) (essential) (malignant) (primary) (systemic)\u201d, implies that I10 is the code number for the word \u201cHypertension\u201d alone or when qualified by any,..."
+      ],
+      "example": "For example, in I10 the inclusion term, \u201cHypertension (arterial) (benign) (essential) (malignant) (primary) (systemic)\u201d, implies that I10 is the code number for the word \u201cHypertension\u201d alone or when qualified by any,..."
+    },
+    {
+      "id": "lesson_024",
+      "title": "3.1.5 Categories with common characteristics",
+      "bullets": [
+        "For quality control it is useful to introduce pr ogrammed checks into the computer system.",
+        "The following groups of categories are provided as a b asis for such checks on internal consistency, grouped according to the special characteristic that unites them.",
+        "Asterisk categories The following asterisk categories are not to be used al one; they must always be used in addition to a dagger code: D63*, D77*, E35*, E90*, F00*, F02*, G01*, G02*, G05*, G07*, G13*, G22*, G26*,...",
+        "6, D29.-, D40.-, E29.-, E89.5, F52.4, I86.1, L29.1, N40-N51, Q53-Q55, R86, S31.2-S31.3, Z12.5.",
+        "The following categories apply only to females: A34, B37.3, C51-C58, C79.6, D06."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_025",
+      "title": "3.2.1 Arrangement of the Alphabetical Index",
+      "bullets": [
+        "Volume 3 is divided into three sections as follows: \u2022 Section I lists all the terms classifiable to Chap ters I-XIX and Chapter XXI, except drugs and other chemicals.",
+        "\u2022 Section II is the index of external causes of morb idity and mortality and contains all the terms classifiable to Chapter XX, except drugs and other chemicals.",
+        "\u2022 Section III, the Table of Drugs and Chemicals, lis ts for each substance the codes for poisonings and adverse effects of drugs classifiable to Chapte r XIX, and the Chapter XX codes that indicate whether the..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_026",
+      "title": "3.2.2 Structure",
+      "bullets": [
+        "The Index contains \u201clead terms\u201d, positioned to th e far left of the column, with other words (\u201cmodifiers\u201d or \u201cqualifiers\u201d) at different levels of indentation under them.",
+        "In Section I, these indented modifiers or qualifiers are usually varieties, sites or circumstances that affect coding; in Section II they indicate different types of accident or occurrence, vehicles involved, etc.",
+        "Modifiers that do not affect coding appear in parentheses after the condition."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_027",
+      "title": "3.2.3 Code numbers",
+      "bullets": [
+        "The code numbers that follow the terms refer to th e categories and subcategories to which the terms should be classified.",
+        "If the code has only three char acters, it can be assumed that the category has not been subdivided.",
+        "In most instances where the cate gory has been subdivided, the code number in the Index will give the fourth character.",
+        "A dash in th e fourth position (eg O03.-) means that the category has been subdivided and that the fourth character can be found by referring to the tabular list.",
+        "If the dagger and asterisk system applies to the term, both codes are given."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_028",
+      "title": "3.2.4 Conventions",
+      "bullets": [
+        "Parentheses Parentheses are used in the Index in the same way as in Volume 1, ie to enclose modifiers.",
+        "\u201cNEC\u201d NEC (not elsewhere classified) indicates that specifi ed variants of the listed condition are classified elsewhere, and that, where appropriate, a more precise term should be looked for in the Index.",
+        "Cross-references Cross-references are used to avoid unnecessary dupli cation of terms in the Index.",
+        "The word \u201csee\u201d requires the coder to refer to the other term; \u201csee also \u201d directs the coder to refer elsewhere in the Index if the statement being coded contains other inform ation that is not found indented under the..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_029",
+      "title": "3.3 Basic coding guidelines",
+      "bullets": [
+        "The Alphabetical Index contains many terms not in cluded in Volume 1, and coding requires that both the Index and the Tabular List should be consulted before a code is assigned.",
+        "Before attempting to code, the coder needs to know the principles of classification and coding and to have carried out practical exercises.",
+        "The following is a simple guide intended to assist the occasional user of the ICD."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_030",
+      "title": "1. Identify the type of statement to be coded and re fer to the appropriate section of the Alphabetical",
+      "bullets": [
+        "(If the statement is a disease or injury or ot her condition classifiable to Chapters I - XIX or XXI, consult Section I of the Index.",
+        "If the statemen t is the external cause of an injury or other event classifiable to Chapter XX, consult Section II.)",
+        "Index. (If the statement is a disease or injury or ot her condition classifiable to Chapters I - XIX or XXI"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_031",
+      "title": "2. Locate the lead term.",
+      "bullets": [
+        "For diseases and injuries this is usually a noun for the pathological condition.",
+        "However, some conditions expressed as adjectives or eponyms are included in the Index as lead terms.",
+        "For diseases and injuries this is usually a noun for the pathological condition. However"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_032",
+      "title": "4. Read any terms enclosed in pare ntheses after the lead term (these modifiers do not affect the code",
+      "bullets": [
+        "number), as well as any terms indented under the lead term (these modifiers may affect the code number), until all the words in the diagnostic expression have been accounted for.",
+        "as well as any terms indented under the lead term (these modifiers may affect the code number)",
+        "until all the words in the diagnostic expression have been accounted for."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_033",
+      "title": "6. Refer to the tabular list to verify the suitab ility of the code number selected. Note that a",
+      "bullets": [
+        "three-character code in the Index with a dash in the fourth position means that there is a fourth character to be found in Volume 1.",
+        "Further subdivi sions to be used in a supplementary character position are not indexed and, if used, must be located in Volume 1.",
+        "three-character code in the Index with a dash in the fourth position means that there is a fourth character to be found in Volume 1. Further subdivi sions to be used in a..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_034",
+      "title": "3.3 Guideline Step 7: Check inclusion and exclusion terms",
+      "bullets": [
+        "After selecting a likely code, review inclusion and exclusion notes under the code and any higher chapter or block heading.",
+        "Inclusion notes confirm what belongs in the rubric and help define its scope.",
+        "Exclusion notes warn when a similar condition must be coded elsewhere."
+      ],
+      "example": "A condition may appear to belong in one rubric by title, but an exclusion note can redirect it to a different code."
+    },
+    {
+      "id": "lesson_035",
+      "title": "3.3 Guideline Step 8: Assign the code",
+      "bullets": [
+        "Assign the final code only after the Index and Tabular List agree with the documented diagnosis or condition.",
+        "Final assignment should reflect all relevant notes, modifiers, inclusion terms, exclusions, and subcategory detail.",
+        "Specific rules for selecting and coding the main condition or cause are given later in Section 4."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_036",
+      "title": "4. Rules and guidelines for mortality and morbidity",
+      "bullets": [
+        "coding This section concerns the rules and guidelines adopt ed by the World Health Assembly regarding the selection of a single cause or condition for routine tabulation from death certificates and morbidity records.",
+        "Guidelines are also provided for the appli cation of the rules and for coding of the condition selected for tabulation.",
+        "coding This section concerns the rules and guidelines adopt ed by the World Health Assembly regarding the selection of a single cause or condition for routine tabulation from..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_037",
+      "title": "4.1 Mortality: guidelines for certification and rules for coding",
+      "bullets": [
+        "Mortality statistics are a major source of health information and often one of the most reliable national health data sets.",
+        "This section explains how causes of death should be certified and how the underlying cause should be selected for tabulation.",
+        "It also provides rules, modifications, and interpretation principles used in mortality coding."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_038",
+      "title": "4.1.1 Causes of death",
+      "bullets": [
+        "In 1967, the Twentieth World Health Assembly de fined the causes of death to be entered on the medical certificate of cause of death as \u201call those di seases, morbid conditions or injuries which either resulted in or...",
+        "The purpose of the definition is to ensure that all the relevant information is recorded and that the certifier does not select so me conditions for entry and reject others.",
+        "The definition does not include symptoms and modes of dying, such as heart failure or respiratory failure.",
+        "When only one cause of death is recorded, this cause is selected for tabulation.",
+        "When more than one cause of death is recorded, selection should be ma de in accordance with the rules given in section 4.1.5."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_039",
+      "title": "4.1.2 Underlying cause of death",
+      "bullets": [
+        "It was agreed by the Sixth Decennial Internati onal Revision Conference that the cause of death for primary tabulation should be designated the underlying cause of death.",
+        "From the standpoint of prevention of death, it is n ecessary to break the chain of events or to effect a cure at some point.",
+        "The most effective public health objective is to prevent the precipitating cause from operating.",
+        "For this purpose, the underlying cause has been defined as \u201c(a) the disease or injury which initiated the train of morbid events leading di rectly to death, or (b) the circumstances of the accident or violence which..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_040",
+      "title": "4.1.3 International form of medical certificate of cause of death",
+      "bullets": [
+        "The above principle can be applied uniformly by using the medical certification form recommended by the World Health Assembly.",
+        "It is the responsibility of the medical practitioner signing the death certificate to indicate which morbid conditions led directly to death and to state any antecedent conditions giving rise to this cause.",
+        "The medical certificate shown below is designed to facilitate the selection of the underlying cause of death when two or more causes are recorded.",
+        "Part I of the form is for diseases related to the train of events leading directly to death, and Part II is for unrelated but contributory conditions.",
+        "The medical practitioner or other qualified certifier should use his or her clinical judgement in completing the medical certificate of cause of death."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_041",
+      "title": "4.1.4 Procedures for selection of the underlying cause of death for mortality",
+      "bullets": [
+        "tabulation When only one cause of death is reported, this cause is used for tabulation.",
+        "When more than one cause of death is recorded, th e first step in selecting the underlying cause is to determine the originating antecedent cause proper to the lowest used line in Part I of the certificate by...",
+        "In some circumstances the ICD allows the originating cause to be superseded by one more suitable for expressing the underlying cause in tabulation.",
+        "Fo r example, there are some categories for combinations of conditions, or there may be overriding epidemiological reasons for giving precedence to other conditions on the certificate.",
+        "The next step therefore is to determine whether one or more of the modification rules A to F (see section 4.1.9), which deal with the above situations, apply."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_042",
+      "title": "4.1.5 Rules for selection of the originating antecedent cause",
+      "bullets": [
+        "Sequence The term \u201csequence\u201d refers to two or more cond itions entered on successive lines of Part I, each condition being an acceptable cause of the one entered on the line above it.",
+        "Example 1: I (a) Bleeding of oesophageal varices (b) Portal hypertension (c) Liver cirrhosis (d) Hepatitis B If there is more than one cause of death in a line of the certificate, it is possible to have more than one...",
+        "In the example below, four sequences are reported: Example 2: I (a) Coma (b) Myocardial infarction and cerebrovascular accident (c) Atherosclerosis Hypertension The sequences are: \u2022 atherosclerosis (leading to)...",
+        "If the General Principle does not apply and th ere is a reported sequence terminating in the condition first entered on the certificate, select th e originating cause of this sequence.",
+        "If there is more than one sequence terminating in the condition mentioned first, select the originating cause of the first-mentioned sequence."
+      ],
+      "example": "Example 1: I (a) Bleeding of oesophageal varices (b) Portal hypertension (c) Liver cirrhosis (d) Hepatitis B If there is more than one cause of death in a line of the certificate, it is possible to have more than one..."
+    },
+    {
+      "id": "lesson_043",
+      "title": "4.1.6 Some considerations on selection rules",
+      "bullets": [
+        "In a properly completed certificate, the originati ng antecedent cause will have been entered alone on the lowest used line of Part I and the conditions, if any, that arose as a consequence of this initial cause will...",
+        "Example 3: I (a) Uraemia (b) Hydronephrosis (c) Retention of urine (d) Hypertrophy of prostate Example 4: I (a) Bronchopneumonia (b) Chronic bronchitis II Chronic myocarditis In a properly completed certificate,...",
+        "However, even if the certificate has not been properly completed, the Ge neral Principle may still apply provided that the condition entered alone on the lowest used line of Pa rt I could have given rise to all the...",
+        "Example 5: I (a) Generalized metastases 5 weeks (b) Bronchopneumonia 3 days (c) Lung cancer 11 months The General Principle does not apply when more th an one condition has been entered on the lowest used line of Part...",
+        "Guidance on the acceptability of differe nt sequences is given at the end of the rules, but it should be borne in mind that the medical certifier\u2019s statement reflects an informed opinion about the conditions leading to..."
+      ],
+      "example": "Example 3: I (a) Uraemia (b) Hydronephrosis (c) Retention of urine (d) Hypertrophy of prostate Example 4: I (a) Bronchopneumonia (b) Chronic bronchitis II Chronic myocarditis In a properly completed certificate,..."
+    },
+    {
+      "id": "lesson_044",
+      "title": "4.1.7 Examples of the General Principle and selection rules",
+      "bullets": [
+        "General Principle When more than one condition is entered on the certificate, select the condition entered alone on the lowest used line of Part I only if it could have given rise to all the conditions entered above it.",
+        "Example 6: I (a) Abscess of lung (b) Lobar pneumonia Select lobar pneumonia (J18.1).",
+        "Example 7: I (a) Hepatic failure (b) Bile duct obstruction (c) Carcinoma of head of pancreas Select carcinoma of head of pancreas (C25.0).",
+        "Example 8: I (a) Cerebral haemorrhage (b) Hypertension (c) Chronic pyelonephritis (d) Prostatic adenoma Select prostatic adenoma (N40).",
+        "Example 9: I (a) Traumatic shock (b) Multiple fractures (c) Pedestrian hit by truck (traffic accident) Select pedestrian hit by truck (V04.1)."
+      ],
+      "example": "Example 6: I (a) Abscess of lung (b) Lobar pneumonia Select lobar pneumonia (J18."
+    },
+    {
+      "id": "lesson_045",
+      "title": "4.1.8 Modification of the selected cause",
+      "bullets": [
+        "The selected cause of death is not necessarily the most useful and informative condition for tabulation.",
+        "For example, if senility or some generalized disease such as hypertension or atherosclerosis has been selected, this is less useful than if a manifestation or result of aging or disease had been chosen.",
+        "It may sometimes be necessary to modify the selection to conf orm with the requirements of the classification, either for a single code for two or more causes join tly reported or for preference for a particular cause...",
+        "The modification rules that follow are intended to improve the usefulness and precision of mortality data and should be applied afte r selection of the originating antecedent cause.",
+        "The interrelated processes of selection and modification have been separated for clarity."
+      ],
+      "example": "For example, if senility or some generalized disease such as hypertension or atherosclerosis has been selected, this is less useful than if a manifestation or result of aging or disease had been chosen."
+    },
+    {
+      "id": "lesson_046",
+      "title": "4.1.9 The modification rules",
+      "bullets": [
+        "Senility and other ill-defined conditions Where the selected cause is ill-defined and a condition classified elsewhere is reported on the certificate, reselect the cause of death as if the ill- defined condition had...",
+        "The following conditions are regarded as ill- defined: I46.9 (Cardiac arrest, unspecified); I 95.9 (Hypotension, unspecified); I99 (Other and unspecified disorders of circulatory system); J96.",
+        "0 (Acute respiratory failure); J96.9 (Respiratory failure, unspecified); P28.5 (Respiratory failure of newborn); R00-R94 a nd R96-R99 (Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere...",
+        "Note that R95 (Sudden infant death syndrome) is not regarded as ill-defined.",
+        "Trivial conditions Where the selected cause is a trivial condition unlikel y to cause death and a more serious condition is reported, reselect the underlying cause as if the trivial condition had not been reported."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_047",
+      "title": "4.1.10 Examples of the modification rules",
+      "bullets": [
+        "Senility and other ill-defined conditions Where the selected cause is ill-defined and a condi tion classified elsewhere is reported on the certificate, reselect the cause of death as if the ill-defined condition had...",
+        "The following conditions are regarded as ill-defined: I46.9 (Cardiac arrest, unspecifi ed); I95.9 (Hypotension, unspecified); I99 (Other and unspecified disorders of circulatory sy stem); J96.0 (Acute respiratory...",
+        "Note that R95 (Sudden infant death syndrome) is not regarded as ill-defined.",
+        "Example 33: I (a) Senility and hypostatic pneumonia (b) Rheumatoid arthritis Code to rheumatoid arthritis (M06.9).",
+        "Senility, selected by Rule 2 (see Example 19), is ignored and the General Principle applied."
+      ],
+      "example": "Example 33: I (a) Senility and hypostatic pneumonia (b) Rheumatoid arthritis Code to rheumatoid arthritis (M06."
+    },
+    {
+      "id": "lesson_048",
+      "title": "4.1.11 Notes for use in underlying cause mortality coding",
+      "bullets": [
+        "The following notes often indicate that if the provisi onally selected code, as indicated in the left-hand column, is present with one of the conditions listed be low it, the code to be used is the one shown in bold...",
+        "There are two types of combination: \u201cwith mention of\u201d means that the other condition may appear anywhere on the certificate; \u201cwhen reported as the originating antecedent cause of\u201d means that the other condition must...",
+        "A00-B99 Certain infectious and parasitic diseases Except for human immunodeficiency virus [HIV] disease (B20-B24), when reported as the originating antecedent cause of a malignant neoplasm, code C00-C97.",
+        "A15.- Respiratory tuberculosis, bacterio logically and histologically confirmed A16.- Respiratory tuberculosis, not confir med bacteriologically or histologically with mention of: J60-J64 (Pneumoc oniosis), code J65...",
+        "B20-B24 Human immunodeficiency virus [HIV] disease The subcategories at B20-B23 are the only optional four-character codes for countries using the four-character version of ICD-10."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_049",
+      "title": "4.1.12 Summary of linkages by code number",
+      "bullets": [
+        "When the selected cause is listed in the first column of Table 1, and one or more of the causes listed in the second column have been entered anywhere on th e certificate, code as indicated in the fourth column.",
+        "When the selected cause is listed in the first column and appears on the certificate as a cause of one of the diseases listed in the third column, code as indicated in the fourth column.",
+        "Summary of linkages by code number Selected cause With mention of: As cause of: Resulting linked code A00-B19 } B25-B99 } C00-C97 C00-C97 A15.-, A16.- J60-J64 J65 A17.-, A18.- A15.-, A16.- A15.-, A16.- A39.2-A39.4...",
+        "Summary of codes not to be used in underlying cause mortality coding a Codes not to be used for underlying cause mortality coding (code to item in parentheses; if no code is indicated, code to R99) Not to be used if..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_050",
+      "title": "4.2 Notes for interpretation of entries of causes of death",
+      "bullets": [
+        "The foregoing rules will usually determine the unde rlying cause of death to be used for primary mortality tabulation.",
+        "Each country will need to amplify the rules, depending upon the completeness and quality of medical certification.",
+        "The informati on in this section will help in formulating such additional instructions."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_051",
+      "title": "4.2.1 Assumption of intervening cause",
+      "bullets": [
+        "Frequently on the medical certificate, one condition is indicated as due to another, but the first one is not a direct consequence of the second one.",
+        "For ex ample, haematemesis may be stated as due to cirrhosis of the liver, instead of being repor ted as the final event of the sequence, liver cirrhosis\u2192portal hypertension\u2192ruptured oesophageal varices\u2192haematemesis.",
+        "The assumption of an intervening cause in Part I is permissible in accepting a sequence as reported, but it must not be used to modify the coding.",
+        "Example 1: I (a) Cerebral haemorrhage (b) Chronic nephritis Code to chronic nephritis (N03.9).",
+        "It is necessary to assume hypertension as a condition intervening between cerebral haemorrhage and the underlying cause, chronic nephritis."
+      ],
+      "example": "Example 1: I (a) Cerebral haemorrhage (b) Chronic nephritis Code to chronic nephritis (N03."
+    },
+    {
+      "id": "lesson_052",
+      "title": "4.2.2 Interpretation of \u201chighly improbable\u201d",
+      "bullets": [
+        "The expression \u201chighly improbable\u201d has been used sin ce the Sixth Revision of the ICD to indicate an unacceptable causal relationship.",
+        "As a guide to the acceptability of sequences in the application of the General Principle and the selection rules, the follo wing relationships should be regarded as \u201chighly improbable\u201d: (a) any infectious disease may...",
+        "Any infecti ous disease classified to A00-B19 or B25-B64 reported as \u201cdue to\u201d a malignant neoplasm will also be an acceptable sequence.",
+        "\u2022 varicella and zoster infections (B01-B02) may be accepted as \u201cdue to\u201d diabetes, tuberculosis and lymphoproliferative neoplasms; (c) a malignant neoplasm reported as \u201cdue to\u201d any other disease, except human...",
+        "The above list does not cover all \u201chighly impr obable\u201d sequences, but in other cases the General Principle should be followed unless otherwise indicated."
+      ],
+      "example": "Example 5 in section 4."
+    },
+    {
+      "id": "lesson_053",
+      "title": "4.2.3 Effect of duration on classification",
+      "bullets": [
+        "In evaluating the reported sequence of the direct a nd antecedent causes, the inte rval between the onset of the disease or condition and time of death must be considered.",
+        "This would apply in the interpretation of \u201chighly improbable\u201d relationships (see above) and in Modification Rule F (sequelae).",
+        "Categories O95 (Obstetric death of unspecified cause), O96 (Death from any obstetric cause occurring more than 42 days but less than one year after delivery) and O97 (Death from sequelae of direct obstetric causes)...",
+        "Category O95 is to be used when a woman dies during pregnancy, labour, delivery, or the puerperium and the only information provided is \u201cmaternal\u201d or \u201cobstetric\u201d death.",
+        "If the obstetric cause of death is specified, code to the a ppropriate category."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_054",
+      "title": "4.2.4 Sequelae",
+      "bullets": [
+        "Certain categories (B90-B94, E64.-, E68, G09, I69.",
+        "-, O97 and Y85-Y89) are to be used for underlying cause mortality coding to indicate that death resulted from the late (residual) effects of a given disease or injury rather than during the active phase.",
+        "M odification Rule F applies in such circumstances.",
+        "Conditions reported as sequelae or residual effects of a given disease or injury should be classified to the appropriate sequela category, irrespective of the interval between the onset of the disease or injury and...",
+        "For certain conditions, deaths occurring one year or more after the onset of the disease or injury are assumed to be due to a sequela or residua l effect of the condition, even though no sequela is explicitly mentioned."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_055",
+      "title": "4.2.5 Consistency between sex of patient and diagnosis",
+      "bullets": [
+        "Certain categories are limited to one sex (see section 3.1.5).",
+        "If, after verification, the sex and cause of death on the certificate are not consistent, the d eath should be coded to \u201cOther ill-defined and unspecified causes of mortality\u201d (R99).",
+        "Certain categories are limited to one sex (see section 3.1.5). If"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_056",
+      "title": "4.2.6 Operations",
+      "bullets": [
+        "If an operation appears on the certificate as the cause of death without mention of the condition for which it was performed or of the findings at opera tion, and the alphabetical index does not provide a specific code...",
+        "If the operation does not indicate an organ or site, eg \u201claparotomy\u201d, code to \u201cOther ill- defined and unspecified causes of mortality\u201d (R99), unless there is a mention of a therapeutic misadventure classifiable to...",
+        "If an operation appears on the certificate as the cause of death without mention of the condition for which it was performed or of the findings at opera tion"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_057",
+      "title": "4.2.7 Malignant neoplasms",
+      "bullets": [
+        "When a malignant neoplasm is considered to be the underlying cause of death, it is most important to determine the primary site.",
+        "Morphology and behaviour should also be taken into consideration.",
+        "Cancer is a generic term and may be used for any mo rphological group, although it is rarely applied to malignant neoplasms of lymphatic, haematopoietic a nd related tissues.",
+        "Carcinoma is sometimes used incorrectly as a synonym for cancer.",
+        "Some death certificates may be ambiguous if there was doubt about the site of the primary or imprecision in drafting the certificate."
+      ],
+      "example": "Example 1: I (a) Metastatic involvement of lymph nodes (b) Carcinoma in situ of breast Code to malignant neoplasm of breast (C50."
+    },
+    {
+      "id": "lesson_058",
+      "title": "4.2.8 Rheumatic fever with heart involvement",
+      "bullets": [
+        "If there is no statement that the rheumatic process w as active at the time of death, assume activity if the heart condition (other than terminal conditions and bacterial endocarditis) that is specified as rheumatic,...",
+        "In the absence of such description, the terms \u201ccarditis\u201d, \u201cendocarditis\u201d, \u201cheart disease\u201d, \u201cmyocarditis\u201d, and \u201cpancarditis\u201d can be regarded as acute if either the interval betw een onset and death is less than one year...",
+        "\u201cPericarditis\u201d can be regarded as acute at any age."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_059",
+      "title": "4.2.9 Congenital malformations, deformations and chromosomal abnormalities",
+      "bullets": [
+        "The following conditions may be regarded as conge nital when causing death at the ages stated provided there is no indication that they were acquired after birth.",
+        "\u2022 Under l year: aneurysm, aortic stenosis, atresia, atrophy of brain, cyst of brain, deformity, displacement of organ, ectopia, hypoplasia of organ, malformation, pulmonary stenosis, valvular heart disease.",
+        "\u2022 Under 4 weeks: heart disease NOS, hydrocephalus NOS.",
+        "If the interval between onset and death and the age of the decedent indicate that the condition existed from birth, any disease should be regarded as congen ital even when not specified as congenital on the medical..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_060",
+      "title": "4.2.10 Nature of injury",
+      "bullets": [
+        "The codes for external causes (V01-Y89) should be used as the primary codes for single-condition coding and tabulation of mortality involving inju ry, poisoning and certain other consequences of external causes.",
+        "It is recommended that a code from Chapter XIX (S 00-T98) should be used in addition in order to identify the nature of the injury and permit rele vant tabulations.",
+        "The following notes refer to such coding.",
+        "Where more than one kind of injury to a single body region in S00-S99, T08-T35, T66-T79 is mentioned and there is no clear indication as to wh ich caused death, the General Principle and the Selection Rules should be...",
+        "Example 1: I (a) Haemorrhagic shock (b) Peritoneal haemorrhage (c) Rupture of liver (d) Road traffic accident Select rupture of liver (S36.1), since this is the starting point of the sequence terminating in the..."
+      ],
+      "example": "Example 1: I (a) Haemorrhagic shock (b) Peritoneal haemorrhage (c) Rupture of liver (d) Road traffic accident Select rupture of liver (S36."
+    },
+    {
+      "id": "lesson_061",
+      "title": "4.2.11 Poisoning by drugs, medicaments and biological substances",
+      "bullets": [
+        "When combinations of medicinal agents classified differently are involved, proceed as follows: if one component of the combination is specified as the cause of death, code to that component; if no component is...",
+        "Otherwise, if the co mponents are classified to the same three-character category, code to the appropriate subcategory for \u201cOther\u201d; if not, code to T50.9.",
+        "Combinations of medicinal agents with alcohol should be coded to the medicinal agent."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_062",
+      "title": "4.2.12 External causes",
+      "bullets": [
+        "The codes for external causes (V01-Y89) should be used as the primary codes for single-condition coding and tabulation of the underlying cause wh en, and only when, the morbid condition is classifiable to Chapter XIX...",
+        "When the morbid condition is classified to Chapte rs I-XVIII, the morbid condition itself should be coded as the underlying cause and categories from the chapter for external causes may be used, if desired, as...",
+        "The codes for external causes (V01-Y89) should be used as the primary codes for single-condition coding and tabulation of the underlying cause wh en"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_063",
+      "title": "4.2.13 Expressions indicating doubtful diagnosis",
+      "bullets": [
+        "Qualifying expressions indicating some doubt as to the accuracy of the diagnosis, such as \u201capparently\u201d, \u201cpresumably\u201d, \u201cpossibly\u201d, etc., should be ignored, since entries without such qualification differ only in the...",
+        "Qualifying expressions indicating some doubt as to the accuracy of the diagnosis",
+        "since entries without such qualification differ only in the degree of certainty of the diagnosis."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_064",
+      "title": "4.2.14 Human Immunodeficiency Virus (HIV)",
+      "bullets": [
+        "When a blood transfusion is given as treatment for any condition (eg a haematological disorder) and an infected blood supply results in a HIV infecti on, code the HIV as the underlying cause and not the treated...",
+        "Example 1: I (a) Kaposi\u2019s sarcoma 1 year (b) HIV 3 years (c) Blood transfusion 5 years (d) Haemophilia since birth Code to HIV.",
+        "Example 2: I (a) Pneumocystis carinii 6 months (b) HIV 5 years (c) Ruptured spleen 7 years (d) Assault \u2013 fist fight 7 years Code to HIV."
+      ],
+      "example": "Example 1: I (a) Kaposi\u2019s sarcoma 1 year (b) HIV 3 years (c) Blood transfusion 5 years (d) Haemophilia since birth Code to HIV."
+    },
+    {
+      "id": "lesson_065",
+      "title": "4.3.1 Certification of perinatal deaths",
+      "bullets": [
+        "Whenever possible, a separate certificate of cause of perinatal death should be completed, in which the causes are set out as follows: (a) Main disease or condition in fetus or infant (b) Other diseases or conditions...",
+        "For a thorough analysis of perinatal mortality, the following data on both mother and child are needed, in addition to information about the causes of death, not only in the case of perinatal death, but also for all...",
+        "The method by which the supplementary data are coll ected will vary according to the civil registration system obtaining in different countries.",
+        "Where they can be collected at the registration of the stillbirth or early neonatal death, a form similar to the \u201cCertificate of Cause of Perinatal Death\u201d as shown below could be used.",
+        "Otherwise, special arrangements woul d need to be made (for example, by linking birth and death records) to bring together the supplementary data and the cause of death."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_066",
+      "title": "4.3.2 Statement of causes of death",
+      "bullets": [
+        "The certificate has five sections for the entry of cau ses of perinatal deaths, labelled (a) to (e).",
+        "In sections (a) and (b) should be entered diseases or cond itions of the infant or fetus, the single most important in section (a) and the remainder, if any, in section (b).",
+        "By \u201cthe single most important\u201d is meant the pathological condition that, in the opinion of the certifier, made the greatest contribution to the death of the infant or fetus.",
+        "The mode of death, eg heart failure, asphyxia or anoxia, should not be entered in section (a) unless it was the only fetal or infant condition known.",
+        "This also holds true for prematurity."
+      ],
+      "example": "Example 1."
+    },
+    {
+      "id": "lesson_067",
+      "title": "4.3.3 Tabulation of perinatal mortality by cause",
+      "bullets": [
+        "For statistics of perinatal mortality derived from the form of certificate shown in the accompanying documentation, full-scale multiple-cause analysis of all conditions reported will yield the maximum benefit.",
+        "Where this is impracticable, analysis of the main disease or condition in the fetus or infant (part (a)) and of the main maternal condition aff ecting the fetus or infant (part (c)) with cross- tabulation of groups of...",
+        "Where it is necessary to select only one condition (for example, when it is necessary to incorporate early neonatal deaths in single-cause tables of deaths at all ages), the main disease or condition in the fetus or..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_068",
+      "title": "4.3.4 Coding of causes of death",
+      "bullets": [
+        "Each condition entered in sections (a), (b), (c) and (d) should be coded separately.",
+        "Maternal conditions affecting the infant or fetus, entered in sections (c) and (d), should be coded to categories P00-P04 and these codes should not be used for sections (a) and (b).",
+        "Conditions in the infant or fetus, entered in section (a), can be coded to any categories other than P00-P04 but will most often be coded to categories P05-P96 (Perinatal conditions) or Q00- Q99 (Congenital anomalies).",
+        "Only one code should be entered for sections (a) and (c), but for secti ons (b) and (d) as many codes should be entered as there are conditions reported.",
+        "Section (e) is for review of individual perinatal d eaths and will not normally need to be coded."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_069",
+      "title": "4.3.5 Coding rules",
+      "bullets": [
+        "The selection rules for general mortality do not apply to the perinatal death certificate.",
+        "It may happen, however, that perinatal death certificates are recei ved on which the causes of death have not been entered in accordance with the guidelines given above.",
+        "Whenever possible, these certificates should be corrected by the certifier, but if this is not possible, the following rules should be applied.",
+        "Mode of death or prematurity entered in section (a).",
+        "If heart or cardiac failure, asphyxia or anoxia (any condition in P20.-, P21.-) or prematurity (any condition in P07.-) is entered in section (a) and other conditions of the infant or fetus are entered in either..."
+      ],
+      "example": "Example 1: Liveborn; death at 4 days Coding (a) Prematurity Q05."
+    },
+    {
+      "id": "lesson_070",
+      "title": "4.4 Morbidity",
+      "bullets": [
+        "At the time of the sixth revision of the ICD, adopted in 1948, a number of requests were received from public health administrators, health care manage rs, social security authorities and researchers in various health...",
+        "The ICD was, therefore, made suitable for grouping morbidity da ta, in addition to its traditional uses, and the morbidity aspect has since been progressively e xpanded through successive revisions.",
+        "Morbidity data are increasingly being used in the formulation of health policies and programmes, and in their management, monitoring and evaluation, in epidemiol ogy, in identification of risk populations, and in...",
+        "The condition to be used for single-condition morbid ity analysis is the main condition treated or investigated during the relevant episode of health care.",
+        "The main condition is defined as the condition, diagnosed at the end of the episode of health care, primarily responsible for the patient\u2019s need for treatment or investigation."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_071",
+      "title": "4.4.1 Guidelines for recording diagnostic information for single-condition analysis",
+      "bullets": [
+        "of morbidity data General The health care practitioner responsible for the patie nt\u2019s treatment should select the main condition to be recorded, as well as any other conditions, for each episode of health care.",
+        "This information should be organized systematically by using standard recording methods.",
+        "A properly completed record is essential for good patient management and is a valuable source of epidemiological and other statistical data on morbidity and other health care problems.",
+        "Specificity and detail Each diagnostic statement should be as informative as possible in order to classify the condition to the most specific ICD category.",
+        "Examples of such diagnostic statements include: \u2022 transitional cell carcinoma of trigone of bladder \u2022 acute appendicitis with perforation \u2022 diabetic cataract, insulin-dependent \u2022 meningococcal pericarditis \u2022 antenatal..."
+      ],
+      "example": "For example: \u201cfracture of neck of femur caused by fall due to slipping on greasy pavement\u201d; \u201ccerebral contusion caused when patient lost control of car , which hit a tree\u201d; \u201caccidental poisoning - patient drank..."
+    },
+    {
+      "id": "lesson_072",
+      "title": "4.4.2 Guidelines for coding \u201cmain condition\u201d and \u201cother conditions\u201d",
+      "bullets": [
+        "General The \u201cmain condition\u201d and \u201cother conditions\u201d relevant to an episode of health care should have been recorded by the responsible health care practitioner, and coding is therefore usually straightforward, since...",
+        "Whenever possible, a record with an obviously inconsistent or incorrectly recorded main condition should be returned for clarification.",
+        "Failing clarification, Rules MB1 to MB5 (section 4.4.3) will help the coder to deal with some of the commoner causes of incorrect recording.",
+        "The guidelin es given below are for use when the coder may be unclear as to which code should be used.",
+        "It has been recommended that \u201cother conditions\u201d in relation to an episode of care should be recorded in addition to the main condition, even for single- cause analysis, since this information may assist in choosing the..."
+      ],
+      "example": "Example 1: Main condition: Measles pneumonia Other conditions: \u2014 Code to measles complicated by pneumonia (B05."
+    },
+    {
+      "id": "lesson_073",
+      "title": "4.4.3 Rules for reselection when the main condition is incorrectly recorded",
+      "bullets": [
+        "The responsible health care practitioner indicates the \u201cmain condition\u201d to be coded, and this should normally be accepted for coding subject to the guide lines above and in the chapter-specific notes in section 4.4.4.",
+        "However, certain circumstances or the availability of other information may indicate that the health care practitioner has not followed the co rrect procedure.",
+        "If it is not possible to obtain clarification from the health care practitioner, one of the following rules may be applied and the \u201cmain condition\u201d reselected.",
+        "Rules for reselection of main condition Rule MB1.",
+        "Minor condition recorded as \u201cmain condition\u201d, more significant condition recorded as \u201cother condition\u201d Where a minor or longstanding condition, or an incidental problem, is recorded as the \u201cmain condition\u201d, and a more..."
+      ],
+      "example": "Examples of application of the rules for reselection of main condition Rule MB1."
+    },
+    {
+      "id": "lesson_074",
+      "title": "4.4.4 Chapter-specific notes",
+      "bullets": [
+        "Guidance is given below for specific chapters where problems may be encountered in selecting preferred \u201cmain condition\u201d codes.",
+        "The preceding ge neral guidelines and rules apply to all chapters unless a specific chapter note states otherwise.",
+        "Chapter I: Certain infectious and parasitic diseases B20-B24 Human immunodeficiency virus [HIV] disease A patient with a compromised immune system due to HIV disease may sometimes require treatment during the same...",
+        "Categories and subcat egories are provided in this block for HIV disease with various other resultant diseases.",
+        "Code the a ppropriate subcategory for the \u201cmain condition\u201d as selected by the health care practitioner."
+      ],
+      "example": "Example 1: Main condition: HIV disease and Kaposi\u2019s sarcoma Other conditions: \u2014 Code to HIV disease resulting in Kaposi\u2019s sarcoma (B21."
+    },
+    {
+      "id": "lesson_075",
+      "title": "5.1 Introduction",
+      "bullets": [
+        "This section presents the regulations regarding sta tistics for international comparison, and guidelines on data presentation in national and subnational statistical tables.",
+        "Those responsible for the analysis of the data shoul d be involved in the development of the protocol for processing (including coding), not only of the dia gnostic data but also of the other items to be...",
+        "This section presents the regulations regarding sta tistics for international comparison"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_076",
+      "title": "5.2 Source of data",
+      "bullets": [
+        "The medical certification of the cause of death is normally the responsibility of the attending physician.",
+        "The medical certificate of cause of d eath should be in line with the international recommendation (see section 4.1.3).",
+        "Administrative procedures should ensure the confidentiality of data from the death certificate or other medical records.",
+        "In the case of deaths certified by coroners or othe r legal authorities, the medical evidence supplied to the certifier should be stated on the certificate in addition to any legal findings."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_077",
+      "title": "5.3 Level of detail of cause in tabulations",
+      "bullets": [
+        "There are standard ways of listing causes coded according to the ICD, and there are formal recommendations concerning lists for tabulation pe rmitting international comparison (see section 5.6).",
+        "In other tabulations, the hierarchical structure of the ICD allows considerable flexibility for possible groupings.",
+        "The three- and four-character rubrics of the ICD allow for considerable detail.",
+        "They are sometimes used to produce reference tables covering a whole range of data, which ma y not be published but retained in a central office where, on request, information can be extracted concerning specific...",
+        "The classification at this level is also used by specialists interested in the detailed study of a limited range of diagnoses."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_078",
+      "title": "5.4 The recommended special tabulation lists for mortality",
+      "bullets": [
+        "Special mortality tabulation lists are provided in Volume 1 for routine statistical presentation and comparison.",
+        "The lists help countries present cause-of-death data at a level shorter than the full ICD tabular list.",
+        "They include both condensed and selected list formats for general and child mortality analysis."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_079",
+      "title": "5.4.1 The condensed lists",
+      "bullets": [
+        "The two condensed lists, List 1 and List 3, provide items for each ICD chapter and also, within most chapters, identify the items of the selected lists t ogether with residual items entitled \u201cRemainder of...\u201d, which...",
+        "They thus condense the full range of ICD three-character categories into a manageable number of items for many publication purposes.",
+        "provide items for each ICD chapter and also"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_080",
+      "title": "5.4.2 The selected lists",
+      "bullets": [
+        "The two selected lists, List 2 and List 4, contain items within most ICD chapters, for conditions and external causes significant for the monitoring and analysis of population health status and mortality- related...",
+        "Ch apter totals are not provided and only a few chapters have residual rubrics that enable such totals to be obtained.",
+        "contain items within most ICD chapters"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_081",
+      "title": "5.4.3 Use of prefixes to identify the mortality lists",
+      "bullets": [
+        "Use of the numerical prefixes to the item numbers prevents confusion between the special tabulation lists where items for the same condition carry different numbers.",
+        "(The item numbers can be distinguished from ICD four-character codes whic h have a letter in the first position.) Where an adapted list is used for national or subnational pur poses, an alternative identifying prefix...",
+        "Use of the numerical prefixes to the item numbers prevents confusion between the special tabulation lists where items for the same condition carry different numbers. (The item..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_082",
+      "title": "5.4.4 Locally designed lists",
+      "bullets": [
+        "The four special tabulation lists provide for most countries an adequate source of information about the most important diseases and external causes of d eath.",
+        "They also facilitate comparison over time and observation of shifts in the relative freque ncies of, for example, infectious diseases and degenerative diseases, as health programmes take effect.",
+        "They permit comparison between subnational areas and population subgroups.",
+        "In addition, they make possible meaningful international comparisons of causes of death.",
+        "When there is no need for international comparison, lists similar to the special tabulation lists can be designed for use locally."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_083",
+      "title": "5.5.1 Description",
+      "bullets": [
+        "The tabulation list for morbidity contains 298 detaile d items.",
+        "The morbidity list is a condensed list in which each category is included only once and totals for groups of diseases and ICD chapters can be obtained by the addition of sequential items.",
+        "The morbidity list is intended as a basis for nationa l lists and for intercountry comparison.",
+        "National lists can be constructed by eith er condensing or expanding the core classification as appropriate.",
+        "The list is suitable for data on inpatient care and, with suitable adaptation - notably aggregation of some items and expansion of items rela ting to Chapter XVIII (Symptoms, signs and abnormal clinical and laboratory..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_084",
+      "title": "5.5.2 Modification of the special tabulation list for morbidity according to national",
+      "bullets": [
+        "requirements If, after examination of the frequencies of the IC D three-character rubrics, it is felt necessary to expand the list, some of the items for a range of ICD categories can be subdivided according to the...",
+        "If the recommended list is considered to be too detailed or if a shorter list is required, selecti on can be made based on national or local health concerns.",
+        "Depending on a country\u2019s \u201cepidemiological pr ofile\u201d, categories may be combined to shorten the list."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_085",
+      "title": "5.6.1 Statistical tables",
+      "bullets": [
+        "The degree of detail in cross-classification by cau se, sex, age, and geographical area will depend both on the purpose and range of the statistics and on the practical limits to their tabulation.",
+        "The following patterns, which are designed to promote intern ational compatibility, present standard ways of expressing various characteristics.",
+        "Where a different classification is used in published tables (eg in age-grouping), it should be reducible to one of the recommended groupings.",
+        "(a) Analysis by the International Classificati on of Diseases should, as appropriate, be in accordance with: (i) the detailed list of three-character categories, with or without four-character subcategories; (ii) one...",
+        "(b) Age classification for general purposes: (i) under 1 year, single years to 4 years, 5-year groups from 5 to 84 years, 85 years and over; (ii) under 1 year, 1-4 years, 5-14 years, 15-24 years, 25-34 years, 35-44..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_086",
+      "title": "5.6.2 Tabulation of causes of death",
+      "bullets": [
+        "Statistics of causes of death for a defined area should be in accordance with recommendation (a)(i) above, or, if this is not possible, with recommenda tion (a)(ii).",
+        "Deaths should preferably be classified by sex and age group as in recommendation (b)(i).",
+        "Statistics of causes of deaths for the areas in recommendation (c) should comply with recommendation (a)(ii), or if this is not possible, with recommenda tion (a)(iii).",
+        "They should preferably be tabulated by sex and age group as in recommendation (b)(ii)."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_087",
+      "title": "5.7 Standards and reporting requirements related to fetal, perinatal, neonatal and",
+      "bullets": [
+        "infant mortality The following definitions have been adopted by the World Health Assembly in relation both to statistics amenable to international comparison a nd to reporting requirements for the data from which they...",
+        "The definitions adopted by th e Health Assembly appear in Volume 1 and, for convenience, are restated below.",
+        "infant mortality The following definitions have been adopted by the World Health Assembly in relation both to statistics amenable to international comparison a nd to reporting..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_088",
+      "title": "5.7.1 Definitions",
+      "bullets": [
+        "Live birth Live birth is the complete expulsion or extrac tion from its mother of a product of conception, irrespective of the duration of the pregnancy, which, after such separation, breathes or shows any other...",
+        "Fetal death [deadborn fetus] Fetal death is death prior to the complete expul sion or extraction from its mother of a product of conception, irrespective of the duration of pregnancy; the death is indicated by the fact...",
+        "Birth weight The first weight of the fetus or newborn obtained after birth.",
+        "For live births, birth weight should preferably be measured within the first hour of life before significant postnatal weight loss has occurred.",
+        "While statistical tabulations include 500 g groupings for birth weight, weights should not be recorded in t hose groupings."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_089",
+      "title": "5.7.2 Reporting criteria",
+      "bullets": [
+        "The legal requirements for the registration of fetal d eaths and live births vary from country to country and even within countries.",
+        "If possible, all fetuses and infants weighing at least 500 g at birth, whether alive or dead, should be included in the statistics.",
+        "When information on birth weight is unavailable, the corresponding criteria for gestational age (22 comple ted weeks) or body length (25 cm crown-heel) should be used.",
+        "The criteria for deciding whether an event has taken place within the perinatal period should be applied in the order: (1) birth weight, (2) gestational age, (3) crown-heel length.",
+        "The inclusion of fetuses and infants weighing betw een 500 g and 1000 g in national statistics is recommended both because of its inherent value and because it improves the coverage of reporting at 1000 g and over."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_090",
+      "title": "5.7.3 Statistics for international comparison",
+      "bullets": [
+        "In statistics for international comparison, inclusion of the extremely low-birth-weight group disrupts the validity of comparisons and is not recomme nded.",
+        "Countries should a rrange registration and reporting procedures so that the events and the criteri a for their inclusion in the statistics can be easily identified.",
+        "Less mature fetuses and infants not co rresponding to these criteria (ie weighing less than 1000 g) should be excluded from perina tal statistics unless there are legal or other valid reasons to the contrary, in which...",
+        "Where birth weight, gestational age and crown-heel length are not known, the event s hould be included in, rather than excluded from, mortality statistics of the perinatal period.",
+        "Count ries should also present statistics in which both the numerator and the denominator of all ratios and ra tes are restricted to fetuses and infants weighing 1000 g or more (weight-specific ratios and rates); wher..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_091",
+      "title": "5.7.4 Presentation of causes of perinatal mortality",
+      "bullets": [
+        "For statistics of perinatal mortality derived from the form of certificate recommended for this purpose (see section 4.3.1), full-scale multiple-cause analysis of all conditions reported will be of greatest benefit.",
+        "Where such analysis is impracticable, anal ysis of the main disease or condition in the fetus or infant (part (a)) and of the main maternal condition affecting the fetus or infant (part (c)) with cross- tabulation of...",
+        "Where it is necessary to select only one condition (for example, when early neonatal deaths must be incorporated into single-cause tables of deaths at all ages), the main disease or condition in the fetus or infant...",
+        "Age classification for special statistics of infant mortality (i) By single days for the first week of life (under 24 hours, 1, 2, 3, 4, 5, 6 days), 7-13 days, 14- 20 days, 21-27 days, 28 days and up to, but not in...",
+        "(ii) Under 24 hours, 1-6 days, 7-27 days, 28 days up to, but not including, 3 months, 3-5 months, 6 months but under 1 year."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_092",
+      "title": "5.8.1 Definitions",
+      "bullets": [
+        "Maternal death A maternal death is the death of a woman while pregnant or within 42 days of termination of pregnancy, irrespective of the duration and the site of the pregnancy, from any cause related to or aggravated...",
+        "Late maternal death A late maternal death is the death of a woman fro m direct or indirect obstetric causes more than 42 days but less than one year after termination of pregnancy.",
+        "Pregnancy-related death A pregnancy-related death is the death of a woman wh ile pregnant or within 42 days of termination of pregnancy, irrespective of the cause of death.",
+        "Maternal deaths should be subdivided into two groups: Direct obstetric deaths: those resulting from obstetric complications of the pregnant state (pregnancy, labour and puerperium), from interven tions, omissions,...",
+        "Indirect obstetric deaths: those resulting from previous existing disease or disease that developed during pregnancy and which was not due to direct obstetric causes, but which was aggravated by physiologic effects of..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_093",
+      "title": "5.8.2 International reporting",
+      "bullets": [
+        "For the purpose of the international reporting of maternal mortality, only those maternal deaths occurring before the end of the 42-day reference pe riod should be included in the calculation of the various ratios and...",
+        "For the purpose of the international reporting of maternal mortality",
+        "only those maternal deaths occurring before the end of the 42-day reference pe riod should be included in the calculation of the various ratios and rates"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_094",
+      "title": "5.8.3 Published maternal mortality rates",
+      "bullets": [
+        "Published maternal mortality rates should always specify the numerator (number of recorded maternal deaths), which can be given as: \u2022 the number of recorded direct obstetric deaths, or \u2022 the number of recorded...",
+        "It should be noted that maternal deaths from HI V disease (B20-B24) and obstetrical tetanus (A34) are coded to Chapter I.",
+        "Care must be taken to include such cases in the maternal mortality rate."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_095",
+      "title": "5.8.4 Denominators for maternal mortality",
+      "bullets": [
+        "The denominator used for calculating maternal mort ality should be specified as either the number of live births or the number of total births (live birt hs plus fetal deaths).",
+        "Where both denominators are available, a calculation should be published for each.",
+        "Ratios and rates Results should be expressed as a ratio of the numerat or to the denominator, multiplied by k (where k may be 1000, 10 000 or 100 000, as preferred and indicat ed by the country).",
+        "Maternal mortality ratios and rates can thus be expressed as follows: Maternal mortality rate1 Maternal deaths (direct and indirect) x k Live births Direct obstetric mortality ratio Direct obstetric deaths only x k..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_096",
+      "title": "5.9 Proportion of deaths classified to ill-defined causes",
+      "bullets": [
+        "The allocation of a high proportion of causes of death to Chapter XVIII (Symptoms, signs, and abnormal clinical and laboratory findings, not elsewhere classified) indicates a need to check or estimate the quality of...",
+        "The allocation of a high proportion of causes of death to Chapter XVIII (Symptoms",
+        "and abnormal clinical and laboratory findings"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_097",
+      "title": "5.10 Morbidity",
+      "bullets": [
+        "There are a wide variety of possible sources of in formation on morbidity.",
+        "The data most suitable for analysis on a national or regional basis are those th at enable some calculation to be made of the incidence of diseases, or at least of those diseases coming, for example, under medical or...",
+        "It is primarily for data on episodes of health care that the formally agreed guidelines and definitions for recording causes of morbidity and selection of a single condition, where appropriate, are intended.",
+        "Other types of data require the development of local rules.",
+        "The problems of morbidity statistics start with the ve ry definition of \u201cmorbidity\u201d."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_098",
+      "title": "5.11 Precautions needed when tabulation lists include subtotals",
+      "bullets": [
+        "It may not always be apparent to those processing the data that some of the items in the tabulation lists are in fact subtotals; for instance, titles of blocks and, in the case of the four-character list of ICD-10,...",
+        "These entries should be ignored when totals are calculated, otherwise cases would be counted more than once.",
+        "It may not always be apparent to those processing the data that some of the items in the tabulation lists are in fact subtotals"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_099",
+      "title": "5.12 Problems of a small population",
+      "bullets": [
+        "Population size is one of the factors that has to be considered when the health status of a population is assessed by means of mortality or morbidity data.",
+        "In countries with small populations, the annual numbers of events in many categories of the short lists will be very small, and will fluctuate randomly from year to year.",
+        "This is especially so for separate age groups and sexes.",
+        "The problems can be alleviated by one or more of the following measures: \u2022 use or presentation of broad groupings of ICD rubrics, such as chapters; 1 The use of the term \u201crate\u201d, although inexact in this context, is...",
+        "\u2022 aggregation of data over a longer period, eg to take the preceding two years\u2019 data together with those for the current year and produce a \u201cmoving average\u201d figure; \u2022 using the broadest of the age groupings recommended..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_100",
+      "title": "5.13 \u201cEmpty cells\u201d and cells with low frequencies",
+      "bullets": [
+        "Whatever list of causes is being used, it may be found that no cases occur in certain cells of a statistical table.",
+        "Where there are many empty lines in a table, it is worth considering the omission of such lines from a published table or from a comput er printout.",
+        "When only the occasional case of a disease occurs in a country, the line can be regularly omitted from the published table and a footnote added to indicate either that there were no cases or , when sporadic cases do...",
+        "For cells with very low frequencies, especially tho se relating to diseases that would not be expected to occur, it is important to establish that the cases existed and did not result from a coding or processing error.",
+        "This should be carried out as part of the general quality control of the data."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_101",
+      "title": "6.1 Early history",
+      "bullets": [
+        "Sir George Knibbs, the eminent Australian statis tician, credited Fran\u00e7ois Bossier de Lacroix (1706-1777), better known as Sauvages, with the first attempt to classify diseases systematically ( 10).",
+        "Sauvages\u2019 comprehensive treatise was published under the title Nosologia methodica.",
+        "A contemporary of Sauvages was the great methodologist Linnaeus (1707-1778), one of whose treatises was entitled Genera morborum.",
+        "At the beginning of the 19th century, the classification of disease in most general use was one by William Cullen (1710-1790), of Ed inburgh, which was published in 1785 under the title Synopsis nosologiae methodicae.",
+        "For all practical purposes, however, the statistical study of disease began a century earlier with the work of John Graunt on the London Bills of Morta lity."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_102",
+      "title": "6.2 Adoption of the International List of Causes of Death",
+      "bullets": [
+        "The International Statistical Institute, the successor to the International Statistical Congress, at its meeting in Vienna in 1891, charged a committee, chaired by Jacques Bertillon (1851-1922), Chief of Statistical...",
+        "It is of interest to note that Bertillon was the grandson of Achille Guillard, a noted botanist and statistician, who had introduced the resolution requesting Farr and d\u2019Espine to prepare a uniform classification at...",
+        "The report of this committee was presented by Bertillon at the meeting of the International Statisti cal Institute in Chicago in 1893 and adopted by it.",
+        "The classification prepared by Bertillon\u2019s committee was based on the classification of causes of death used by the City of Paris, which, since its re vision in 1885, represented a synthesis of English, German, and...",
+        "The classification was based on the principle, adopted by Farr, of distinguishing between general diseases and those localized to a particular organ or anatomical site."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_103",
+      "title": "6.3 The Fifth Decennial Revision Conference",
+      "bullets": [
+        "The Fifth International Conference for the Revision of the International List of Causes of Death, like the preceding conferences, was convened by the Gove rnment of France and was held in Paris in October 1938.",
+        "The Conference approved three lists: a de tailed list of 200 titles, an intermediate list of 87 titles and an abridged list of 44 titles.",
+        "Apart from bringing the lists up to date in accordance with the progress of science, particularly in the chapter on infectious and parasitic diseases, and changes in the chapters on puerperal conditions and on acci...",
+        "A list of causes of stillbirth was also drawn up and approved by the Conference.",
+        "As regards classification of diseases for morbidity st atistics, the Conference recognized the growing need for a corresponding list of diseases to meet the statistical requirements of widely differing organizations,..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_104",
+      "title": "2. International Lists of Diseases.",
+      "bullets": [
+        "In view of the importance of the compilation of international lists of diseases corresponding to the international lists of causes of death: The Conference recommends that th e Joint Committee appointed by th e...",
+        "Pending the compilation of international lists of diseases, the Conference recommends that the various national lists in use should, as far as possible, be br ought into line with the detailed International List of...",
+        "The Conference further recommended that the United States Government continue its studies of the statistical treatment of joint causes of death in the following resolution (16):"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_105",
+      "title": "3. Death Certificate and Selection of Causes of Death where more than",
+      "bullets": [
+        "One Cause is given (Joint Causes) The Conference, Whereas, in 1929, the United States Government was good enough to undertake the study of the means of unifying the methods of selection of the main cause of death to be...",
+        "(1) Warmly thanks the United States Government fo r the work it has accomplished or promoted in this connection",
+        "(2) Requests the United States Government to continue its investigations during the next ten years, in co-operation with other countries and organizations, on a slightly wider basis, and (3) Suggests that, for these..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_106",
+      "title": "6.4 Previous classifications of diseases for morbidity statistics",
+      "bullets": [
+        "In the discussion so far, classification of disease h as been presented almost wholly in relation to cause-of-death statistics.",
+        "Farr, however, recognized that it was desirable \u201cto extend the same system of nomenclature to diseases which, though not fatal, cause disability in the population, and now figure in the tables of the diseases of...",
+        "In his Report on nomenclature and statistical classification of diseases, presented to the Second International Statis tical Congress, he therefore included in the general list of diseases most of those diseases that...",
+        "At the Fourth International Statistical Congress, held in London in 1860, Florence Nightingale urged the adoption of Farr\u2019s classification of diseases for the tabulation of hospital morbidity in the paper, Proposals...",
+        "At the First International Conference to revise the Bertillon Classification of Causes of Death in Paris in 1900, a parallel classification of diseases for use in statistics of sickness was adopted."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_107",
+      "title": "6.5 United States Committee on Joint Causes of Death",
+      "bullets": [
+        "In compliance with the resolution of the Fifth International Conference, the American Secretary of State in 1945 appointed the United States Committee on Joint Causes of Death under the chairmanship of Lowell J.",
+        "Reed, Professor of Biostatistics at Johns Hopkins University.",
+        "Members and consultants of this committee included representatives of the Gove rnments of Canada and the United Kingdom and the Health Section of the League of Nations.",
+        "Th e committee recognized the general trend of thought with regard to lists of morbidity and mortality st atistics, and decided that, before taking up the matter of joint causes, it would be advantageous to cons ider...",
+        "The committee also took into account that part of the resolution on International Lists of Diseases of the previous International Conference recommending th at the \u201cvarious national lists in use should, as far as..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_108",
+      "title": "6.6 Sixth Revision of the International Lists",
+      "bullets": [
+        "The International Health Conference held in New York City in June and July 1946 ( 19) entrusted the Interim Commission of the World Health Organization with the responsibility of: reviewing the existing machinery a nd...",
+        "This Committee, taking full account of prevaili ng opinion concerning morbidity and mortality classification, reviewed and revised the above-m entioned proposed classification which had been prepared by the United...",
+        "The resulting classification was circulated to national governments preparing morbidity and mortality statistics for comments and suggestions under the title, International Classification of Diseases, Injuries, and...",
+        "The Expert Committee considered th e replies and prepared a revised version incorporating such changes as appeared to improve the utility and acceptability of the classification.",
+        "The Committee also compiled a list of diagnostic terms to appear under each title of the classification."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_109",
+      "title": "6.7 The Seventh and Eighth Revisions",
+      "bullets": [
+        "The International Conference for the Seventh Revi sion of the International Classification of Diseases was held in Paris under the auspices of WHO in February 1955 ( 22).",
+        "In accordance with a recommendation of the WHO Expert Committee on Health Statistics, this revision was limited to essential changes and amendments of errors and inconsistencies (23).",
+        "The Eighth Revision Conference convened by WHO met in Geneva, from 6 to 12 July 1965 ( 24).",
+        "This revision was more radical than the Seventh but left unchanged the basic structure of the Classification and the general philosophy of classifying diseases, wh enever possible, according to their etiology rather...",
+        "During the years that the Seventh and Eighth Revisions of the ICD were in force, the use of the ICD for indexing hospital medical records increased rapidly and some countries prepared national adaptations which..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_110",
+      "title": "6.8 The Ninth Revision",
+      "bullets": [
+        "The International Conference for the Ninth Revisi on of the International Classification of Diseases, convened by WHO, met in Geneva from 30 September to 6 October 1975 ( 25).",
+        "In the discussions leading up to the conference, it had originally been intended that there should be little change other than updating of the classification.",
+        "This was mainly because of the expense of adapting data-processing systems each time the classification was revised.",
+        "There had been an enormous growth of interest in the ICD and ways had to be f ound of responding to this, partly by modifying the classification itself and partly by introducing speci al coding provisions.",
+        "A number of representations were made by specialist bodies which had become inte rested in using the ICD for their own statistics."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_111",
+      "title": "6.9 Preparations for the Tenth Revision",
+      "bullets": [
+        "Even before the Conference for the Ninth Revision, WHO had been preparing for the Tenth Revision.",
+        "It had been realized that the great expansion in the use of the ICD necessitated a thorough rethinking of its structure and an effort to devise a stable and flexible classification, which should not require fundamental...",
+        "The WHO Collaborating Centres for Classification of Diseases (see Volume 1) were consequently called upon to experiment with models of alternative structures for ICD-10.",
+        "It had also become clear that the established ten-y ear interval between revisions was too short.",
+        "Work on the revision process had to start before the curre nt version of the ICD had been in use long enough to be thoroughly evaluated, mainly because the necessity to consult so many countries and organizations made..."
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_112",
+      "title": "7.1 List of conditions unlikely to cause death",
+      "bullets": [
+        "Code Category or subcategory A31.1 Cutaneous mycobacterial infection A42.8 Other forms of cutaneous actinomycosis A60.0 Herpesviral infection of genitalia and urogenital tract A71.0\u2013A71.9 Trachoma A74.0 Chlamydial...",
+        "Code Category or subcategory A31.1 Cutaneous mycobacterial infection A42.8 Other forms of cutaneous actinomycosis A60.0 Herpesviral infection of genitalia and urogenital tract...",
+        "F50.3\u2013F50.9 Eating disorders F51.0\u2013F51.9 Nonorganic sleep disorders F52.0\u2013F52.9 Sexual dysfuncti on"
+      ],
+      "example": null
+    },
+    {
+      "id": "lesson_113",
+      "title": "3.1.4 Conventions used in the tabular list: Parentheses",
+      "bullets": [
+        "Parentheses can enclose supplementary words that do not change the code assignment of the main diagnostic term.",
+        "They can also enclose the code linked to an exclusion term or the paired code used in dagger-asterisk notation.",
+        "Coders must read parentheses carefully because they often show optional wording rather than a different diagnostic meaning."
+      ],
+      "example": "Hypertension may still code the same way whether or not modifiers such as arterial, benign, essential, or primary appear in parentheses."
+    },
+    {
+      "id": "lesson_114",
+      "title": "3.1.4 Conventions used in the tabular list: Square brackets",
+      "bullets": [
+        "Square brackets are used for synonyms, alternative words, or explanatory phrases attached to a rubric.",
+        "They can also refer the reader to earlier notes or shared fourth-character instructions elsewhere in the chapter.",
+        "These bracketed notes help interpret the rubric correctly without changing the basic classification structure."
+      ],
+      "example": "A bracket may refer the coder to another note that contains the shared fourth-character subdivisions for that category."
+    },
+    {
+      "id": "lesson_115",
+      "title": "3.1.4 Conventions used in the tabular list: Colon and brace",
+      "bullets": [
+        "A colon means the words before it are incomplete and must be read with one or more indented qualifiers below.",
+        "A brace means the words before and after it belong together and must be combined to form the complete diagnostic expression.",
+        "Both conventions prevent incorrect coding by showing how partial terms should be completed inside the rubric."
+      ],
+      "example": "A diagnosis may code to a rubric only when a qualifier such as chronic or recurrent is attached to the stem term after a colon."
+    },
+    {
+      "id": "lesson_116",
+      "title": "3.1.4 Conventions used in the tabular list: NOS and NEC",
+      "bullets": [
+        "NOS means not otherwise specified and usually reflects documentation that is unspecified or unqualified.",
+        "NEC means not elsewhere classified and signals that a more specific variant exists conceptually but not as a separate code in that location.",
+        "Coders should not confuse vague documentation with a specific condition that simply has no separate rubric."
+      ],
+      "example": "An unqualified term may still code to a more specific category when ICD assumes the common form of the disease unless evidence points elsewhere."
+    },
+    {
+      "id": "lesson_117",
+      "title": "3.1.4 Conventions used in the tabular list: And and point-dash",
+      "bullets": [
+        "In ICD titles, the word and usually means and/or rather than a strict requirement that both conditions be present.",
+        "A point-dash means the category has additional fourth-character detail that must be found in the Tabular List.",
+        "These conventions are small but important because they frequently change how a code title should be read in exams and real coding."
+      ],
+      "example": "A title such as bones and joints may include bones alone, joints alone, or both, because and is read as and/or."
+    },
+    {
+      "id": "lesson_118",
+      "title": "4.1.9 The modification rules: Rules A to C",
+      "bullets": [
+        "The modification rules adjust the selected underlying cause when the initially selected condition is less useful for mortality tabulation.",
+        "Rule A deals with senility and other ill-defined conditions, while Rules B and C handle trivial conditions and linkage situations requiring a more informative cause.",
+        "These rules improve the value of mortality statistics by favoring clearer causal coding over vague terminal or incidental statements."
+      ],
+      "example": "If an ill-defined condition is selected but a better explained cause is also present on the certificate, the modified underlying cause may change."
+    },
+    {
+      "id": "lesson_119",
+      "title": "4.1.9 The modification rules: Rules D to F",
+      "bullets": [
+        "Later modification rules address specificity, early and late disease forms, and sequela situations where the selected cause should be refined.",
+        "They are applied only after the selection rules have identified the provisional underlying cause from the certificate.",
+        "Coders must understand both the original selection process and the later modifications to code mortality accurately."
+      ],
+      "example": "A sequela code may become relevant when death results from late effects rather than the active phase of the original disease or injury."
+    },
+    {
+      "id": "lesson_120",
+      "title": "4.4.3 Rules for reselection of main condition: MB1 to MB5 overview",
+      "bullets": [
+        "MB1 to MB5 are fallback rules used when the recorded main condition is obviously inconsistent, vague, or incorrectly chosen and clarification is not possible.",
+        "The rules cover minor conditions listed as main, several conditions listed as main, symptoms instead of diagnoses, lack of specificity, and alternative unresolved diagnoses.",
+        "These reselection rules are essential for morbidity coding because they protect dataset quality when the original record does not follow the standard recording guidance."
+      ],
+      "example": "If a symptom is recorded as main condition but the chart clearly documents and treats the underlying diagnosed disease, the diagnosed condition may be reselected."
+    }
+  ]
+}
