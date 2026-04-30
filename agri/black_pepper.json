@@ -1,0 +1,127 @@
+{
+  "crop": "Black Pepper",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Black Pepper is a high-value spice crop suited to humid tropical conditions with steady management.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Perennial spice crops often need partial shade, mulch, and regular basin nutrition."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Vine Establishment Stage",
+      "duration": "0–3 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "120",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Compost or farmyard manure 10 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium or boron if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Protect roots from waterlogging and improve drainage.",
+        "dry_season": "Provide irrigation and mulch to prevent stress.",
+        "winter_season": "Normal management is sufficient in frost-free areas."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–3 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Keep root zone moist",
+          "Avoid stagnant water around the collar region"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Quick wilt",
+          "Pollu beetle"
+        ],
+        "prevention": [
+          "Use clean planting material",
+          "Maintain shade and drainage",
+          "Remove infected parts early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not heap fertilizer at the base",
+          "Avoid moisture stress during active growth"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy vine or bush growth",
+          "Improved bearing",
+          "Better quality produce"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–120",
+            "activity": "Establishment, staking, or shade management"
+          },
+          {
+            "day_range": "120–240",
+            "activity": "Split nutrient application and sanitation"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "black_pepper.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Loamy",
+      "Forest loam"
+    ],
+    "rainfall_level": "High"
+  }
+}

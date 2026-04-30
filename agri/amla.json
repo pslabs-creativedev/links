@@ -1,0 +1,127 @@
+{
+  "crop": "Amla (Indian Gooseberry)",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Amla is a hardy fruit tree that grows well in semi-arid to subtropical conditions with good drainage.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Suitable for South Indian dryland horticulture and mixed orchard systems."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–3 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "150",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "75",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "150",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–15 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Zinc and boron if deficiency symptoms appear"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Maintain basin drainage and avoid prolonged water stagnation.",
+        "dry_season": "Irrigate young trees and mulch to conserve moisture.",
+        "winter_season": "Cool season supports flowering and fruit development in many areas."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–3 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid excessive irrigation",
+          "Maintain moderate moisture during fruiting"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Fruit necrosis",
+          "Bark eating caterpillar"
+        ],
+        "prevention": [
+          "Use clean orchard management",
+          "Prune affected branches",
+          "Apply micronutrients where needed"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid heavy irrigation in poorly drained soils",
+          "Do not apply fertilizers too close to stem"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy vegetative growth",
+          "Improved flowering and fruit set",
+          "Better fruit quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–90",
+            "activity": "Planting and basin care"
+          },
+          {
+            "day_range": "90–180",
+            "activity": "Split nutrition and orchard management"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "amla.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Red soil",
+      "Light soil"
+    ],
+    "rainfall_level": "Low"
+  }
+}

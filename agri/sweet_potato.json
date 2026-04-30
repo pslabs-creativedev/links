@@ -1,0 +1,129 @@
+{
+  "crop": "Sweet Potato",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Sweet potato grows well in warm climates with loose soils, moderate fertility, and regular moisture.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Widely suitable for South Indian garden lands and light-textured soils."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Vine Establishment Stage",
+      "duration": "0–30 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "50",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "25",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "50",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Boron if root cracking or deficiency is observed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure ridges are well drained to prevent tuber rot.",
+        "dry_season": "Irrigate lightly but regularly during tuber bulking.",
+        "winter_season": "Mild winter allows good tuber development in frost-free regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and 30 days after planting"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid waterlogging in ridges",
+          "Maintain even moisture during tuber formation"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Weevil",
+          "Tuber rot"
+        ],
+        "prevention": [
+          "Use healthy vines",
+          "Maintain ridge drainage",
+          "Harvest on time"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen that promotes vine growth over tubers",
+          "Do not let ridges collapse in heavy rain"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy vine growth",
+          "Better tuber bulking",
+          "Improved root quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Vine planting and basal manure application"
+          },
+          {
+            "day_range": "30–45",
+            "activity": "Top dressing and earthing up"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "sweet_potato.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy loam",
+      "Loamy",
+      "Red soil"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

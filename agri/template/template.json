@@ -1,0 +1,109 @@
+{
+  "crop": "string",
+  "crop_type": "annual | biennial | perennial",
+
+  "season_info": {
+    "title": "Season Information",
+    "description": "General climate suitability for this crop",
+    "seasons": ["Rainy Season", "Dry Season", "Winter Season"],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Recommendations may vary depending on your soil type, rainfall, and region."
+    }
+  },
+
+  "growth_stages": [
+    {
+      "stage_name": "string",
+      "duration": "string",
+
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          { "nutrient": "Nitrogen (N)", "value": "string", "unit": "kg/ha or g/plant" },
+          { "nutrient": "Phosphorus (P2O5)", "value": "string", "unit": "kg/ha or g/plant" },
+          { "nutrient": "Potassium (K2O)", "value": "string", "unit": "kg/ha or g/plant" }
+        ]
+      },
+
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [],
+        "chemical": [],
+        "micronutrients": []
+      },
+
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Instruction for rainy conditions",
+        "dry_season": "Instruction for dry conditions",
+        "winter_season": "Instruction for winter conditions"
+      },
+
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal | Split | Foliar",
+        "frequency": "Time interval"
+      },
+
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid fertilizer before heavy rain",
+          "Maintain proper soil moisture after application",
+          "Prevent waterlogging"
+        ]
+      },
+
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [],
+        "prevention": [
+          "Maintain field hygiene",
+          "Ensure proper drainage",
+          "Use preventive measures if needed"
+        ]
+      },
+
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not overdose fertilizers",
+          "Avoid application during heavy rainfall",
+          "Follow recommended dosage only"
+        ]
+      },
+
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Improved plant growth",
+          "Better yield",
+          "Stronger root system"
+        ]
+      },
+
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          { "day_range": "0-15", "activity": "Initial fertilizer application" },
+          { "day_range": "15-30", "activity": "First split dose" }
+        ]
+      },
+
+      "visual_guide": {
+        "images": [
+          "stage_image_url",
+          "fertilizer_application_image_url"
+        ]
+      },
+
+      "difficulty_level": "Beginner | Intermediate | Advanced"
+    }
+  ],
+
+  "environment_profile": {
+    "soil_types": ["clay", "sandy", "loamy", "red_soil", "black_soil"],
+    "rainfall_level": "low | medium | high"
+  }
+}

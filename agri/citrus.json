@@ -1,0 +1,157 @@
+{
+  "crop": "Citrus",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Citrus requires balanced nutrition, regular irrigation, and micronutrient support for quality fruiting.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Fruit crop fertilizer schedule may change with age of plant, bearing load, and irrigation source."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per plant per year",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "150",
+            "unit": "g per plant/year for 1-year-old plant"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "g per plant/year for 1-year-old plant"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "25",
+            "unit": "g per plant/year for 1-year-old plant"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          },
+          {
+            "nutrient": "Copper (Cu)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          },
+          {
+            "nutrient": "Manganese (Mn)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          },
+          {
+            "nutrient": "Iron (Fe)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          },
+          {
+            "nutrient": "Boron (B)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          },
+          {
+            "nutrient": "Molybdenum (Mo)",
+            "value": "As needed",
+            "unit": "foliar spray"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–20 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Zinc, iron, and boron if deficiency symptoms appear"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Maintain drainage and avoid fertilizer loss near basins.",
+        "dry_season": "Irrigate regularly and mulch around the root zone.",
+        "winter_season": "Continue normal care; protect from frost where relevant."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–4 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain even soil moisture",
+          "Avoid prolonged dry stress and water stagnation"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Citrus canker",
+          "Leaf miner"
+        ],
+        "prevention": [
+          "Prune for aeration",
+          "Maintain clean basins",
+          "Use preventive sprays where needed"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid heavy fertilizer near the trunk",
+          "Do not over-irrigate during wet periods"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy vegetative growth",
+          "Improved flowering and fruit set",
+          "Better fruit quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–90",
+            "activity": "Plant establishment and basin care"
+          },
+          {
+            "day_range": "90–180",
+            "activity": "Split nutrient application and canopy management"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "citrus.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Red soil",
+      "Alluvial"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

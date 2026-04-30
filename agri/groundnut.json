@@ -1,0 +1,134 @@
+{
+  "crop": "Groundnut",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Groundnut grows well in warm and moderately dry conditions",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Avoid waterlogging; best growth in well-drained soil."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per crop season",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "30",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Calcium (Ca)",
+            "value": "As needed",
+            "unit": "commonly supplied through gypsum for pod development"
+          },
+          {
+            "nutrient": "Sulphur (S)",
+            "value": "As needed",
+            "unit": "commonly supplied through gypsum for pod development"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure"
+        ],
+        "chemical": [
+          "SSP",
+          "Small Urea dose"
+        ],
+        "micronutrients": [
+          "Gypsum for pod development"
+        ]
+      },
+      "season_advice": {
+        "rainy_season": "Ensure drainage to prevent seed rot.",
+        "dry_season": "Light irrigation required.",
+        "winter_season": "Good growing season."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal",
+        "frequency": "At sowing"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid water stagnation",
+          "Maintain moderate soil moisture"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Root rot"
+        ],
+        "prevention": [
+          "Well-drained soil",
+          "Crop rotation"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not overuse nitrogen",
+          "Avoid waterlogging"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Good pod formation",
+          "Higher oil content"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing stage"
+          },
+          {
+            "day_range": "30–60",
+            "activity": "Flowering stage"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "groundnut_stage.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy",
+      "Loamy"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

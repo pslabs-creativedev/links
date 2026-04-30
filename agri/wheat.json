@@ -1,0 +1,129 @@
+{
+  "crop": "Wheat",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Wheat grows best in cool and dry conditions with timely irrigation and balanced fertilizers.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Sowing time and fertilizer splits may vary with rainfall pattern and local soil fertility."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Early Growth Stage",
+      "duration": "0–30 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "40",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "Single Super Phosphate",
+          "Muriate of Potash"
+        ],
+        "micronutrients": [
+          "Zinc sulphate if deficiency is noticed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Avoid waterlogging if unseasonal rain occurs.",
+        "dry_season": "Irrigate at crown root initiation, flowering, and grain filling.",
+        "winter_season": "Cool winter is ideal for crop growth."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At sowing and 25–30 days after sowing"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid waterlogging during establishment",
+          "Maintain moderate soil moisture during active growth"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Rust",
+          "Aphids"
+        ],
+        "prevention": [
+          "Use healthy seed",
+          "Maintain field sanitation",
+          "Follow balanced fertilizer use"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen lodging risk",
+          "Do not apply fertilizers before heavy rain"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Uniform crop stand",
+          "Better tillering or vegetative growth",
+          "Improved grain yield"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal fertilizer application"
+          },
+          {
+            "day_range": "20–35",
+            "activity": "Top dressing and interculture"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "wheat.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Alluvial",
+      "Loamy",
+      "Clay loam"
+    ],
+    "rainfall_level": "Low"
+  }
+}

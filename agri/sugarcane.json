@@ -1,0 +1,142 @@
+{
+  "crop": "Sugarcane",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Sugarcane requires high nutrition, regular irrigation, and proper earthing up for high cane yield.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Commercial crop management should be adjusted for local variety, irrigation, and market duration."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Plant crop",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "275",
+            "unit": "kg/ha for Tamil Nadu plant crop"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "62.5",
+            "unit": "kg/ha for Tamil Nadu plant crop"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "112.5",
+            "unit": "kg/ha for Tamil Nadu plant crop"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "37.5",
+            "unit": "kg/ha in deficient soils"
+          },
+          {
+            "nutrient": "Iron (Fe)",
+            "value": "100",
+            "unit": "kg/ha in deficient soils"
+          },
+          {
+            "nutrient": "Sulphur (S)",
+            "value": "500",
+            "unit": "kg/ha gypsum in sulphur deficient soils"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Recommended NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Sulphur or zinc if deficiency is observed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and timely weed control.",
+        "dry_season": "Irrigate at critical growth stages to avoid yield loss.",
+        "winter_season": "Cool season conditions may favor select commercial crops under irrigation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "P basal; N and K in 3 splits at 30, 60 and 90 days"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid prolonged drought stress",
+          "Prevent water stagnation in the root zone"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Early shoot borer",
+          "Red rot"
+        ],
+        "prevention": [
+          "Use clean planting material",
+          "Maintain drainage",
+          "Follow crop rotation where possible"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not delay nutrient application beyond critical stages"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Strong biomass growth",
+          "Improved economic yield",
+          "Better crop uniformity"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–30",
+            "activity": "Planting and basal fertilizer application"
+          },
+          {
+            "day_range": "45–90",
+            "activity": "Top dressing, gap filling, and earthing up"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "sugarcane.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Alluvial",
+      "Black soil"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

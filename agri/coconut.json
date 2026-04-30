@@ -1,0 +1,126 @@
+{
+  "crop": "Coconut",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Coconut grows well in tropical coastal climates",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Requires good drainage and steady moisture."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per palm per year",
+      "nutrition_section": {
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "500",
+            "unit": "g/palm/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "320",
+            "unit": "g/palm/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "1200",
+            "unit": "g/palm/year"
+          },
+          {
+            "nutrient": "Magnesium (Mg)",
+            "value": "As needed",
+            "unit": "based on soil status"
+          },
+          {
+            "nutrient": "Sulphur (S)",
+            "value": "As needed",
+            "unit": "based on soil status"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "As needed",
+            "unit": "deficiency correction"
+          },
+          {
+            "nutrient": "Boron (B)",
+            "value": "As needed",
+            "unit": "deficiency correction"
+          }
+        ],
+        "title": "Nutrient Requirement"
+      },
+      "fertilizer_section": {
+        "organic": [
+          "Coconut husk compost"
+        ],
+        "chemical": [
+          "NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium"
+        ]
+      },
+      "application_section": {
+        "method": "Split",
+        "frequency": "Twice a year"
+      },
+      "water_management": {
+        "tips": [
+          "Ensure drainage",
+          "Avoid root waterlogging"
+        ]
+      },
+      "pest_disease": {
+        "common_issues": [
+          "Rhinoceros beetle",
+          "Root wilt"
+        ],
+        "prevention": [
+          "Proper manure use",
+          "Field sanitation"
+        ]
+      },
+      "warnings": {
+        "points": [
+          "Avoid fertilizer overuse near trunk"
+        ]
+      },
+      "expected_outcome": {
+        "points": [
+          "Strong palm growth",
+          "High nut production later"
+        ]
+      },
+      "calendar": {
+        "events": [
+          {
+            "day_range": "Year 0–6",
+            "activity": "Growth stage"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "coconut_stage.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy",
+      "Coastal"
+    ],
+    "rainfall_level": "High"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "crop": "Mustard",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Mustard grows well in cool dry weather with timely irrigation and balanced sulphur nutrition.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Oilseed crops are sensitive to waterlogging and often benefit from sulphur, calcium, or boron depending on soil status."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Sowing Stage",
+      "duration": "0–20 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "40",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Gypsum or sulphur source where needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Avoid excess soil moisture and late sowing from unseasonal rain.",
+        "dry_season": "Irrigate at flowering and siliqua development if needed.",
+        "winter_season": "Winter season is best suited for mustard cultivation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At sowing and early vegetative stage"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid stagnant water",
+          "Maintain light to moderate moisture during flowering"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Aphids",
+          "Alternaria blight"
+        ],
+        "prevention": [
+          "Use healthy seed",
+          "Keep field weed free",
+          "Follow timely plant protection"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not irrigate heavily during maturity"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Better branching",
+          "Good seed set",
+          "Improved oil recovery"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal nutrient application"
+          },
+          {
+            "day_range": "30–45",
+            "activity": "Vegetative growth and field monitoring"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "mustard.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Alluvial",
+      "Loamy",
+      "Clay loam"
+    ],
+    "rainfall_level": "Low"
+  }
+}

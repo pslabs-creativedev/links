@@ -1,0 +1,127 @@
+{
+  "crop": "Coir (Coconut Fiber System)",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Coir comes from coconut-based systems, so productivity depends on healthy coconut palms under good moisture and nutrient management.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Perennial industrial crops require careful moisture, mulching, and annual nutrient scheduling."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Palm Maintenance Stage",
+      "duration": "Year-round",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "500",
+            "unit": "g per palm/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "320",
+            "unit": "g per palm/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "1200",
+            "unit": "g per palm/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure or compost 10–15 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium or boron if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Maintain drainage and protect the root zone from stagnation.",
+        "dry_season": "Mulch and irrigate regularly to support root establishment.",
+        "winter_season": "Continue routine care in frost-free conditions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–4 times per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain even root-zone moisture",
+          "Avoid waterlogging near plant base"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Rhinoceros beetle",
+          "Root wilt"
+        ],
+        "prevention": [
+          "Use healthy planting material",
+          "Keep basins clean",
+          "Improve soil drainage"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not place fertilizer in direct contact with the stem",
+          "Avoid neglected basin management"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Steady plant growth",
+          "Higher long-term productivity",
+          "Improved quality raw material"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–180",
+            "activity": "Plant establishment and weed management"
+          },
+          {
+            "day_range": "180–365",
+            "activity": "Split nutrition and maintenance operations"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "coir.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy",
+      "Coastal",
+      "Loamy"
+    ],
+    "rainfall_level": "High"
+  }
+}

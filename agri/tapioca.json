@@ -1,0 +1,127 @@
+{
+  "crop": "Tapioca (Cassava)",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Tapioca performs well in warm climates with good drainage and moderate fertility.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Commercial crop management should be adjusted for local variety, irrigation, and market duration."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–45 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "75",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "75",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Recommended NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Sulphur or zinc if deficiency is observed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and timely weed control.",
+        "dry_season": "Irrigate at critical growth stages to avoid yield loss.",
+        "winter_season": "Cool season conditions may favor select commercial crops under irrigation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and during active growth"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid prolonged drought stress",
+          "Prevent water stagnation in the root zone"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Cassava mosaic disease",
+          "Tuber rot"
+        ],
+        "prevention": [
+          "Use clean planting material",
+          "Maintain drainage",
+          "Follow crop rotation where possible"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not delay nutrient application beyond critical stages"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Strong biomass growth",
+          "Improved economic yield",
+          "Better crop uniformity"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–20",
+            "activity": "Planting and basal nutrient application"
+          },
+          {
+            "day_range": "30–60",
+            "activity": "Top dressing and field management"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "tapioca.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Red soil",
+      "Laterite",
+      "Loamy"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

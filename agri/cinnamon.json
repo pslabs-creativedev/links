@@ -1,0 +1,127 @@
+{
+  "crop": "Cinnamon",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Cinnamon grows well in warm humid regions with good drainage and regular coppicing management.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Suitable for coastal and hill fringe belts of South India under moderate to high rainfall."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–3 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "80",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Compost or farmyard manure 10 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium if deficiency appears"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and avoid collar wetness.",
+        "dry_season": "Irrigate during extended dry spells and mulch basins.",
+        "winter_season": "Routine management is enough in warm regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–3 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain moderate moisture",
+          "Avoid water stagnation near shoots"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Dieback"
+        ],
+        "prevention": [
+          "Prune properly",
+          "Maintain field hygiene",
+          "Improve aeration"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid severe moisture stress",
+          "Do not neglect coppice management"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy shoot growth",
+          "Better bark yield",
+          "Improved spice quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–120",
+            "activity": "Establishment and basin management"
+          },
+          {
+            "day_range": "120–240",
+            "activity": "Split nutrition and pruning care"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "cinnamon.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Loamy",
+      "Red soil"
+    ],
+    "rainfall_level": "High"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "crop": "Cumin",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Cumin prefers cool dry conditions, low humidity, and light soils with careful irrigation.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Spice crops differ by region and may need shade, mulch, or raised beds in high rainfall zones."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Early Growth Stage",
+      "duration": "0–45 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "30",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "20",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure or compost 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium, boron, or zinc if deficiency is seen"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and reduce disease spread through spacing and sanitation.",
+        "dry_season": "Irrigate lightly and mulch to conserve root-zone moisture.",
+        "winter_season": "Cool conditions are suitable for some seed spices under irrigation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and 30–45 days later"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid waterlogging",
+          "Maintain moderate, even moisture"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Wilt",
+          "Blight"
+        ],
+        "prevention": [
+          "Use disease-free planting material",
+          "Ensure drainage",
+          "Maintain clean fields"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess irrigation",
+          "Do not apply fertilizer into standing water"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Better vegetative growth",
+          "Improved aroma or rhizome development",
+          "Higher market quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–20",
+            "activity": "Planting and basal manure application"
+          },
+          {
+            "day_range": "30–60",
+            "activity": "Top dressing and field sanitation"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "cumin.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy loam",
+      "Loamy",
+      "Alluvial"
+    ],
+    "rainfall_level": "Low"
+  }
+}

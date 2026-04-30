@@ -1,0 +1,156 @@
+{
+  "crop": "Banana",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Banana grows well in warm and humid climates throughout the year",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Growth and fertilizer timing may vary based on rainfall and soil type in your region."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per plant per crop cycle",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "200",
+            "unit": "g per plant"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "60",
+            "unit": "g per plant"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "300",
+            "unit": "g per plant"
+          },
+          {
+            "nutrient": "Magnesium (Mg)",
+            "value": "As needed",
+            "unit": "foliar or soil correction"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "0.5%",
+            "unit": "ZnSO4 foliar spray"
+          },
+          {
+            "nutrient": "Iron (Fe)",
+            "value": "0.2%",
+            "unit": "FeSO4 foliar spray"
+          },
+          {
+            "nutrient": "Copper (Cu)",
+            "value": "0.2%",
+            "unit": "CuSO4 foliar spray"
+          },
+          {
+            "nutrient": "Boron (B)",
+            "value": "0.1%",
+            "unit": "boric acid foliar spray"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–15 kg per plant",
+          "Compost"
+        ],
+        "chemical": [
+          "Urea",
+          "Muriate of Potash",
+          "Single Super Phosphate"
+        ],
+        "micronutrients": [
+          "Magnesium Sulphate if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Apply fertilizers in split doses to avoid nutrient loss.",
+        "dry_season": "Maintain regular irrigation for proper nutrient absorption.",
+        "winter_season": "Normal fertilizer application is sufficient."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "Fertilizer application to be completed within 100-120 days of planting"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Do not apply fertilizers before heavy rain",
+          "Maintain moist soil after application",
+          "Avoid waterlogging"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Stem rot"
+        ],
+        "prevention": [
+          "Ensure proper drainage",
+          "Remove infected leaves early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid overuse of nitrogen (weak stems)",
+          "Do not apply fertilizers during heavy rain",
+          "Prevent water stagnation"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy plant growth",
+          "Better fruit development",
+          "Stronger root system"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–30",
+            "activity": "Basal fertilizer application"
+          },
+          {
+            "day_range": "30–60",
+            "activity": "First split dose application"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "banana_stage.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Laterite",
+      "Alluvial"
+    ],
+    "rainfall_level": "High"
+  }
+}

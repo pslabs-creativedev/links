@@ -1,0 +1,110 @@
+{
+  "crop": "Arecanut",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Arecanut grows well in humid tropical climates",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Requires consistent moisture and shade in some regions."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per palm per year",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "100",
+            "unit": "g/palm/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "60",
+            "unit": "g/palm/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "120",
+            "unit": "g/palm/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Cow dung"
+        ],
+        "chemical": [
+          "NPK fertilizer"
+        ],
+        "micronutrients": []
+      },
+      "season_advice": {
+        "rainy_season": "Ensure drainage around palms.",
+        "dry_season": "Regular irrigation required.",
+        "winter_season": "Normal growth period."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split",
+        "frequency": "Every 2–3 months"
+      },
+      "water_management": {
+        "tips": [
+          "Maintain soil moisture",
+          "Avoid dryness stress"
+        ]
+      },
+      "pest_disease": {
+        "common_issues": [
+          "Yellow leaf disease"
+        ],
+        "prevention": [
+          "Proper nutrition",
+          "Field hygiene"
+        ]
+      },
+      "warnings": {
+        "points": [
+          "Avoid nutrient imbalance"
+        ]
+      },
+      "expected_outcome": {
+        "points": [
+          "Healthy palm growth",
+          "Better yield in maturity"
+        ]
+      },
+      "calendar": {
+        "events": [
+          {
+            "day_range": "0–3 years",
+            "activity": "Establishment stage"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "arecanut_stage.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Red soil"
+    ],
+    "rainfall_level": "High"
+  }
+}

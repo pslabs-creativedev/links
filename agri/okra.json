@@ -1,0 +1,129 @@
+{
+  "crop": "Okra",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Okra performs well with timely nutrition, regular irrigation, and good pest management.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Vegetable nutrient requirement varies with season, spacing, and harvest duration."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Vegetative Stage",
+      "duration": "0–30 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "40",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–15 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "Single Super Phosphate",
+          "Muriate of Potash"
+        ],
+        "micronutrients": [
+          "Calcium, boron, or zinc based on deficiency symptoms"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Improve drainage and protect crop from foliar disease spread.",
+        "dry_season": "Use frequent light irrigation and mulching where possible.",
+        "winter_season": "Cool conditions favor many vegetables with reduced disease pressure."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and every 20–25 days during active growth"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain uniform moisture",
+          "Avoid wetting the root zone excessively"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Yellow vein mosaic virus",
+          "Fruit borer"
+        ],
+        "prevention": [
+          "Use healthy seedlings",
+          "Follow crop rotation",
+          "Remove infected plant parts quickly"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen soft growth",
+          "Do not irrigate immediately after heavy rain"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Vigorous plant growth",
+          "Better flowering or head formation",
+          "Higher marketable yield"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Transplanting or sowing and basal dose"
+          },
+          {
+            "day_range": "20–40",
+            "activity": "Top dressing and crop protection monitoring"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "okra.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Sandy loam",
+      "Red soil"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

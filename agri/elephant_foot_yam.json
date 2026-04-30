@@ -1,0 +1,129 @@
+{
+  "crop": "Elephant Foot Yam",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Elephant foot yam requires warm humid conditions, rich organic matter, and good drainage for corm development.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Common in South Indian mixed cropping and homestead systems with partial irrigation support."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Corm Establishment Stage",
+      "duration": "0–45 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "60",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "100",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 20–25 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Magnesium or zinc if deficiency is seen"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Provide drainage and raised beds to reduce corm rot.",
+        "dry_season": "Irrigate at regular intervals to support corm bulking.",
+        "winter_season": "Growth slows in cooler months but crop can continue in warm tracts."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and 45–60 days later"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid stagnant water near corms",
+          "Maintain steady soil moisture"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Collar rot",
+          "Leaf blight"
+        ],
+        "prevention": [
+          "Use healthy seed corms",
+          "Ensure drainage",
+          "Maintain field sanitation"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid seed corm planting in poorly drained soil",
+          "Do not over-irrigate after heavy rain"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Strong canopy growth",
+          "Better corm enlargement",
+          "Higher marketable yield"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–20",
+            "activity": "Planting and basal application"
+          },
+          {
+            "day_range": "45–60",
+            "activity": "Top dressing and earthing up"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "elephant_foot_yam.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Red soil",
+      "Laterite"
+    ],
+    "rainfall_level": "High"
+  }
+}

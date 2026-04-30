@@ -1,0 +1,129 @@
+{
+  "crop": "Foxtail Millet",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Foxtail millet is a hardy small millet suited to low and moderate rainfall areas with light soils.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Well suited to rainfed South Indian conditions with low external input management."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Early Growth Stage",
+      "duration": "0–30 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "20",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc if deficiency is noticed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure quick drainage during continuous rainfall.",
+        "dry_season": "Needs only limited protective irrigation in long dry spells.",
+        "winter_season": "Can be cultivated in irrigated tracts with timely sowing."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At sowing and 25–30 days after sowing"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid standing water",
+          "Maintain moderate soil moisture during tillering"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Blast",
+          "Shoot fly"
+        ],
+        "prevention": [
+          "Use clean seed",
+          "Maintain field hygiene",
+          "Follow balanced nutrition"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not delay weeding in early stage"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Good tillering",
+          "Stable grain yield",
+          "Better drought resilience"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal fertilizer application"
+          },
+          {
+            "day_range": "20–35",
+            "activity": "Top dressing and interculture"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "foxtail_millet.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Red soil",
+      "Sandy loam",
+      "Loamy"
+    ],
+    "rainfall_level": "Low"
+  }
+}

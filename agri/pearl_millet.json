@@ -1,0 +1,129 @@
+{
+  "crop": "Pearl Millet (Bajra)",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Pearl Millet (Bajra) grows well in warm conditions with moderate moisture and good field management.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Sowing time and fertilizer splits may vary with rainfall pattern and local soil fertility."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per crop season",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "70",
+            "unit": "kg/ha for varieties"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "35",
+            "unit": "kg/ha for varieties"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "35",
+            "unit": "kg/ha for varieties"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "Single Super Phosphate",
+          "Muriate of Potash"
+        ],
+        "micronutrients": [
+          "Zinc sulphate if deficiency is noticed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and use split fertilizer application to reduce nutrient loss.",
+        "dry_season": "Provide life irrigation at critical stages where moisture is limited.",
+        "winter_season": "Normal crop growth is possible in irrigated areas with timely sowing."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "N in 3 splits at 0, 15 and 30 DAS; full P and K as basal"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid waterlogging during establishment",
+          "Maintain moderate soil moisture during active growth"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Downy mildew",
+          "Shoot fly"
+        ],
+        "prevention": [
+          "Use healthy seed",
+          "Maintain field sanitation",
+          "Follow balanced fertilizer use"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen lodging risk",
+          "Do not apply fertilizers before heavy rain"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Uniform crop stand",
+          "Better tillering or vegetative growth",
+          "Improved grain yield"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal fertilizer application"
+          },
+          {
+            "day_range": "20–35",
+            "activity": "Top dressing and interculture"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "pearl_millet.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Sandy loam",
+      "Light soil",
+      "Red soil"
+    ],
+    "rainfall_level": "Low"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "crop": "Rice",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Rice grows best in warm and wet conditions with good water availability",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Planting time may vary depending on rainfall and irrigation availability."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per crop season",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "150",
+            "unit": "kg/ha for medium and long duration wet season crop"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "kg/ha for medium and long duration wet season crop"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "50",
+            "unit": "kg/ha for medium and long duration wet season crop"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "25",
+            "unit": "kg/ha as ZnSO4 in Cauvery Delta recommendation"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5–10 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc sulphate if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Split fertilizer application is recommended.",
+        "dry_season": "Ensure proper irrigation.",
+        "winter_season": "Limited cultivation possible in some regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "P as basal; N and K in 4 equal splits"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain standing water in fields",
+          "Avoid water stress during early growth"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Blast disease",
+          "Stem borer"
+        ],
+        "prevention": [
+          "Proper field drainage",
+          "Balanced fertilizer use"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not let fields dry during early stage"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy tillers",
+          "Better grain yield",
+          "Strong crop stand"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Transplanting + basal dose"
+          },
+          {
+            "day_range": "15–40",
+            "activity": "Tillering stage"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "rice_stage.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Clay",
+      "Alluvial"
+    ],
+    "rainfall_level": "High"
+  }
+}

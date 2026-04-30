@@ -1,0 +1,127 @@
+{
+  "crop": "Nutmeg",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Nutmeg is a humid tropical spice tree suited to well-drained soils and regular organic manuring.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Common in Kerala-style mixed spice gardens with partial shade during early growth."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–4 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "100",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "120",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Compost or farmyard manure 10 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium or boron if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Maintain basin drainage and mulch lightly.",
+        "dry_season": "Irrigate young trees regularly and avoid moisture stress.",
+        "winter_season": "Normal care is sufficient in frost-free zones."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–3 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Keep root zone moist",
+          "Avoid stagnant water near collar region"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Stem borer"
+        ],
+        "prevention": [
+          "Use healthy planting material",
+          "Maintain shade balance",
+          "Remove affected parts early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid deep planting",
+          "Do not apply heavy fertilizer directly at the base"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy tree growth",
+          "Better flowering and fruiting",
+          "Improved spice quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–120",
+            "activity": "Planting, staking, and shade management"
+          },
+          {
+            "day_range": "120–240",
+            "activity": "Split nutrient application and sanitation"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "nutmeg.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Forest loam",
+      "Loamy"
+    ],
+    "rainfall_level": "High"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "crop": "Chickpea (Bengal Gram)",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Chickpea grows well in cool and dry conditions with good drainage and low humidity.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Pulses need less nitrogen than cereals and respond well to phosphorus and good drainage."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–25 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "20",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 3–5 tons/ha"
+        ],
+        "chemical": [
+          "DAP or SSP",
+          "Small starter dose of Urea if required"
+        ],
+        "micronutrients": [
+          "Rhizobium seed treatment",
+          "Zinc or boron if deficiency is seen"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Excess rain is harmful; ensure quick drainage.",
+        "dry_season": "Irrigate lightly at branching and pod filling if needed.",
+        "winter_season": "Winter season is ideal for chickpea cultivation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal Application",
+        "frequency": "At sowing; foliar support if needed at flowering"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid standing water",
+          "Give irrigation only at critical stages"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Wilt",
+          "Pod borer"
+        ],
+        "prevention": [
+          "Use treated seed",
+          "Follow crop rotation",
+          "Remove infected plants early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not overuse nitrogen",
+          "Avoid water stagnation in the field"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Better nodulation",
+          "Healthy flowering",
+          "Improved pod filling"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal dose application"
+          },
+          {
+            "day_range": "30–50",
+            "activity": "Flowering and crop monitoring"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "chickpea.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Black soil",
+      "Loamy",
+      "Alluvial"
+    ],
+    "rainfall_level": "Low"
+  }
+}

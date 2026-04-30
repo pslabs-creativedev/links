@@ -1,0 +1,127 @@
+{
+  "crop": "Cocoa",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Cocoa thrives in warm humid shaded conditions and is often grown as an intercrop in South Indian plantation systems.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Frequently integrated with coconut and arecanut gardens where irrigation and shade are available."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–3 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "100",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "140",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Compost or farmyard manure 10–15 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium and boron if deficiency appears"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage and protect collar region from standing water.",
+        "dry_season": "Provide irrigation and mulch under shade to avoid stress.",
+        "winter_season": "Continue regular care in frost-free conditions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–4 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain steady basin moisture",
+          "Avoid root-zone waterlogging"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Black pod disease",
+          "Stem canker"
+        ],
+        "prevention": [
+          "Maintain shade balance",
+          "Improve drainage",
+          "Remove affected pods promptly"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid fertilizer placement close to stem",
+          "Do not expose young plants to harsh sun"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy canopy development",
+          "Better flowering and pod set",
+          "Improved bean quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–180",
+            "activity": "Establishment, shade, and basin management"
+          },
+          {
+            "day_range": "180–365",
+            "activity": "Split nutrient application and training"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "cocoa.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Loamy",
+      "Forest loam"
+    ],
+    "rainfall_level": "High"
+  }
+}

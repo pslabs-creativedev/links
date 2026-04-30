@@ -1,0 +1,127 @@
+{
+  "crop": "Tamarind",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Tamarind is a hardy long-duration tree crop suited to warm dry and semi-arid South Indian conditions.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Often found in dryland belts and boundary planting systems with low irrigation demand."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–3 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "100",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "100",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–15 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Zinc or boron if deficiency is observed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Provide drainage for young plants in heavy soils.",
+        "dry_season": "Young plants benefit from occasional irrigation until established.",
+        "winter_season": "Cool dry weather supports flowering in suitable regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid prolonged water stagnation for young trees",
+          "Irrigate young trees during establishment"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Pod borer",
+          "Leaf webber"
+        ],
+        "prevention": [
+          "Keep basin clean",
+          "Prune dry branches",
+          "Use timely plant protection if needed"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid over-irrigation in mature trees",
+          "Do not heap fertilizer at the trunk"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Strong tree establishment",
+          "Better canopy growth",
+          "Improved pod production over time"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–90",
+            "activity": "Planting and basin preparation"
+          },
+          {
+            "day_range": "90–180",
+            "activity": "Split nutrient application and pruning care"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "tamarind.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Red soil",
+      "Loamy",
+      "Black soil"
+    ],
+    "rainfall_level": "Low"
+  }
+}

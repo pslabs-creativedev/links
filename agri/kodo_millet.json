@@ -1,0 +1,129 @@
+{
+  "crop": "Kodo Millet",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Kodo millet is a hardy dryland millet suited to poor soils and erratic rainfall.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Fits well in low-input rainfed systems and upland cultivation zones."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Early Growth Stage",
+      "duration": "0–30 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "20",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc if needed"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Drain excess water quickly from the field.",
+        "dry_season": "Minimal irrigation is enough during prolonged dry spells.",
+        "winter_season": "Possible in limited irrigated tracts."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At sowing and 25–30 days after sowing"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid water stagnation",
+          "Maintain moderate soil moisture"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Smut",
+          "Leaf blight"
+        ],
+        "prevention": [
+          "Use treated seed",
+          "Crop rotation",
+          "Field sanitation"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid dense sowing",
+          "Do not over-irrigate dryland fields"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Improved tillering",
+          "Better grain filling",
+          "Good performance in stress conditions"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal dose"
+          },
+          {
+            "day_range": "20–35",
+            "activity": "Weeding and top dressing"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "kodo_millet.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Red soil",
+      "Light soil",
+      "Loamy"
+    ],
+    "rainfall_level": "Low"
+  }
+}

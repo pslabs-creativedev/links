@@ -1,0 +1,129 @@
+{
+  "crop": "Sudan Grass",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Sudan grass is a quick-growing fodder crop suited to warm weather and repeated cuts.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Fodder yield depends strongly on cutting interval, irrigation, and nitrogen top dressing."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–45 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "60",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "30",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "30",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc if deficiency appears"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Keep field drained to avoid root decay after heavy rain.",
+        "dry_season": "Irrigate after each cut for quick regrowth.",
+        "winter_season": "Growth slows in cool weather but responds to irrigation and nitrogen."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Top Dressing",
+        "frequency": "At planting and after each harvest or cut"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Irrigate soon after fertilizer application",
+          "Avoid standing water for long periods"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Aphids"
+        ],
+        "prevention": [
+          "Maintain clean field edges",
+          "Harvest at proper interval",
+          "Avoid nutrient stress"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not delay first cut too long",
+          "Avoid overgrazing or severe cutting stress"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Fast regrowth",
+          "Higher green fodder yield",
+          "Improved fodder quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–20",
+            "activity": "Planting and basal manure application"
+          },
+          {
+            "day_range": "35–60",
+            "activity": "First cut and nitrogen top dressing"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "sudan_grass.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Clay loam",
+      "Red soil"
+    ],
+    "rainfall_level": "Low"
+  }
+}

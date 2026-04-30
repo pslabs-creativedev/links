@@ -1,0 +1,139 @@
+{
+  "crop": "Green Gram (Moong)",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Green Gram (Moong) performs well in warm to mild conditions with well-drained soil and moderate moisture.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Pulses need less nitrogen than cereals and respond well to phosphorus and good drainage."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "General Nutrient Schedule",
+      "duration": "Per crop season",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "25",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "50",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "25",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Sulphur (S)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Zinc (Zn)",
+            "value": "25",
+            "unit": "kg/ha if ZnSO4 is used instead of pulse micronutrient mixture"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 3–5 tons/ha"
+        ],
+        "chemical": [
+          "DAP or SSP",
+          "Small starter dose of Urea if required"
+        ],
+        "micronutrients": [
+          "Rhizobium seed treatment",
+          "Zinc or boron if deficiency is seen"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Ensure drainage to avoid root rot and yellowing.",
+        "dry_season": "Light irrigation at flowering and pod formation improves yield.",
+        "winter_season": "Cool and dry weather is suitable for many pulse crops under irrigation."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal Application",
+        "frequency": "Entire NPKS as basal"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid standing water",
+          "Give irrigation only at critical stages"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Yellow mosaic virus",
+          "Pod borer"
+        ],
+        "prevention": [
+          "Use treated seed",
+          "Follow crop rotation",
+          "Remove infected plants early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Do not overuse nitrogen",
+          "Avoid water stagnation in the field"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Better nodulation",
+          "Healthy flowering",
+          "Improved pod filling"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Sowing and basal dose application"
+          },
+          {
+            "day_range": "30–50",
+            "activity": "Flowering and crop monitoring"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "green_gram.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Sandy loam",
+      "Red soil"
+    ],
+    "rainfall_level": "Medium"
+  }
+}

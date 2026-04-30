@@ -1,0 +1,127 @@
+{
+  "crop": "Clove",
+  "crop_type": "Perennial",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Clove is suited to humid coastal and hill zones with good drainage and organic-rich soil.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Perennial plantation crops respond well to regular organic matter and split nutrient application."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Establishment Stage",
+      "duration": "0–4 Years",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "100",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "g per plant/year"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "140",
+            "unit": "g per plant/year"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Compost or farmyard manure 10–20 kg per plant"
+        ],
+        "chemical": [
+          "Balanced NPK fertilizer"
+        ],
+        "micronutrients": [
+          "Magnesium or boron if deficiency symptoms appear"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Keep basins well drained and avoid nutrient runoff.",
+        "dry_season": "Irrigate regularly and mulch the basin to conserve moisture.",
+        "winter_season": "Continue normal management in frost-free regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Split Application",
+        "frequency": "2–4 split doses per year"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain steady moisture",
+          "Avoid prolonged water stagnation near roots"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf spot",
+          "Stem borer"
+        ],
+        "prevention": [
+          "Maintain shade or mulch where needed",
+          "Improve drainage",
+          "Remove affected plant parts"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid placing fertilizers too close to the stem",
+          "Do not allow basin waterlogging"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy canopy growth",
+          "Stronger root system",
+          "Better long-term productivity"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–180",
+            "activity": "Establishment and basin management"
+          },
+          {
+            "day_range": "180–365",
+            "activity": "Split nutrient application and plant training"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "clove.jpg"
+        ]
+      },
+      "difficulty_level": "Intermediate"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Laterite",
+      "Loamy",
+      "Forest loam"
+    ],
+    "rainfall_level": "High"
+  }
+}

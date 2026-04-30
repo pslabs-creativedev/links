@@ -1,0 +1,129 @@
+{
+  "crop": "Barnyard Millet",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Barnyard millet is a fast-growing millet suited to marginal soils and short-duration cropping systems.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Useful in rainfed and tribal farming belts of South India."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Early Growth Stage",
+      "duration": "0–25 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "20",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "20",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 5 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc if deficiency appears"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Provide drainage if rainfall is excess.",
+        "dry_season": "Requires limited irrigation only during moisture stress.",
+        "winter_season": "Can be grown under irrigation in suitable regions."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At sowing and 20–25 days after sowing"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Avoid standing water",
+          "Maintain moderate moisture through vegetative growth"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Blast",
+          "Leaf spot"
+        ],
+        "prevention": [
+          "Use disease-free seed",
+          "Maintain clean field",
+          "Avoid nutrient imbalance"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid excess nitrogen",
+          "Do not delay harvest after maturity"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Quick crop establishment",
+          "Better panicle formation",
+          "Stable yield under stress"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–10",
+            "activity": "Sowing and basal nutrient application"
+          },
+          {
+            "day_range": "20–30",
+            "activity": "Top dressing and crop monitoring"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "barnyard_millet.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Light soil",
+      "Red soil",
+      "Loamy"
+    ],
+    "rainfall_level": "Low"
+  }
+}

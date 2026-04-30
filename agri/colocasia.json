@@ -1,0 +1,129 @@
+{
+  "crop": "Colocasia (Taro)",
+  "crop_type": "Annual",
+  "season_info": {
+    "title": "Season Information",
+    "description": "Colocasia grows well in warm humid areas with good organic matter and steady soil moisture.",
+    "seasons": [
+      "Rainy Season",
+      "Dry Season",
+      "Winter Season"
+    ],
+    "location_note": {
+      "title": "Local Variation Note",
+      "message": "Popular in South Indian kitchen gardens and wetland fringes with moderate management."
+    }
+  },
+  "growth_stages": [
+    {
+      "stage_name": "Corm Establishment Stage",
+      "duration": "0–40 Days",
+      "nutrition_section": {
+        "title": "Nutrient Requirement",
+        "items": [
+          {
+            "nutrient": "Nitrogen (N)",
+            "value": "80",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Phosphorus (P2O5)",
+            "value": "40",
+            "unit": "kg/ha"
+          },
+          {
+            "nutrient": "Potassium (K2O)",
+            "value": "80",
+            "unit": "kg/ha"
+          }
+        ]
+      },
+      "fertilizer_section": {
+        "title": "Recommended Inputs",
+        "organic": [
+          "Farmyard manure 10–15 tons/ha"
+        ],
+        "chemical": [
+          "Urea",
+          "SSP",
+          "MOP"
+        ],
+        "micronutrients": [
+          "Zinc if deficiency appears"
+        ]
+      },
+      "season_advice": {
+        "title": "Season Guidance",
+        "rainy_season": "Manage drainage carefully in prolonged rains.",
+        "dry_season": "Irrigate at regular intervals to maintain corm growth.",
+        "winter_season": "Suitable in warm irrigated belts."
+      },
+      "application_section": {
+        "title": "Application Method",
+        "method": "Basal + Split Application",
+        "frequency": "At planting and 30–45 days after planting"
+      },
+      "water_management": {
+        "title": "Water Management",
+        "tips": [
+          "Maintain uniform moisture",
+          "Avoid prolonged water stagnation"
+        ]
+      },
+      "pest_disease": {
+        "title": "Pest & Disease Information",
+        "common_issues": [
+          "Leaf blight",
+          "Corm rot"
+        ],
+        "prevention": [
+          "Use clean planting material",
+          "Improve drainage",
+          "Remove infected plants early"
+        ]
+      },
+      "warnings": {
+        "title": "Important Warnings",
+        "points": [
+          "Avoid poorly drained heavy soils",
+          "Do not skip earthing up"
+        ]
+      },
+      "expected_outcome": {
+        "title": "Expected Results",
+        "points": [
+          "Healthy leaf growth",
+          "Better corm development",
+          "Improved yield and quality"
+        ]
+      },
+      "calendar": {
+        "title": "Farming Timeline",
+        "events": [
+          {
+            "day_range": "0–15",
+            "activity": "Planting and basal fertilizer application"
+          },
+          {
+            "day_range": "30–45",
+            "activity": "Top dressing and earthing up"
+          }
+        ]
+      },
+      "visual_guide": {
+        "images": [
+          "colocasia.jpg"
+        ]
+      },
+      "difficulty_level": "Beginner"
+    }
+  ],
+  "environment_profile": {
+    "soil_types": [
+      "Loamy",
+      "Clay loam",
+      "Laterite"
+    ],
+    "rainfall_level": "High"
+  }
+}
